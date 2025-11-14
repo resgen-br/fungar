@@ -1,0 +1,62 @@
+gene,position,reference,mutation,fungicide
+Cyp51C_QXL90932,54,M,T,Amphotericin B
+Cyp51C_QXL90932,423,N,D,Amphotericin B
+Cyp51C_QXL90932,419,P,T,Amphotericin B
+Cyp51C_QXL90932,240,S,A,Amphotericin B
+Cyp51C_QXL90932,254,D,G,Amphotericin B
+Cyp51C_QXL90932,34,T,A,Amphotericin B
+Cyp51C_QXL90932,254,D,G,Amphotericin B
+Cyp51C_QXL90932,423,N,D,Amphotericin B
+Cyp51C_QXL90932,349,H,R,Bromuconazole
+Cyp51C_QXL90932,54,M,T,Caspofungin
+Cyp51C_QXL90932,423,N,D,Caspofungin
+Cyp51C_QXL90932,419,P,T,Caspofungin
+Cyp51C_QXL90932,240,S,A,Caspofungin
+Cyp51C_QXL90932,349,H,R,Difenoconazole
+Cyp51C_QXL90932,349,H,R,Epoxiconazole
+Cyp51C_QXL90932,349,H,R,Imazalil
+Cyp51C_QXL90932,349,H,R,Isavuconazole
+Cyp51C_QXL90932,54,M,T,Itraconazole
+Cyp51C_QXL90932,423,N,D,Itraconazole
+Cyp51C_QXL90932,419,P,T,Itraconazole
+Cyp51C_QXL90932,240,S,A,Itraconazole
+Cyp51C_QXL90932,319,Y,H,Itraconazole
+Cyp51C_QXL90932,349,H,R,Itraconazole
+Cyp51C_QXL90932,196,S,F,Itraconazole
+Cyp51C_QXL90932,324,A,P,Itraconazole
+Cyp51C_QXL90932,423,N,D,Itraconazole
+Cyp51C_QXL90932,465,V,M,Itraconazole
+Cyp51C_QXL90932,34,T,A,Itraconazole
+Cyp51C_QXL90932,240,S,A,Itraconazole
+Cyp51C_QXL90932,254,D,G,Itraconazole
+Cyp51C_QXL90932,423,N,D,Itraconazole
+Cyp51C_QXL90932,54,M,T,Itraconazole
+Cyp51C_QXL90932,349,H,R,Metconazole
+Cyp51C_QXL90932,349,H,R,Myclobutanil
+Cyp51C_QXL90932,349,H,R,Posaconazole
+Cyp51C_QXL90932,54,M,T,Posaconazole
+Cyp51C_QXL90932,240,S,A,Posaconazole
+Cyp51C_QXL90932,254,D,G,Posaconazole
+Cyp51C_QXL90932,423,N,D,Posaconazole
+Cyp51C_QXL90932,34,T,A,Posaconazole
+Cyp51C_QXL90932,54,M,T,Posaconazole
+Cyp51C_QXL90932,240,S,A,Posaconazole
+Cyp51C_QXL90932,254,D,G,Posaconazole
+Cyp51C_QXL90932,423,N,D,Posaconazole
+Cyp51C_QXL90932,349,H,R,Prochloraz
+Cyp51C_QXL90932,349,H,R,Tebuconazole
+Cyp51C_QXL90932,240,S,A,Voriconazole
+Cyp51C_QXL90932,54,M,T,Voriconazole
+Cyp51C_QXL90932,423,N,D,Voriconazole
+Cyp51C_QXL90932,240,S,A,Voriconazole
+Cyp51C_QXL90932,419,P,T,Voriconazole
+Cyp51C_QXL90932,254,D,N,Voriconazole
+Cyp51C_QXL90932,285,I,V,Voriconazole
+Cyp51C_QXL90932,319,Y,H,Voriconazole
+Cyp51C_QXL90932,349,H,R,Voriconazole
+Cyp51C_QXL90932,196,S,F,Voriconazole
+Cyp51C_QXL90932,324,A,P,Voriconazole
+Cyp51C_QXL90932,423,N,D,Voriconazole
+Cyp51C_QXL90932,465,V,M,Voriconazole
+Cyp51C_QXL90932,254,D,G,Voriconazole
+Cyp51C_QXL90932,34,T,A,Voriconazole
