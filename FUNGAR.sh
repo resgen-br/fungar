@@ -7,19 +7,18 @@
 # Contact: staats@ufrgs.br
 ##################################################
 
-# Detect Conda-installed database if FUNGAR_DB not set
-if [ -z "$FUNGAR_DB" ]; then
-    if [ -n "$CONDA_PREFIX" ]; then
-        FUNGAR_DB="${CONDA_PREFIX}/share/FUNGAR"
-    else
-        FUNGAR_DB="database"
-    fi
-fi
-
-DATABASE_DIR="$FUNGAR_DB"
+# Defaults
+CPUS=4
+KEEP_FILES=false
+INPUT_MODE="none"
+MIN_ORF=50
+MIN_QUERY_COVER=10
+MIN_PIDENT=0
+GENETIC_CODE=1
+DATABASE_DIR=""
 
 usage() {
-    echo "Usage: $0 -id <sample_id> -sp <species> -o <outdir> [-orf <min_orf_length>] [-code <int>] [input options]"
+    echo "Usage: $0 -id <sample_id> -sp <species> -o <outdir> [-d <database_dir>] [-orf <min_orf_length>] [-code <int>] [input options]"
     echo "Required:"
     echo "  -id   Sample ID (e.g., patient123)"
     echo "  -sp   Species name (e.g., Candida_albicans)"
@@ -29,6 +28,7 @@ usage() {
     echo "  -2    Reverse reads (R2.fastq.gz) - for paired-end mode"
     echo "  -s    Single-end reads (SE.fastq.gz)"
     echo "Options:"
+    echo "  -d      Directory containing protein DB + mutation CSV"
     echo "  -c      CPU threads (default: 4)"
     echo "  -orf    Minimum ORF length (default: 50)"
     echo "  -code   Genetic code table for translation (default: 1)"
@@ -37,15 +37,6 @@ usage() {
     echo "  --keep  Keep intermediate alignment files"
     exit 1
 }
-
-# Defaults
-CPUS=4
-KEEP_FILES=false
-INPUT_MODE="none"
-MIN_ORF=50
-MIN_QUERY_COVER=10
-MIN_PIDENT=0
-GENETIC_CODE=1
 
 # Parse arguments
 while [[ "$#" -gt 0 ]]; do
@@ -56,6 +47,7 @@ while [[ "$#" -gt 0 ]]; do
         -2) R2="$2"; INPUT_MODE="paired"; shift ;;
         -s) SE="$2"; INPUT_MODE="single"; shift ;;
         -o) OUTDIR="$2"; shift ;;
+        -d) DATABASE_DIR="$2"; shift ;;
         -c) CPUS="$2"; shift ;;
         -orf) MIN_ORF="$2"; shift ;;
         -code) GENETIC_CODE="$2"; shift ;;
@@ -89,13 +81,23 @@ elif [[ "$INPUT_MODE" == "single" && -z "$SE" ]]; then
     usage
 fi
 
-# File validation function
-check_file() {
-    if [ ! -f "$1" ]; then
-        echo "ERROR: File not found - $1" | tee -a "$LOG_FILE"
-        exit 1
+#############################################################
+# DATABASE HANDLING
+#############################################################
+# Priority:
+#   1. -d
+#   2. FUNGAR_DB environment variable
+#   3. conda installation
+#   4. fallback: "database"
+if [ -z "$DATABASE_DIR" ]; then
+    if [ -n "$FUNGAR_DB" ]; then
+        DATABASE_DIR="$FUNGAR_DB"
+    elif [ -n "$CONDA_PREFIX" ]; then
+        DATABASE_DIR="${CONDA_PREFIX}/share/FUNGAR"
+    else
+        DATABASE_DIR="database"
     fi
-}
+fi
 
 # Create output directory
 mkdir -p "$OUTDIR" || { echo "ERROR: Could not create $OUTDIR"; exit 1; }
@@ -111,6 +113,7 @@ echo "################################################"
 echo "Started: $(date)"
 echo "Sample: $SAMPLE"
 echo "Species: $SPECIES"
+echo "Database directory: $DATABASE_DIR"
 echo "Input mode: $INPUT_MODE"
 if [ "$INPUT_MODE" == "paired" ]; then
     echo "- R1: $R1"
@@ -128,7 +131,14 @@ echo "- Keep intermediates: $KEEP_FILES"
 echo ""
 } > "$LOG_FILE"
 
-# Verify input files
+# File validation
+check_file() {
+    if [ ! -f "$1" ]; then
+        echo "ERROR: File not found - $1" | tee -a "$LOG_FILE"
+        exit 1
+    fi
+}
+
 echo "[INFO] Verifying input files..." | tee -a "$LOG_FILE"
 if [ "$INPUT_MODE" == "paired" ]; then
     check_file "$R1"
@@ -142,9 +152,6 @@ PROTEIN_DB="${DATABASE_DIR}/${SPECIES}_db.dmnd"
 MUTATION_CSV="${DATABASE_DIR}/${SPECIES}_gene_mutations.csv"
 check_file "$PROTEIN_DB"
 check_file "$MUTATION_CSV"
-
-# ...rest of the script remains unchanged (DIAMOND alignment, Python mutation detection, cleanup)...
-
 
 # Define output files
 if [ "$INPUT_MODE" == "paired" ]; then
@@ -292,4 +299,3 @@ fi
 echo "[INFO] Analysis complete for sample $SAMPLE" | tee -a "$LOG_FILE"
 echo "[INFO] Final results saved to: $FINAL_RESULTS" | tee -a "$LOG_FILE"
 echo "[INFO] Summary results saved to: $SUMMARY_RESULTS" | tee -a "$LOG_FILE"
-
