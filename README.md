@@ -1,7 +1,7 @@
 # FUNGAR: antiFUNGAl gene Resistance detection
 
-FUNGAR is a Bash pipeline for detecting antifungal resistance genes from sequencing reads.
-It includes a species-specific database and mutation files.
+FUNGAR is a Bash pipeline for detecting antifungal resistance genes from metagenomic sequencing reads.
+It includes a species-specific database of genes and associated amino acid mutations.
 
 ## Features
 
