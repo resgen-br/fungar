@@ -11,7 +11,7 @@ It includes a species-specific database of genes and associated amino acid mutat
 - Outputs a results file and a summary
 - Configurable ORF length, genetic code, query coverage, and identity thresholds
 
-##1. Instalation
+## Instalation
 
 FUNGAR is written in Bash and Python 3 languages and is designed for Unix-like operating systems (built and tested on Ubuntu 24.04.3 LTS).
 Make sure that DIAMOND and _pandas_ library are on PATH.
