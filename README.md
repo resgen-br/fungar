@@ -11,7 +11,7 @@ It includes a species-specific database of genes and associated amino acid mutat
 - Outputs a results file and a summary
 - Configurable ORF length, genetic code, query coverage, and identity thresholds
 
-## Instalation
+##1. Instalation
 
 FUNGAR is written in Bash and Python 3 languages and is designed for Unix-like operating systems (built and tested on Ubuntu 24.04.3 LTS).
 Make sure that DIAMOND and _pandas_ library are on PATH.
@@ -23,7 +23,7 @@ Install DIAMOND and _pandas_ with conda:
 conda install -c bioconda -c anaconda pandas diamond 
 ```
 
-Or create a specific environment for running FUNGAR:
+- Or create a specific environment for running FUNGAR:
 
 ```
 conda create -n fungar_env -c bioconda -c anaconda pandas diamond 
