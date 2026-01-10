@@ -42,7 +42,7 @@ Required:
 
 Input options (choose one):
 -1    Forward reads (R1.fastq.gz) - for paired-end mode
--2    Reverse reads (R2.fastq.gz) - for paired-end mode"
+-2    Reverse reads (R2.fastq.gz) - for paired-end mode
 -s    Single-end reads (SE.fastq.gz)
 
 Options:
