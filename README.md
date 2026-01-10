@@ -29,3 +29,28 @@ Or create a specific environment for running FUNGAR:
 ```
 conda create -n fungar_env -c bioconda -c anaconda pandas diamond 
 ```
+
+## Running FUNGAR
+```
+Usage:
+$ bash /path/to/FUNGAR.sh -id <sample_id> -sp <species> -o <outdir> [-d <database_dir>] [-orf <min_orf_length>] [-code <int>] [input options]
+
+Required:
+-id   Sample ID (e.g., patient123)
+-sp   Species name (e.g., Candida_albicans)
+-o    Output directory
+
+Input options (choose one):
+-1    Forward reads (R1.fastq.gz) - for paired-end mode
+-2    Reverse reads (R2.fastq.gz) - for paired-end mode"
+-s    Single-end reads (SE.fastq.gz)
+
+Options:
+-d      Directory containing protein DB + mutation CSV
+-c      CPU threads (default: 4)
+-orf    Minimum ORF length (default: 50)
+-code   Genetic code table for translation (default: 1)
+--min-query-cover <int>   Minimum query coverage % (default: 10)
+--min-pident <int>        Minimum % identity (default: 0)
+--keep  Keep intermediate alignment files
+```
