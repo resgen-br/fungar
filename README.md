@@ -33,7 +33,7 @@ conda create -n fungar_env -c bioconda -c anaconda pandas diamond
 ## Running FUNGAR
 ```
 Usage:
-$ bash /path/to/FUNGAR.sh -id <sample_id> -sp <species> -o <outdir> [-d <database_dir>] [-orf <min_orf_length>] [-code <int>] [input options]
+$ fungar -id <sample_id> -sp <species> -o <outdir> [-d <database_dir>] [-orf <min_orf_length>] [-code <int>] [input options]
 
 Required:
 -id   Sample ID (e.g., patient123)
