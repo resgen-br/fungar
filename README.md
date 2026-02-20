@@ -1,3 +1,5 @@
+[![arXiv](https://img.shields.io/badge/arXiv-2602.16728-b31b1b.svg)](https://arxiv.org/abs/2602.16728)
+
 # FUNGAR: antiFUNGAl gene Resistance detection
 
 FUNGAR is a Bash pipeline for detecting antifungal resistance genes from metagenomic sequencing reads.
