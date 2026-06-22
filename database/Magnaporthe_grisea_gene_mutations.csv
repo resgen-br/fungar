@@ -1,0 +1,16 @@
+species,gene,position,reference,mutation,fungicide
+Magnaporthe_grisea,Cyp51A_A0A2U8N515,158,R,K,Epoxiconazole
+Magnaporthe_grisea,Cyp51A_A0A2U8N515,158,R,K,Tebuconazole
+Magnaporthe_grisea,Cyp51A_A0A2U8N515,466,L,Q,Epoxiconazole
+Magnaporthe_grisea,Cyp51A_A0A2U8N515,466,L,Q,Tebuconazole
+Magnaporthe_grisea,Cytochrome b_Q85KP9,129,F,L,Azoxystrobin
+Magnaporthe_grisea,Cytochrome b_Q85KP9,129,F,L,Trifloxystrobin
+Magnaporthe_grisea,Cytochrome b_Q85KP9,137,G,R,Trifloxystrobin
+Magnaporthe_grisea,Cytochrome b_Q85KP9,143,G,A,Azoxystrobin
+Magnaporthe_grisea,Cytochrome b_Q85KP9,143,G,A,Trifloxystrobin
+Magnaporthe_grisea,Cytochrome b_Q85KP9,143,G,S,Azoxystrobin
+Magnaporthe_grisea,Cytochrome b_Q85KP9,143,G,S,Pyraoxystrobin
+Magnaporthe_grisea,Cytochrome b_Q85KP9,143,G,S,Trifloxystrobin
+Magnaporthe_grisea,Cytochrome b_Q85KP9,296,M,V,Trifloxystrobin
+Magnaporthe_grisea,SdhB_A0A6P8ANG3,245,H,L,Carboxin
+Magnaporthe_grisea,SdhB_A0A6P8ANG3,245,H,Y,Pydiflumetofen

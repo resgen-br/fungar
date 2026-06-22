@@ -1,0 +1,88 @@
+species,gene,position,reference,mutation,fungicide
+Candida_dubliniensis,Erg11_B9WH07,113,S,F,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,125,V,A,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,126,F,L,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,148,F,L,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,188,I,V,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,188,I,V,Itraconazole
+Candida_dubliniensis,Erg11_B9WH07,199,T,A,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,210,R,G,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,288,D,G,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,289,G,D,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,300,L,P,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,307,G,A,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,398,R,G,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,437,V,A,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,464,G,S,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,499,R,K,Fluconazole
+Candida_dubliniensis,Erg11_B9WH07,499,R,K,Itraconazole
+Candida_dubliniensis,Erg11_B9WH07,515,P,S,Fluconazole
+Candida_dubliniensis,Erg3_Q8NJ57,160,Q,K,"1,10-Phenanthroline"
+Candida_dubliniensis,Erg3_Q8NJ57,160,Q,K,4-Nitroquinoline
+Candida_dubliniensis,Erg3_Q8NJ57,160,Q,K,5-fluorocytosine
+Candida_dubliniensis,Erg3_Q8NJ57,160,Q,K,Amphotericin B
+Candida_dubliniensis,Erg3_Q8NJ57,160,Q,K,Azole(s)
+Candida_dubliniensis,Erg3_Q8NJ57,160,Q,K,Benomyl
+Candida_dubliniensis,Erg3_Q8NJ57,160,Q,K,Cerulenin
+Candida_dubliniensis,Erg3_Q8NJ57,160,Q,K,Crystal violet
+Candida_dubliniensis,Erg3_Q8NJ57,160,Q,K,Cycloheximide
+Candida_dubliniensis,Erg3_Q8NJ57,160,Q,K,Fluconazole
+Candida_dubliniensis,Erg3_Q8NJ57,160,Q,K,Itraconazole
+Candida_dubliniensis,Erg3_Q8NJ57,160,Q,K,Ketoconazole
+Candida_dubliniensis,Erg3_Q8NJ57,160,Q,K,Rhodamine 6G
+Candida_dubliniensis,Erg3_Q8NJ57,269,H,N,"1,10-Phenanthroline"
+Candida_dubliniensis,Erg3_Q8NJ57,269,H,N,4-Nitroquinoline
+Candida_dubliniensis,Erg3_Q8NJ57,269,H,N,5-fluorocytosine
+Candida_dubliniensis,Erg3_Q8NJ57,269,H,N,Amphotericin B
+Candida_dubliniensis,Erg3_Q8NJ57,269,H,N,Azole(s)
+Candida_dubliniensis,Erg3_Q8NJ57,269,H,N,Benomyl
+Candida_dubliniensis,Erg3_Q8NJ57,269,H,N,Cerulenin
+Candida_dubliniensis,Erg3_Q8NJ57,269,H,N,Crystal violet
+Candida_dubliniensis,Erg3_Q8NJ57,269,H,N,Cycloheximide
+Candida_dubliniensis,Erg3_Q8NJ57,269,H,N,Fluconazole
+Candida_dubliniensis,Erg3_Q8NJ57,269,H,N,Itraconazole
+Candida_dubliniensis,Erg3_Q8NJ57,269,H,N,Ketoconazole
+Candida_dubliniensis,Erg3_Q8NJ57,269,H,N,Rhodamine 6G
+Candida_dubliniensis,Erg3_Q8NJ57,272,P,L,"1,10-Phenanthroline"
+Candida_dubliniensis,Erg3_Q8NJ57,272,P,L,4-Nitroquinoline
+Candida_dubliniensis,Erg3_Q8NJ57,272,P,L,5-fluorocytosine
+Candida_dubliniensis,Erg3_Q8NJ57,272,P,L,Amphotericin B
+Candida_dubliniensis,Erg3_Q8NJ57,272,P,L,Azole(s)
+Candida_dubliniensis,Erg3_Q8NJ57,272,P,L,Benomyl
+Candida_dubliniensis,Erg3_Q8NJ57,272,P,L,Cerulenin
+Candida_dubliniensis,Erg3_Q8NJ57,272,P,L,Crystal violet
+Candida_dubliniensis,Erg3_Q8NJ57,272,P,L,Cycloheximide
+Candida_dubliniensis,Erg3_Q8NJ57,272,P,L,Fluconazole
+Candida_dubliniensis,Erg3_Q8NJ57,272,P,L,Itraconazole
+Candida_dubliniensis,Erg3_Q8NJ57,272,P,L,Ketoconazole
+Candida_dubliniensis,Erg3_Q8NJ57,272,P,L,Rhodamine 6G
+Candida_dubliniensis,Erg3_Q8NJ57,318,H,N,"1,10-Phenanthroline"
+Candida_dubliniensis,Erg3_Q8NJ57,318,H,N,4-Nitroquinoline
+Candida_dubliniensis,Erg3_Q8NJ57,318,H,N,5-fluorocytosine
+Candida_dubliniensis,Erg3_Q8NJ57,318,H,N,Amphotericin B
+Candida_dubliniensis,Erg3_Q8NJ57,318,H,N,Azole(s)
+Candida_dubliniensis,Erg3_Q8NJ57,318,H,N,Benomyl
+Candida_dubliniensis,Erg3_Q8NJ57,318,H,N,Cerulenin
+Candida_dubliniensis,Erg3_Q8NJ57,318,H,N,Crystal violet
+Candida_dubliniensis,Erg3_Q8NJ57,318,H,N,Cycloheximide
+Candida_dubliniensis,Erg3_Q8NJ57,318,H,N,Fluconazole
+Candida_dubliniensis,Erg3_Q8NJ57,318,H,N,Itraconazole
+Candida_dubliniensis,Erg3_Q8NJ57,318,H,N,Ketoconazole
+Candida_dubliniensis,Erg3_Q8NJ57,318,H,N,Rhodamine 6G
+Candida_dubliniensis,Erg3_Q8NJ57,327,Q,K,"1,10-Phenanthroline"
+Candida_dubliniensis,Erg3_Q8NJ57,327,Q,K,4-Nitroquinoline
+Candida_dubliniensis,Erg3_Q8NJ57,327,Q,K,5-fluorocytosine
+Candida_dubliniensis,Erg3_Q8NJ57,327,Q,K,Amphotericin B
+Candida_dubliniensis,Erg3_Q8NJ57,327,Q,K,Azole(s)
+Candida_dubliniensis,Erg3_Q8NJ57,327,Q,K,Benomyl
+Candida_dubliniensis,Erg3_Q8NJ57,327,Q,K,Cerulenin
+Candida_dubliniensis,Erg3_Q8NJ57,327,Q,K,Crystal violet
+Candida_dubliniensis,Erg3_Q8NJ57,327,Q,K,Cycloheximide
+Candida_dubliniensis,Erg3_Q8NJ57,327,Q,K,Fluconazole
+Candida_dubliniensis,Erg3_Q8NJ57,327,Q,K,Itraconazole
+Candida_dubliniensis,Erg3_Q8NJ57,327,Q,K,Ketoconazole
+Candida_dubliniensis,Erg3_Q8NJ57,327,Q,K,Rhodamine 6G
+Candida_dubliniensis,Fca1_B9WIE3,29,S,L,5-fluorocytosine
+Candida_dubliniensis,Fks1_B9W729,645,S,P,Anidulafungin
+Candida_dubliniensis,Fks1_B9W729,645,S,P,Caspofungin
+Candida_dubliniensis,Fks1_B9W729,645,S,P,Micafungin

@@ -1,0 +1,34 @@
+species,gene,position,reference,mutation,fungicide
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,120,F,L,Cyproconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,120,F,L,Epoxiconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,120,F,L,Metconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,120,F,L,Tebuconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,131,Y,F,Cyproconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,131,Y,F,Epoxiconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,131,Y,F,Metconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,131,Y,F,Tebuconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,131,Y,H,Cyproconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,131,Y,H,Epoxiconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,131,Y,H,Metconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,131,Y,H,Tebuconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,142,K,R,Cyproconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,142,K,R,Epoxiconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,142,K,R,Metconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,142,K,R,Tebuconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,145,I,F,Cyproconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,145,I,F,Epoxiconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,145,I,F,Metconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,145,I,F,Tebuconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,475,I,T,Cyproconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,475,I,T,Epoxiconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,475,I,T,Metconazole
+Phakopsora_pachyrhizi,Cyp51_KAI8452430.1,475,I,T,Tebuconazole
+Phakopsora_pachyrhizi,Cytochrome b_D8V108,129,F,L,Azoxystrobin
+Phakopsora_pachyrhizi,Cytochrome b_D8V108,129,F,L,Pyraclostrobin
+Phakopsora_pachyrhizi,Cytochrome b_D8V108,137,G,R,Azoxystrobin
+Phakopsora_pachyrhizi,Cytochrome b_D8V108,137,G,R,Pyraclostrobin
+Phakopsora_pachyrhizi,Cytochrome b_D8V108,143,G,A,Azoxystrobin
+Phakopsora_pachyrhizi,Cytochrome b_D8V108,143,G,A,Pyraclostrobin
+Phakopsora_pachyrhizi,SdhC_CAH7683321.1,86,I,F,Benzovindiflupyr
+Phakopsora_pachyrhizi,SdhC_CAH7683321.1,86,I,F,Bixafen
+Phakopsora_pachyrhizi,SdhC_CAH7683321.1,86,I,F,Fluxapyroxad

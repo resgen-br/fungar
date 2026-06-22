@@ -1,0 +1,9 @@
+species,gene,position,reference,mutation,fungicide
+Monilinia_fructicola,Beta-tubulin_Q7Z7U2,198,E,A,Benomyl
+Monilinia_fructicola,Beta-tubulin_Q7Z7U2,198,E,A,Benzimidazole
+Monilinia_fructicola,Beta-tubulin_Q7Z7U2,198,E,A,Thiophanate-methyl
+Monilinia_fructicola,Beta-tubulin_Q7Z7U2,198,E,K,Benomyl
+Monilinia_fructicola,Beta-tubulin_Q7Z7U2,198,E,K,Thiophanate-methyl
+Monilinia_fructicola,Beta-tubulin_Q7Z7U2,6,H,Y,Benomyl
+Monilinia_fructicola,Beta-tubulin_Q7Z7U2,6,H,Y,Benzimidazole
+Monilinia_fructicola,Beta-tubulin_Q7Z7U2,6,H,Y,Thiophanate-methyl

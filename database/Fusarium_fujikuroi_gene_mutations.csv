@@ -1,0 +1,15 @@
+species,gene,position,reference,mutation,fungicide
+Fusarium_fujikuroi,Beta-tubulin_P53374,50,Y,N,Benomyl
+Fusarium_fujikuroi,Cyp51B_U3LUG2,312,S,T,Prochloraz
+Fusarium_fujikuroi,Myosin-1_XP_018756375.1,276,E,K,Phenamacril
+Fusarium_fujikuroi,Myosin-1_XP_018756375.1,73,S,L,Phenamacril
+Fusarium_fujikuroi,Myosin-5_UNKNOWN,218,K,T,Phenamacril
+Fusarium_fujikuroi,Myosin-5_UNKNOWN,219,S,L,Phenamacril
+Fusarium_fujikuroi,Myosin-5_UNKNOWN,219,S,P,Phenamacril
+Fusarium_fujikuroi,SdhB_UNKNOWN,248,H,D,Pydiflumetofen
+Fusarium_fujikuroi,SdhB_UNKNOWN,248,H,L,Pydiflumetofen
+Fusarium_fujikuroi,SdhB_UNKNOWN,248,H,Y,Pydiflumetofen
+Fusarium_fujikuroi,SdhC_UNKNOWN,144,H,Y,Pydiflumetofen
+Fusarium_fujikuroi,SdhC_UNKNOWN,83,A,V,Pydiflumetofen
+Fusarium_fujikuroi,SdhD_UNKNOWN,106,S,F,Pydiflumetofen
+Fusarium_fujikuroi,SdhD_UNKNOWN,166,E,K,Pydiflumetofen

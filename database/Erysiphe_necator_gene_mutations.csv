@@ -1,0 +1,5 @@
+species,gene,position,reference,mutation,fungicide
+Erysiphe_necator,Cyp51_O14442,136,F,Y,Triadimenol
+Erysiphe_necator,Cyp51_O14442,136,Y,F,Myclobutanil
+Erysiphe_necator,SdhB_WLK77905.1,242,H,R,Boscalid
+Erysiphe_necator,SdhB_WLK77905.1,242,H,Y,Boscalid

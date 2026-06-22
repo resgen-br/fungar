@@ -1,0 +1,7 @@
+species,gene,position,reference,mutation,fungicide
+Sclerotinia_sclerotiorum,SdhB_UGY75365.1,11,A,V,Boscalid
+Sclerotinia_sclerotiorum,SdhB_UGY75365.1,11,A,V,Carboxin
+Sclerotinia_sclerotiorum,SdhB_UGY75365.1,11,A,V,Fluopyram
+Sclerotinia_sclerotiorum,SdhB_UGY75365.1,226,P,L,Boscalid
+Sclerotinia_sclerotiorum,SdhB_UGY75365.1,58,V,A,Boscalid
+Sclerotinia_sclerotiorum,SdhD_UNKNOWN,132,H,R,Boscalid

@@ -1,0 +1,4 @@
+species,gene,position,reference,mutation,fungicide
+Puccinia_horiana,"Cytb,SdhC_A0A830UD91",275,L,F,Azoxystrobin
+Puccinia_horiana,"Cytb,SdhC_A0A830UD91",275,L,F,Kresoxim-methyl
+Puccinia_horiana,"Cytb,SdhC_A0A830UD91",275,L,F,Oxycarboxin

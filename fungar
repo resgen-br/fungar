@@ -1,0 +1,567 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# ============================================================
+# 🍄 FUNGAR v2.0
+# antiFUNGAl gene Resistance detection
+#
+# Henrique Antoniolli, Livia Kmetzsch, Charley Staats
+# Universidade Federal do Rio Grande do Sul
+#
+# Repository: https://github.com/resgen-br/fungar
+# ============================================================
+
+FUNGAR_VERSION="2.0"
+
+#################################
+# Defaults
+#################################
+THREADS=4
+MIN_ORF=10
+GENETIC_CODE=1
+MIN_QUERY_COVER=10
+MIN_PIDENT=95
+MIN_SUPPORT=1
+REQUIRE_BOTH_MATES=true
+KEEP=false
+LIST_SPECIES=false
+
+DB_DIR=""
+R1=""
+R2=""
+SE=""
+INPUT_MODE="none"
+SAMPLE_ID=""
+SPECIES=""
+OUTDIR=""
+
+#################################
+# Help
+#################################
+usage() {
+cat <<EOF
+FUNGAR v${FUNGAR_VERSION} – antiFUNGAl gene Resistance detection
+
+Usage:
+  fungar -id <sample_id> -sp <species> -o <outdir> [input] [options]
+
+Required:
+  -id   Sample ID
+  -sp   Species name (e.g. Candida_albicans)
+  -o    Output directory
+
+Input (choose one):
+  -1    Forward reads (paired-end)
+  -2    Reverse reads (paired-end)
+  -s    Single-end reads
+
+Options:
+  -d      Database directory (protein DB + mutation CSV)
+  -c      CPU threads (default: 4)
+  -orf    Minimum ORF length (default: 10)
+  -code   Genetic code table (default: 1)
+  --min-query-cover  Minimum query coverage % (default: 10)
+  --min-pident       Minimum percent identity (default: 90)
+  --min-support      Minimum reads supporting a mutation to report it (default: 1)
+  --require-both-mates  In paired-end mode, require both mates to align to reference (true/false, default: true)
+  --keep             Keep intermediate files
+  --list_species     List available species in the database and exit
+  -h, --help         Show this help
+
+Example:
+  fungar -id sample01 -sp Candida_albicans \\
+         -1 R1.fastq.gz -2 R2.fastq.gz \\
+         -o results/
+EOF
+}
+
+#################################
+# Argument parsing
+#################################
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        -id) SAMPLE_ID="$2"; shift 2 ;;
+        -sp) SPECIES="$2"; shift 2 ;;
+        -o)  OUTDIR="$2"; shift 2 ;;
+        -1)  R1="$2"; INPUT_MODE="paired"; shift 2 ;;
+        -2)  R2="$2"; INPUT_MODE="paired"; shift 2 ;;
+        -s)  SE="$2"; INPUT_MODE="single"; shift 2 ;;
+        -d)  DB_DIR="$2"; shift 2 ;;
+        -c)  THREADS="$2"; shift 2 ;;
+        -orf) MIN_ORF="$2"; shift 2 ;;
+        -code) GENETIC_CODE="$2"; shift 2 ;;
+        --min-query-cover) MIN_QUERY_COVER="$2"; shift 2 ;;
+        --min-pident) MIN_PIDENT="$2"; shift 2 ;;
+        --min-support) MIN_SUPPORT="$2"; shift 2 ;;
+        --require-both-mates) REQUIRE_BOTH_MATES="$2"; shift 2 ;;
+        --keep) KEEP=true; shift ;;
+        --list_species) LIST_SPECIES=true; shift ;;
+        -h|--help) usage; exit 0 ;;
+        *) echo "❌ Unknown option: $1"; usage; exit 1 ;;
+    esac
+done
+
+#################################
+# Symlink-aware script directory resolution
+#################################
+SCRIPT_PATH="${BASH_SOURCE[0]}"
+while [ -h "$SCRIPT_PATH" ]; do
+  TARGET="$(readlink "$SCRIPT_PATH")"
+  if [[ $TARGET == /* ]]; then
+    SCRIPT_PATH="$TARGET"
+  else
+    DIR="$( dirname "$SCRIPT_PATH" )"
+    SCRIPT_PATH="$DIR/$TARGET"
+  fi
+done
+SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
+
+#################################
+# Database resolution
+#################################
+if [[ -z "$DB_DIR" ]]; then
+    if [[ -n "${FUNGAR_DB:-}" ]]; then
+        DB_DIR="$FUNGAR_DB"
+    elif [[ -d "${SCRIPT_DIR}/database" ]]; then
+        DB_DIR="${SCRIPT_DIR}/database"
+    elif [[ -n "${CONDA_PREFIX:-}" ]] && [[ -d "${CONDA_PREFIX}/share/fungar/database" ]]; then
+        DB_DIR="${CONDA_PREFIX}/share/fungar/database"
+    elif [[ -n "${CONDA_PREFIX:-}" ]] && [[ -d "${CONDA_PREFIX}/share/FUNGAR/database" ]]; then
+        DB_DIR="${CONDA_PREFIX}/share/FUNGAR/database"
+    elif [[ -n "${CONDA_PREFIX:-}" ]] && [[ -d "${CONDA_PREFIX}/share/fungar" ]]; then
+        DB_DIR="${CONDA_PREFIX}/share/fungar"
+    elif [[ -n "${CONDA_PREFIX:-}" ]] && [[ -d "${CONDA_PREFIX}/share/FUNGAR" ]]; then
+        DB_DIR="${CONDA_PREFIX}/share/FUNGAR"
+    else
+        DB_DIR="database"
+    fi
+fi
+
+#################################
+# Sanity checks
+#################################
+if [[ "$LIST_SPECIES" == true ]]; then
+    
+    if [[ ! -d "$DB_DIR" ]]; then
+        echo "❌ ERROR: Database directory not found at $DB_DIR"
+        exit 1
+    fi
+    
+    echo "🍄 Available species in database ($DB_DIR):"
+    found=false
+    for db in "$DB_DIR"/*_db.dmnd; do
+        if [[ -f "$db" ]]; then
+            basename "$db" | sed 's/_db\.dmnd$//'
+            found=true
+        fi
+    done
+    
+    if [[ "$found" == false ]]; then
+        echo "  (No species found)"
+    fi
+    exit 0
+fi
+
+if [[ -z "$SAMPLE_ID" || -z "$SPECIES" || -z "$OUTDIR" ]]; then
+    echo "❌ ERROR: -id, -sp and -o are required."
+    usage
+    exit 1
+fi
+
+if [[ "$INPUT_MODE" == "paired" && ( -z "$R1" || -z "$R2" ) ]]; then
+    echo "❌ ERROR: paired-end requires -1 and -2"
+    exit 1
+fi
+
+if [[ "$INPUT_MODE" == "single" && -z "$SE" ]]; then
+    echo "❌ ERROR: single-end requires -s"
+    exit 1
+fi
+
+if [[ "$INPUT_MODE" == "none" ]]; then
+    echo "❌ ERROR: input reads not specified"
+    exit 1
+fi
+
+#################################
+# Dependencies
+#################################
+for cmd in diamond python3; do
+    command -v "$cmd" >/dev/null || {
+        echo "❌ ERROR: missing dependency: $cmd"
+        exit 1
+    }
+done
+
+# Detect GNU time for memory tracking
+TIME_CMD=""
+if command -v /usr/bin/time >/dev/null 2>&1; then
+    if /usr/bin/time --version 2>&1 | grep -q "GNU"; then
+        TIME_CMD="/usr/bin/time -v -o"
+    fi
+fi
+
+#################################
+# Dependencies
+#################################
+
+PROTEIN_DB="${DB_DIR}/${SPECIES}_db.dmnd"
+MUTATION_CSV="${DB_DIR}/${SPECIES}_gene_mutations.csv"
+
+[[ -f "$PROTEIN_DB" ]] || { echo "❌ Missing $PROTEIN_DB"; exit 1; }
+[[ -f "$MUTATION_CSV" ]] || { echo "❌ Missing $MUTATION_CSV"; exit 1; }
+
+#################################
+# Setup
+#################################
+WORKDIR="${OUTDIR}"
+mkdir -p "$WORKDIR"
+
+LOG_FILE="${WORKDIR}/FUNGAR.${SAMPLE_ID}.log"
+exec > >(tee -a "$LOG_FILE") 2>&1
+
+echo "========================================"
+echo "🍄 Running FUNGAR v${FUNGAR_VERSION}"
+echo "Sample:       $SAMPLE_ID"
+echo "Species:      $SPECIES"
+echo "Threads:      $THREADS"
+echo "Database:     $DB_DIR"
+echo "Min support:  $MIN_SUPPORT"
+echo "Require mates:$REQUIRE_BOTH_MATES"
+echo "========================================"
+
+# (SCRIPT_DIR resolved earlier)
+
+#################################
+# Alignment
+#################################
+run_diamond() {
+    local query="$1"
+    local output="$2"
+    local timing_file="$3"
+
+    if [[ -n "$TIME_CMD" ]]; then
+        $TIME_CMD "$timing_file" \
+            diamond blastx \
+                --quiet \
+                -d "$PROTEIN_DB" \
+                -q "$query" \
+                -o "$output" \
+                --threads "$THREADS" \
+                --min-orf "$MIN_ORF" \
+                --query-gencode "$GENETIC_CODE" \
+                --query-cover "$MIN_QUERY_COVER" \
+                --id "$MIN_PIDENT" \
+                --strand both \
+                --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qseq_translated sseq \
+                --masking 0 > /dev/null 2>&1
+    else
+        local t_start t_end
+        t_start=$(date +%s%N)
+        diamond blastx \
+            --quiet \
+            -d "$PROTEIN_DB" \
+            -q "$query" \
+            -o "$output" \
+            --threads "$THREADS" \
+            --min-orf "$MIN_ORF" \
+            --query-gencode "$GENETIC_CODE" \
+            --query-cover "$MIN_QUERY_COVER" \
+            --id "$MIN_PIDENT" \
+            --strand both \
+            --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qseq_translated sseq \
+            --masking 0 > /dev/null 2>&1
+        t_end=$(date +%s%N)
+        echo "wall_clock_s: $(( (t_end - t_start) / 1000000000 ))" > "$timing_file"
+        echo "peak_rss_kb: N/A" >> "$timing_file"
+    fi
+}
+
+ALIGNMENT_FILES=""
+TIMING_FILES=""
+TOTAL_WALL=0
+
+EMPTY_INPUT=false
+if [[ "$INPUT_MODE" == "single" && ! -s "$SE" ]]; then
+    EMPTY_INPUT=true
+elif [[ "$INPUT_MODE" == "paired" && ( ! -s "$R1" || ! -s "$R2" ) ]]; then
+    EMPTY_INPUT=true
+fi
+
+if [[ "$EMPTY_INPUT" == true ]]; then
+    echo "⚠️  Input FASTQ is empty or missing reads. Skipping alignment and generating empty results..."
+    echo "Sample,Gene,Subject_Accession,Position,Reference,Mutation,Fungicide,Source,Strand,Species,Alignment" > "${WORKDIR}/${SAMPLE_ID}_results.csv"
+    echo "Gene,Position,Reference,Mutation,Fungicide,Source,Species,Support_Reads,Support_Pairs" > "${WORKDIR}/${SAMPLE_ID}_summary.csv"
+    
+    RUNTIME_FILE="${WORKDIR}/${SAMPLE_ID}_runtime.txt"
+    {
+        echo "FUNGAR v${FUNGAR_VERSION} runtime summary"
+        echo "Sample:            $SAMPLE_ID"
+        echo "Species:           $SPECIES"
+        echo "Pipeline wall time: 0s"
+    } > "$RUNTIME_FILE"
+    
+    # Run HTML report if available
+    REPORT_SCRIPT="${SCRIPT_DIR}/fungar_report.py"
+    if [[ -f "$REPORT_SCRIPT" ]]; then
+        echo "📄 Generating HTML report for empty input..."
+        python3 "$REPORT_SCRIPT" \
+            --sample-id "$SAMPLE_ID" \
+            --species "$SPECIES" \
+            --results "${WORKDIR}/${SAMPLE_ID}_results.csv" \
+            --summary "${WORKDIR}/${SAMPLE_ID}_summary.csv" \
+            --outdir "$WORKDIR" \
+            --version "$FUNGAR_VERSION" \
+            --runtime "0s" \
+            --params "threads=${THREADS}, min-orf=${MIN_ORF}, genetic-code=${GENETIC_CODE}, min-query-cover=${MIN_QUERY_COVER}, min-pident=${MIN_PIDENT}, min-support=${MIN_SUPPORT}"
+    fi
+    echo "✅ FUNGAR analysis completed successfully (empty input)."
+    exit 0
+fi
+
+PIPELINE_START=$(date +%s)
+
+if [[ "$INPUT_MODE" == "paired" ]]; then
+    R1_ALN="${WORKDIR}/${SAMPLE_ID}_R1.aln"
+    R2_ALN="${WORKDIR}/${SAMPLE_ID}_R2.aln"
+    R1_TIME="${WORKDIR}/${SAMPLE_ID}_R1.time"
+    R2_TIME="${WORKDIR}/${SAMPLE_ID}_R2.time"
+    echo "⏳ Aligning R1..."
+    run_diamond "$R1" "$R1_ALN" "$R1_TIME"
+    echo "⏳ Aligning R2..."
+    run_diamond "$R2" "$R2_ALN" "$R2_TIME"
+    ALIGNMENT_FILES="${R1_ALN};${R2_ALN}"
+    TIMING_FILES="${R1_TIME};${R2_TIME}"
+else
+    SE_ALN="${WORKDIR}/${SAMPLE_ID}_SE.aln"
+    SE_TIME="${WORKDIR}/${SAMPLE_ID}_SE.time"
+    echo "⏳ Aligning reads..."
+    run_diamond "$SE" "$SE_ALN" "$SE_TIME"
+    ALIGNMENT_FILES="${SE_ALN}"
+    TIMING_FILES="${SE_TIME}"
+fi
+
+PIPELINE_END=$(date +%s)
+TOTAL_WALL=$(( PIPELINE_END - PIPELINE_START ))
+
+#################################
+# Mutation detection (Python)
+#################################
+python3 <<EOF
+import pandas as pd
+from collections import defaultdict
+import os, re, sys
+
+mut = pd.read_csv("$MUTATION_CSV")
+required = ['gene','position','reference','mutation','fungicide']
+if not all(c in mut.columns for c in required):
+    raise ValueError("Mutation CSV missing required columns")
+
+alignment_files = "$ALIGNMENT_FILES".split(";")
+min_support = int("$MIN_SUPPORT")
+require_both_mates = "$REQUIRE_BOTH_MATES".lower() == "true"
+input_mode = "$INPUT_MODE"
+
+def normalize_qseqid(q):
+    return re.sub(r'([/_.]1|[/_.]2)$', '', q)
+
+# Intersect aligned read IDs between R1 and R2 if require_both_mates is active
+valid_reads = None
+if input_mode == "paired" and require_both_mates and len(alignment_files) >= 2:
+    r1_reads = set()
+    r2_reads = set()
+    
+    r1_file, r2_file = alignment_files[0], alignment_files[1]
+    if os.path.exists(r1_file):
+        with open(r1_file) as f:
+            for line in f:
+                fields = line.split("\t")
+                if len(fields) > 1:
+                    r1_reads.add((normalize_qseqid(fields[0]), fields[1]))
+                    
+    if os.path.exists(r2_file):
+        with open(r2_file) as f:
+            for line in f:
+                fields = line.split("\t")
+                if len(fields) > 1:
+                    r2_reads.add((normalize_qseqid(fields[0]), fields[1]))
+                    
+    valid_reads = r1_reads.intersection(r2_reads)
+
+# ---- helper: classify source from fungicide field ----
+AGRICULTURAL = {
+    'bromuconazole','difenoconazole','epoxiconazole','imazalil',
+    'prochloraz','propiconazole','tebuconazole','azoxystrobin',
+    'strobilurin','chlorothalonil','boscalid','fluxapyroxad',
+    'isopyrazam','penthiopyrad','thiabendazole','carbendazim'
+}
+CLINICAL = {
+    'itraconazole','voriconazole','posaconazole','isavuconazole',
+    'fluconazole','amphotericin_b','caspofungin','micafungin',
+    'anidulafungin','ravuconazole','flucytosine'
+}
+
+def classify_source(fungicide_str):
+    raw = fungicide_str.lower()
+    drugs = set(re.split(r'[;,\(\)]', raw))
+    drugs = {d.strip().split('(')[0].strip() for d in drugs if d.strip()}
+    drugs = {re.sub(r'\d+/.*', '', d).strip() for d in drugs}
+    is_clinical = any(d in CLINICAL for d in drugs)
+    is_agri = any(d in AGRICULTURAL for d in drugs)
+    if is_clinical and is_agri:
+        return 'both'
+    elif is_clinical:
+        return 'clinical'
+    elif is_agri:
+        return 'agricultural'
+    return 'unknown'
+
+results = []
+
+for aln in alignment_files:
+    if not os.path.exists(aln):
+        continue
+
+    with open(aln) as f:
+        for line in f:
+            fields = line.rstrip().split("\t")
+            if len(fields) < 14:
+                continue
+
+            qseqid  = fields[0]
+            norm_id = normalize_qseqid(qseqid)
+            gene    = fields[1]
+            if valid_reads is not None and (norm_id, gene) not in valid_reads:
+                continue
+            pident  = float(fields[2])
+            qstart  = int(fields[6])
+            qend    = int(fields[7])
+            sstart  = int(fields[8])
+            send    = int(fields[9])
+            # fields[12] = qseq_translated: the READ translated to protein — check mutations here
+            # fields[13] = sseq: the reference protein (always has the reference AA, not the mutation)
+            qseq_t  = fields[12]   # translated query sequence — used for mutation detection
+
+            # Determine strand: qstart < qend → forward; qstart > qend → reverse
+            strand = "forward" if qstart < qend else "reverse"
+
+            gene_muts = mut[mut["gene"] == gene]
+            for _, row in gene_muts.iterrows():
+                pos = int(row["position"])
+
+                # Check if diagnostic residue falls within the aligned region
+                if sstart <= send:
+                    if not (sstart <= pos <= send):
+                        continue   # residue outside aligned region — skip
+                    aa_pos = pos - sstart
+                else:
+                    if not (send <= pos <= sstart):
+                        continue
+                    aa_pos = sstart - pos
+
+                if 0 <= aa_pos < len(qseq_t) and qseq_t[aa_pos] == row["mutation"]:
+                    # Extract subject accession from gene name (last dotted token)
+                    gene_parts = gene.split("_")
+                    subject_accession = gene_parts[-1] if len(gene_parts) > 1 else gene
+                    source = classify_source(str(row["fungicide"]))
+
+                    results.append({
+                        "Sample": qseqid,
+                        "Gene": gene,
+                        "Subject_Accession": subject_accession,
+                        "Position": pos,
+                        "Reference": row["reference"],
+                        "Mutation": row["mutation"],
+                        "Fungicide": row["fungicide"],
+                        "Source": source,
+                        "Strand": strand,
+                        "Species": row["species"] if "species" in row else "$SPECIES",
+                        "Alignment": os.path.basename(aln)
+                    })
+
+final = pd.DataFrame(results).drop_duplicates() if results else pd.DataFrame(
+    columns=["Sample","Gene","Subject_Accession","Position","Reference",
+             "Mutation","Fungicide","Source","Strand","Species","Alignment"]
+)
+final.to_csv("${WORKDIR}/${SAMPLE_ID}_results.csv", index=False)
+
+# --- Summary with read-support count and min-support filter ---
+summary = defaultdict(list)
+for r in results:
+    key = (r["Gene"], r["Position"], r["Reference"], r["Mutation"],
+           r["Fungicide"], r["Source"], r["Species"])
+    summary[key].append(r["Sample"])
+
+summary_rows = []
+for k, qlist in summary.items():
+    support_reads = len(qlist)
+    support_pairs = len(set(normalize_qseqid(q) for q in qlist))
+    summary_rows.append({
+        "Gene": k[0], "Position": k[1], "Reference": k[2], "Mutation": k[3],
+        "Fungicide": k[4], "Source": k[5], "Species": k[6], "Support_Reads": support_reads, "Support_Pairs": support_pairs
+    })
+
+summary_df = pd.DataFrame(summary_rows) if summary_rows else pd.DataFrame(
+    columns=["Gene","Position","Reference","Mutation","Fungicide","Source","Species","Support_Reads","Support_Pairs"]
+)
+
+# Apply minimum read-support threshold
+filtered = summary_df[summary_df["Support_Reads"] >= min_support] if not summary_df.empty else summary_df
+filtered.to_csv("${WORKDIR}/${SAMPLE_ID}_summary.csv", index=False)
+
+n_mut = len(filtered)
+n_fil = len(summary_df) - n_mut
+print(f"✅ Mutations detected: {n_mut} (filtered out by --min-support {min_support}: {n_fil})")
+EOF
+
+#################################
+# Runtime summary
+#################################
+RUNTIME_FILE="${WORKDIR}/${SAMPLE_ID}_runtime.txt"
+{
+    echo "FUNGAR v${FUNGAR_VERSION} runtime summary"
+    echo "Sample:            $SAMPLE_ID"
+    echo "Species:           $SPECIES"
+    echo "Pipeline wall time: ${TOTAL_WALL}s"
+    echo "---"
+    for tf in ${TIMING_FILES//;/ }; do
+        if [[ -f "$tf" ]]; then
+            echo "=== $(basename $tf) ==="
+            cat "$tf"
+        fi
+    done
+} > "$RUNTIME_FILE"
+
+echo "⏱  Total pipeline wall time: ${TOTAL_WALL}s"
+
+#################################
+# HTML Report
+#################################
+REPORT_SCRIPT="${SCRIPT_DIR}/fungar_report.py"
+if [[ -f "$REPORT_SCRIPT" ]]; then
+    echo "📄 Generating HTML report..."
+    python3 "$REPORT_SCRIPT" \
+        --sample-id "$SAMPLE_ID" \
+        --species "$SPECIES" \
+        --results "${WORKDIR}/${SAMPLE_ID}_results.csv" \
+        --summary "${WORKDIR}/${SAMPLE_ID}_summary.csv" \
+        --outdir "$WORKDIR" \
+        --version "$FUNGAR_VERSION" \
+        --runtime "${TOTAL_WALL}s" \
+        --params "threads=${THREADS}, min-orf=${MIN_ORF}, genetic-code=${GENETIC_CODE}, min-query-cover=${MIN_QUERY_COVER}, min-pident=${MIN_PIDENT}, min-support=${MIN_SUPPORT}"
+else
+    echo "⚠️  fungar_report.py not found — skipping HTML report."
+fi
+
+#################################
+# Cleanup
+#################################
+if [[ "$KEEP" == false ]]; then
+    rm -f ${ALIGNMENT_FILES//;/ }
+    rm -f ${TIMING_FILES//;/ }
+fi
+
+echo "✅ FUNGAR analysis completed successfully."
+echo "   Results: ${WORKDIR}/${SAMPLE_ID}_results.csv"
+echo "   Summary: ${WORKDIR}/${SAMPLE_ID}_summary.csv"
+echo "   Report:  ${WORKDIR}/${SAMPLE_ID}_report.html"

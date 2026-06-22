@@ -1,0 +1,27 @@
+species,gene,position,reference,mutation,fungicide
+Saccharomyces_paradoxus,Erg2_A0A8B8UXL1,98,L,V,4-Nitroquinoline
+Saccharomyces_paradoxus,Erg6_A0A8B8UX73,18,H,L,No drug
+Saccharomyces_paradoxus,Pdr10_A0A1L4AA54,292,I,T,4-Nitroquinoline
+Saccharomyces_paradoxus,Pdr10_A0A1L4AA54,335,R,K,No drug
+Saccharomyces_paradoxus,"Pdr11,Pdr3_A0A8B8ULF9",1223,L,F,No drug
+Saccharomyces_paradoxus,"Pdr11,Pdr3_A0A8B8UTF6",1223,L,F,No drug
+Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,279,G,R,4-Nitroquinoline
+Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,279,G,S,4-Nitroquinoline
+Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,279,G,S,Fluconazole
+Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,279,G,S,Itraconazole
+Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,279,G,S,Voriconazole
+Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,307,M,I,4-Nitroquinoline
+Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,307,M,I,Fluconazole
+Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,307,M,I,Itraconazole
+Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,307,M,I,Voriconazole
+Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,307,M,T,4-Nitroquinoline
+Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,484,S,W,4-Nitroquinoline
+Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,867,L,F,4-Nitroquinoline
+Saccharomyces_paradoxus,Pdr3_A0A8B8ULF9,719,A,T,No drug
+Saccharomyces_paradoxus,Pdr3_A0A8B8ULF9,721,K,R,No drug
+Saccharomyces_paradoxus,Pdr5_A0A8B8UZZ1,836,R,C,4-Nitroquinoline
+Saccharomyces_paradoxus,Upc2_A0A8B8UNV3,70,K,T,No drug
+Saccharomyces_paradoxus,Yrr1_A0A8B8UZV6,197,G,R,4-Nitroquinoline
+Saccharomyces_paradoxus,Yrr1_A0A8B8UZV6,208,K,N,4-Nitroquinoline
+Saccharomyces_paradoxus,Yrr1_A0A8B8UZV6,608,S,Y,4-Nitroquinoline
+Saccharomyces_paradoxus,Yrr1_A0A8B8UZV6,626,E,Q,4-Nitroquinoline

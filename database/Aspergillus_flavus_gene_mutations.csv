@@ -1,62 +1,115 @@
-gene,position,reference,mutation,fungicide
-Cyp51C_QXL90932,54,M,T,Amphotericin B
-Cyp51C_QXL90932,423,N,D,Amphotericin B
-Cyp51C_QXL90932,419,P,T,Amphotericin B
-Cyp51C_QXL90932,240,S,A,Amphotericin B
-Cyp51C_QXL90932,254,D,G,Amphotericin B
-Cyp51C_QXL90932,34,T,A,Amphotericin B
-Cyp51C_QXL90932,254,D,G,Amphotericin B
-Cyp51C_QXL90932,423,N,D,Amphotericin B
-Cyp51C_QXL90932,349,H,R,Bromuconazole
-Cyp51C_QXL90932,54,M,T,Caspofungin
-Cyp51C_QXL90932,423,N,D,Caspofungin
-Cyp51C_QXL90932,419,P,T,Caspofungin
-Cyp51C_QXL90932,240,S,A,Caspofungin
-Cyp51C_QXL90932,349,H,R,Difenoconazole
-Cyp51C_QXL90932,349,H,R,Epoxiconazole
-Cyp51C_QXL90932,349,H,R,Imazalil
-Cyp51C_QXL90932,349,H,R,Isavuconazole
-Cyp51C_QXL90932,54,M,T,Itraconazole
-Cyp51C_QXL90932,423,N,D,Itraconazole
-Cyp51C_QXL90932,419,P,T,Itraconazole
-Cyp51C_QXL90932,240,S,A,Itraconazole
-Cyp51C_QXL90932,319,Y,H,Itraconazole
-Cyp51C_QXL90932,349,H,R,Itraconazole
-Cyp51C_QXL90932,196,S,F,Itraconazole
-Cyp51C_QXL90932,324,A,P,Itraconazole
-Cyp51C_QXL90932,423,N,D,Itraconazole
-Cyp51C_QXL90932,465,V,M,Itraconazole
-Cyp51C_QXL90932,34,T,A,Itraconazole
-Cyp51C_QXL90932,240,S,A,Itraconazole
-Cyp51C_QXL90932,254,D,G,Itraconazole
-Cyp51C_QXL90932,423,N,D,Itraconazole
-Cyp51C_QXL90932,54,M,T,Itraconazole
-Cyp51C_QXL90932,349,H,R,Metconazole
-Cyp51C_QXL90932,349,H,R,Myclobutanil
-Cyp51C_QXL90932,349,H,R,Posaconazole
-Cyp51C_QXL90932,54,M,T,Posaconazole
-Cyp51C_QXL90932,240,S,A,Posaconazole
-Cyp51C_QXL90932,254,D,G,Posaconazole
-Cyp51C_QXL90932,423,N,D,Posaconazole
-Cyp51C_QXL90932,34,T,A,Posaconazole
-Cyp51C_QXL90932,54,M,T,Posaconazole
-Cyp51C_QXL90932,240,S,A,Posaconazole
-Cyp51C_QXL90932,254,D,G,Posaconazole
-Cyp51C_QXL90932,423,N,D,Posaconazole
-Cyp51C_QXL90932,349,H,R,Prochloraz
-Cyp51C_QXL90932,349,H,R,Tebuconazole
-Cyp51C_QXL90932,240,S,A,Voriconazole
-Cyp51C_QXL90932,54,M,T,Voriconazole
-Cyp51C_QXL90932,423,N,D,Voriconazole
-Cyp51C_QXL90932,240,S,A,Voriconazole
-Cyp51C_QXL90932,419,P,T,Voriconazole
-Cyp51C_QXL90932,254,D,N,Voriconazole
-Cyp51C_QXL90932,285,I,V,Voriconazole
-Cyp51C_QXL90932,319,Y,H,Voriconazole
-Cyp51C_QXL90932,349,H,R,Voriconazole
-Cyp51C_QXL90932,196,S,F,Voriconazole
-Cyp51C_QXL90932,324,A,P,Voriconazole
-Cyp51C_QXL90932,423,N,D,Voriconazole
-Cyp51C_QXL90932,465,V,M,Voriconazole
-Cyp51C_QXL90932,254,D,G,Voriconazole
-Cyp51C_QXL90932,34,T,A,Voriconazole
+species,gene,position,reference,mutation,fungicide
+Aspergillus_flavus,Cyp51A_B8N2C8,132,Y,N,Amphotericin B
+Aspergillus_flavus,Cyp51A_B8N2C8,132,Y,N,Itraconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,132,Y,N,Posaconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,132,Y,N,Ravuconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,132,Y,N,Voriconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,197,K,N,Amphotericin B
+Aspergillus_flavus,Cyp51A_B8N2C8,197,K,N,Itraconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,197,K,N,Posaconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,197,K,N,Ravuconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,197,K,N,Voriconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,205,A,T,Voriconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,214,P,L,Itraconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,214,P,L,Posaconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,282,D,E,Amphotericin B
+Aspergillus_flavus,Cyp51A_B8N2C8,282,D,E,Itraconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,282,D,E,Posaconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,282,D,E,Ravuconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,282,D,E,Voriconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,288,M,L,Amphotericin B
+Aspergillus_flavus,Cyp51A_B8N2C8,288,M,L,Itraconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,288,M,L,Posaconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,288,M,L,Ravuconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,288,M,L,Voriconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,450,R,S,Voriconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,469,T,S,Amphotericin B
+Aspergillus_flavus,Cyp51A_B8N2C8,469,T,S,Itraconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,469,T,S,Posaconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,469,T,S,Ravuconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,469,T,S,Voriconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,354,Q,K,Voriconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,399,H,P,Amphotericin B
+Aspergillus_flavus,Cyp51B_B8NFL5,399,H,P,Itraconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,399,H,P,Posaconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,399,H,P,Ravuconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,399,H,P,Voriconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,411,D,N,Amphotericin B
+Aspergillus_flavus,Cyp51B_B8NFL5,411,D,N,Itraconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,411,D,N,Posaconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,411,D,N,Ravuconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,411,D,N,Voriconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,454,T,P,Amphotericin B
+Aspergillus_flavus,Cyp51B_B8NFL5,454,T,P,Itraconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,454,T,P,Posaconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,454,T,P,Ravuconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,454,T,P,Voriconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,486,T,P,Amphotericin B
+Aspergillus_flavus,Cyp51B_B8NFL5,486,T,P,Itraconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,486,T,P,Posaconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,486,T,P,Ravuconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,486,T,P,Voriconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,196,S,F,Itraconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,196,S,F,Voriconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,240,S,A,Amphotericin B
+Aspergillus_flavus,Cyp51C_B8NUK6,240,S,A,Caspofungin
+Aspergillus_flavus,Cyp51C_B8NUK6,240,S,A,Itraconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,240,S,A,Posaconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,240,S,A,Voriconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,254,D,G,Amphotericin B
+Aspergillus_flavus,Cyp51C_B8NUK6,254,D,G,Itraconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,254,D,G,Posaconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,254,D,G,Voriconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,254,D,N,Voriconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,285,I,V,Voriconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,319,Y,H,Itraconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,319,Y,H,Voriconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,324,A,P,Itraconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,324,A,P,Voriconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,34,T,A,Amphotericin B
+Aspergillus_flavus,Cyp51C_B8NUK6,34,T,A,Itraconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,34,T,A,Posaconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,34,T,A,Voriconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,349,H,R,Bromuconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,349,H,R,Difenoconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,349,H,R,Epoxiconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,349,H,R,Imazalil
+Aspergillus_flavus,Cyp51C_B8NUK6,349,H,R,Isavuconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,349,H,R,Itraconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,349,H,R,Metconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,349,H,R,Myclobutanil
+Aspergillus_flavus,Cyp51C_B8NUK6,349,H,R,Posaconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,349,H,R,Prochloraz
+Aspergillus_flavus,Cyp51C_B8NUK6,349,H,R,Tebuconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,349,H,R,Voriconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,419,P,T,Amphotericin B
+Aspergillus_flavus,Cyp51C_B8NUK6,419,P,T,Caspofungin
+Aspergillus_flavus,Cyp51C_B8NUK6,419,P,T,Itraconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,419,P,T,Voriconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,423,N,D,Amphotericin B
+Aspergillus_flavus,Cyp51C_B8NUK6,423,N,D,Caspofungin
+Aspergillus_flavus,Cyp51C_B8NUK6,423,N,D,Itraconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,423,N,D,Posaconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,423,N,D,Voriconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,465,V,M,Itraconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,465,V,M,Voriconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,54,M,T,Amphotericin B
+Aspergillus_flavus,Cyp51C_B8NUK6,54,M,T,Caspofungin
+Aspergillus_flavus,Cyp51C_B8NUK6,54,M,T,Itraconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,54,M,T,Posaconazole
+Aspergillus_flavus,Cyp51C_B8NUK6,54,M,T,Voriconazole
+Aspergillus_flavus,Mdr1_B8NSJ1,1105,F,L,Itraconazole
+Aspergillus_flavus,Mdr1_B8NSJ1,1105,F,L,Posaconazole
+Aspergillus_flavus,Mdr1_B8NSJ1,1105,F,L,Voriconazole
+Aspergillus_flavus,Mdr1_B8NSJ1,120,T,K,Itraconazole
+Aspergillus_flavus,Mdr1_B8NSJ1,120,T,K,Posaconazole
+Aspergillus_flavus,Mdr1_B8NSJ1,120,T,K,Voriconazole
+Aspergillus_flavus,Mdr2_B8N0R2,162,F,L,Voriconazole
+Aspergillus_flavus,Mdr2_B8N0R2,377,Q,H,Itraconazole
+Aspergillus_flavus,Mdr2_B8N0R2,377,Q,H,Voriconazole
+Aspergillus_flavus,Mdr2_B8N0R2,566,G,E,Itraconazole
+Aspergillus_flavus,Mdr2_B8N0R2,566,G,E,Voriconazole
+Aspergillus_flavus,Mdr2_B8N0R2,578,R,S,Itraconazole
+Aspergillus_flavus,Mdr2_B8N0R2,578,R,S,Voriconazole
+Aspergillus_flavus,Mfs1_B8MYS7,434,A,S,Voriconazole
+Aspergillus_flavus,Mfs1_B8MYS7,7,E,G,Voriconazole

@@ -1,0 +1,135 @@
+species,gene,position,reference,mutation,fungicide
+Botrytis_cinerea,Beta-tubulin_P53373,198,E,A,Carbendazim
+Botrytis_cinerea,Beta-tubulin_P53373,198,E,A,Iprodione
+Botrytis_cinerea,Beta-tubulin_P53373,198,E,G,Carbendazim
+Botrytis_cinerea,Beta-tubulin_P53373,198,E,K,Carbendazim
+Botrytis_cinerea,Beta-tubulin_P53373,198,E,K,Diethofencarb
+Botrytis_cinerea,Beta-tubulin_P53373,198,E,K,Iprodione
+Botrytis_cinerea,Beta-tubulin_P53373,198,E,V,Benzimidazole
+Botrytis_cinerea,Beta-tubulin_P53373,198,E,V,Carbendazim
+Botrytis_cinerea,Beta-tubulin_P53373,198,E,V,Diethofencarb
+Botrytis_cinerea,Beta-tubulin_P53373,198,E,V,Iprodione
+Botrytis_cinerea,Beta-tubulin_P53373,200,F,Y,Carbendazim
+Botrytis_cinerea,Beta-tubulin_P53373,200,F,Y,Diethofencarb
+Botrytis_cinerea,Beta-tubulin_P53373,351,T,I,Zoxamide
+Botrytis_cinerea,Bos1_Q8X1E7,1158,D,N,Fludioxonil
+Botrytis_cinerea,Bos1_Q8X1E7,278,G,D,Pyrrolnitrin
+Botrytis_cinerea,Bos1_Q8X1E7,345,E,G,Dicarboximide fungicides
+Botrytis_cinerea,Bos1_Q8X1E7,346,V,A,Dicarboximide fungicides
+Botrytis_cinerea,Bos1_Q8X1E7,369,Q,P,Procymidone
+Botrytis_cinerea,Bos1_Q8X1E7,373,N,S,Iprodione
+Botrytis_cinerea,Bos1_Q8X1E7,386,L,F,Dicarboximide fungicides
+Botrytis_cinerea,Bos1_Q8X1E7,415,G,D,Pyrrolnitrin
+Botrytis_cinerea,Bos1_Q8X1E7,493,A,T,Pyrrolnitrin
+Botrytis_cinerea,Bos1_Q8X1E7,531,S,N,Dicarboximide fungicides
+Botrytis_cinerea,Bos1_Q8X1E7,538,G,R,Dicarboximide fungicides
+Botrytis_cinerea,Bos1_Q8X1E7,570,L,W,Dicarboximide fungicides
+Botrytis_cinerea,Bos1_Q8X1E7,581,T,P,Pyrrolnitrin
+Botrytis_cinerea,Bos1_Q8X1E7,585,A,H,Dicarboximide fungicides
+Botrytis_cinerea,Cytochrome b_Q18ND9,143,G,A,Azoxystrobin
+Botrytis_cinerea,Cytochrome b_Q18ND9,143,G,A,Boscalid
+Botrytis_cinerea,Cytochrome b_Q18ND9,143,G,A,Carbendazim
+Botrytis_cinerea,Cytochrome b_Q18ND9,143,G,A,Iprodione
+Botrytis_cinerea,Cytochrome b_Q18ND9,143,G,A,Pyraclostrobin
+Botrytis_cinerea,Cytochrome b_Q18ND9,143,G,A,Strobilurin
+Botrytis_cinerea,OS1_Q8X1E7,365,I,N,"Fludioxonil, Iprodione"
+Botrytis_cinerea,OS1_Q8X1E7,365,I,N,Procymidone
+Botrytis_cinerea,OS1_Q8X1E7,365,I,R,Procymidone
+Botrytis_cinerea,OS1_Q8X1E7,365,I,S,Carbendazim
+Botrytis_cinerea,OS1_Q8X1E7,365,I,S,"Fludioxonil, Iprodione"
+Botrytis_cinerea,OS1_Q8X1E7,365,I,S,Iprodione
+Botrytis_cinerea,OS1_Q8X1E7,365,I,S,Vinclozolin
+Botrytis_cinerea,OS1_Q8X1E7,368,V,F,Carbendazim
+Botrytis_cinerea,OS1_Q8X1E7,368,V,F,Diethofencarb
+Botrytis_cinerea,OS1_Q8X1E7,368,V,F,Iprodione
+Botrytis_cinerea,OS1_Q8X1E7,369,Q,H,Carbendazim
+Botrytis_cinerea,OS1_Q8X1E7,369,Q,H,Diethofencarb
+Botrytis_cinerea,OS1_Q8X1E7,369,Q,H,Iprodione
+Botrytis_cinerea,OS1_Q8X1E7,369,Q,P,Carbendazim
+Botrytis_cinerea,OS1_Q8X1E7,369,Q,P,"Fludioxonil, Iprodione"
+Botrytis_cinerea,OS1_Q8X1E7,369,Q,P,Iprodione
+Botrytis_cinerea,OS1_Q8X1E7,373,N,S,Carbendazim
+Botrytis_cinerea,OS1_Q8X1E7,373,N,S,"Fludioxonil, Iprodione"
+Botrytis_cinerea,OS1_Q8X1E7,373,N,S,Iprodione
+Botrytis_cinerea,OS1_Q8X1E7,447,T,S,Carbendazim
+Botrytis_cinerea,OS1_Q8X1E7,447,T,S,Diethofencarb
+Botrytis_cinerea,OS1_Q8X1E7,447,T,S,Iprodione
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,F,Boscalid
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,H,Boscalid
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,H,Fluopyram
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,L,Benodanil
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,L,Boscalid
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,L,Carboxin
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,L,Methfuroxam
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,L,Oxa-3a
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,L,Oxa-3c
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,L,Pyracarbolid
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,L,Thifluzamide
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,T,Benodanil
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,T,Boscalid
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,T,Carboxin
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,T,Methfuroxam
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,T,Oxa-3a
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,T,Oxa-3c
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,T,Oxa-3d
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,T,Pyracarbolid
+Botrytis_cinerea,SdhB_Q3ZMH5,225,P,T,Thifluzamide
+Botrytis_cinerea,SdhB_Q3ZMH5,230,N,I,Benodanil
+Botrytis_cinerea,SdhB_Q3ZMH5,230,N,I,Boscalid
+Botrytis_cinerea,SdhB_Q3ZMH5,230,N,I,Carboxin
+Botrytis_cinerea,SdhB_Q3ZMH5,230,N,I,Fluopyram
+Botrytis_cinerea,SdhB_Q3ZMH5,230,N,I,Furcarbanil
+Botrytis_cinerea,SdhB_Q3ZMH5,230,N,I,Methfuroxam
+Botrytis_cinerea,SdhB_Q3ZMH5,230,N,I,Oxa-3a
+Botrytis_cinerea,SdhB_Q3ZMH5,230,N,I,Oxa-3b
+Botrytis_cinerea,SdhB_Q3ZMH5,230,N,I,Oxa-3c
+Botrytis_cinerea,SdhB_Q3ZMH5,230,N,I,Oxa-3d
+Botrytis_cinerea,SdhB_Q3ZMH5,230,N,I,Pyracarbolid
+Botrytis_cinerea,SdhB_Q3ZMH5,230,N,I,Thifluzamide
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,L,Benodanil
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,L,Boscalid
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,L,Carboxin
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,L,Furcarbanil
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,L,Methfuroxam
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,L,Oxa-3a
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,L,Oxa-3b
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,L,Oxa-3c
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,L,Oxa-3d
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,L,Pyracarbolid
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,L,Thifluzamide
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,R,Boscalid
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,R,Carboxin
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,R,Fluopyram
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,R,Furcarbanil
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,R,Methfuroxam
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,R,Oxa-3a
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,R,Oxa-3b
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,R,Oxa-3c
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,R,Oxa-3d
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,R,Pyracarbolid
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,R,Thifluzamide
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,V,Boscalid
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Boscalid
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Carboxin
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Furcarbanil
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Methfuroxam
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Oxa-3a
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Oxa-3b
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Oxa-3c
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Oxa-3d
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Pyracarbolid
+Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Thifluzamide
+Botrytis_cinerea,SdhB_Q3ZMH5,274,I,I,Boscalid
+Botrytis_cinerea,SdhB_Q3ZMH5,274,I,I,Fluopyram
+Botrytis_cinerea,SdhB_Q3ZMH5,274,I,V,Boscalid
+Botrytis_cinerea,SdhB_Q3ZMH5,274,I,V,Fluopyram
+Botrytis_cinerea,SdhD_D2IH01,132,H,R,Boscalid
+Botrytis_cinerea,SdhD_D2IH01,132,H,R,Carboxin
+Botrytis_cinerea,SdhD_D2IH01,132,H,R,Furcarbanil
+Botrytis_cinerea,SdhD_D2IH01,132,H,R,Methfuroxam
+Botrytis_cinerea,SdhD_D2IH01,132,H,R,Oxa-3a
+Botrytis_cinerea,SdhD_D2IH01,132,H,R,Oxa-3b
+Botrytis_cinerea,SdhD_D2IH01,132,H,R,Oxa-3c
+Botrytis_cinerea,SdhD_D2IH01,132,H,R,Oxa-3d
+Botrytis_cinerea,SdhD_D2IH01,132,H,R,Pyracarbolid
+Botrytis_cinerea,SdhD_D2IH01,132,H,R,Thifluzamide

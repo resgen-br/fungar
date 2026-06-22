@@ -1,0 +1,13 @@
+species,gene,position,reference,mutation,fungicide
+Pyrenopeziza_brassicae,Beta-tubulin_M4T290,198,E,A,Carbendazim
+Pyrenopeziza_brassicae,Beta-tubulin_M4T290,240,L,F,Carbendazim
+Pyrenopeziza_brassicae,Cyp51_UNKNOWN,460,G,S,Flusilazole
+Pyrenopeziza_brassicae,Cyp51_UNKNOWN,460,G,S,Metconazole
+Pyrenopeziza_brassicae,Cyp51_UNKNOWN,460,G,S,Prochloraz
+Pyrenopeziza_brassicae,Cyp51_UNKNOWN,460,G,S,Prothioconazole
+Pyrenopeziza_brassicae,Cyp51_UNKNOWN,460,G,S,Tebuconazole
+Pyrenopeziza_brassicae,Cyp51_UNKNOWN,508,S,T,Flusilazole
+Pyrenopeziza_brassicae,Cyp51_UNKNOWN,508,S,T,Metconazole
+Pyrenopeziza_brassicae,Cyp51_UNKNOWN,508,S,T,Prochloraz
+Pyrenopeziza_brassicae,Cyp51_UNKNOWN,508,S,T,Prothioconazole
+Pyrenopeziza_brassicae,Cyp51_UNKNOWN,508,S,T,Tebuconazole

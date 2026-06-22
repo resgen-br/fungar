@@ -1,0 +1,256 @@
+species,gene,position,reference,mutation,fungicide
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",220,M,L,5-fluorocytosine
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",220,M,L,Fluconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",220,M,L,Itraconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",220,M,L,Posaconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",220,M,L,Voriconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",54,G,W,5-fluorocytosine
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",54,G,W,Fluconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",54,G,W,Itraconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",54,G,W,Posaconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",54,G,W,Voriconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",220,M,L,5-fluorocytosine
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",220,M,L,Fluconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",220,M,L,Itraconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",220,M,L,Posaconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",220,M,L,Voriconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",54,G,W,5-fluorocytosine
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",54,G,W,Fluconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",54,G,W,Itraconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",54,G,W,Posaconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",54,G,W,Voriconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",220,M,L,5-fluorocytosine
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",220,M,L,Fluconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",220,M,L,Itraconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",220,M,L,Posaconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",220,M,L,Voriconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",54,G,W,5-fluorocytosine
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",54,G,W,Fluconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",54,G,W,Itraconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",54,G,W,Posaconazole
+Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",54,G,W,Voriconazole
+Candidozyma_auris,Erg10_A0A2H0ZNA8,244,T,N,5-fluorocytosine
+Candidozyma_auris,Erg10_A0A2H0ZNA8,244,T,N,Amphotericin B
+Candidozyma_auris,Erg10_A0A2H0ZNA8,244,T,N,Anidulafungin
+Candidozyma_auris,Erg10_A0A2H0ZNA8,244,T,N,Caspofungin
+Candidozyma_auris,Erg10_A0A2H0ZNA8,244,T,N,Fluconazole
+Candidozyma_auris,Erg10_A0A2H0ZNA8,244,T,N,Geldamycin
+Candidozyma_auris,Erg10_A0A2H0ZNA8,244,T,N,Micafungin
+Candidozyma_auris,Erg10_A0A2H0ZNA8,244,T,N,Posaconazole
+Candidozyma_auris,Erg11_A0A2H1A309,125,V,A,Fluconazole
+Candidozyma_auris,Erg11_A0A2H1A309,125,V,A,Itraconazole
+Candidozyma_auris,Erg11_A0A2H1A309,125,V,A,Posaconazole
+Candidozyma_auris,Erg11_A0A2H1A309,125,V,A,Voriconazole
+Candidozyma_auris,Erg11_A0A2H1A309,126,F,L,Fluconazole
+Candidozyma_auris,Erg11_A0A2H1A309,126,F,L,Itraconazole
+Candidozyma_auris,Erg11_A0A2H1A309,126,F,L,Posaconazole
+Candidozyma_auris,Erg11_A0A2H1A309,126,F,L,Voriconazole
+Candidozyma_auris,Erg11_A0A2H1A309,126,F,T,Fluconazole
+Candidozyma_auris,Erg11_A0A2H1A309,132,Y,F,5-fluorocytosine
+Candidozyma_auris,Erg11_A0A2H1A309,132,Y,F,Amphotericin B
+Candidozyma_auris,Erg11_A0A2H1A309,132,Y,F,Anidulafungin
+Candidozyma_auris,Erg11_A0A2H1A309,132,Y,F,Caspofungin
+Candidozyma_auris,Erg11_A0A2H1A309,132,Y,F,Fluconazole
+Candidozyma_auris,Erg11_A0A2H1A309,132,Y,F,Itraconazole
+Candidozyma_auris,Erg11_A0A2H1A309,132,Y,F,Micafungin
+Candidozyma_auris,Erg11_A0A2H1A309,132,Y,F,Posaconazole
+Candidozyma_auris,Erg11_A0A2H1A309,132,Y,F,Voriconazole
+Candidozyma_auris,Erg11_A0A2H1A309,143,K,R,Fluconazole
+Candidozyma_auris,Erg11_A0A2H1A309,143,K,R,Voriconazole
+Candidozyma_auris,Erg11_A0A2H1A309,177,K,R,Fluconazole
+Candidozyma_auris,Erg11_A0A2H1A309,177,K,R,Voriconazole
+Candidozyma_auris,Erg11_A0A2H1A309,225,D,N,Amphotericin B
+Candidozyma_auris,Erg11_A0A2H1A309,306,M,I,5-fluorocytosine
+Candidozyma_auris,Erg11_A0A2H1A309,306,M,I,Amphotericin B
+Candidozyma_auris,Erg11_A0A2H1A309,306,M,I,Anidulafungin
+Candidozyma_auris,Erg11_A0A2H1A309,306,M,I,Caspofungin
+Candidozyma_auris,Erg11_A0A2H1A309,306,M,I,Fluconazole
+Candidozyma_auris,Erg11_A0A2H1A309,306,M,I,Geldamycin
+Candidozyma_auris,Erg11_A0A2H1A309,306,M,I,Micafungin
+Candidozyma_auris,Erg11_A0A2H1A309,306,M,I,Posaconazole
+Candidozyma_auris,Erg11_A0A2H1A309,335,N,S,Fluconazole
+Candidozyma_auris,Erg11_A0A2H1A309,335,N,S,Voriconazole
+Candidozyma_auris,Erg11_A0A2H1A309,343,E,D,Fluconazole
+Candidozyma_auris,Erg11_A0A2H1A309,343,E,D,Voriconazole
+Candidozyma_auris,Erg11_A0A2H1A309,466,I,M,Fluconazole
+Candidozyma_auris,Erg11_A0A2H1A309,466,I,M,Voriconazole
+Candidozyma_auris,Erg11_A0A2H1A309,501,Y,H,Fluconazole
+Candidozyma_auris,Erg11_A0A2H1A309,501,Y,H,Voriconazole
+Candidozyma_auris,Erg11_A0A2H1A309,504,M,I,5-fluorocytosine
+Candidozyma_auris,Erg11_A0A2H1A309,504,M,I,Amphotericin B
+Candidozyma_auris,Erg11_A0A2H1A309,504,M,I,Anidulafungin
+Candidozyma_auris,Erg11_A0A2H1A309,504,M,I,Caspofungin
+Candidozyma_auris,Erg11_A0A2H1A309,504,M,I,Fluconazole
+Candidozyma_auris,Erg11_A0A2H1A309,504,M,I,Geldamycin
+Candidozyma_auris,Erg11_A0A2H1A309,504,M,I,Micafungin
+Candidozyma_auris,Erg11_A0A2H1A309,504,M,I,Posaconazole
+Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,5-fluorocytosine
+Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Amphotericin B
+Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Anidulafungin
+Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Caspofungin
+Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Fluconazole
+Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Geldamycin
+Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Micafungin
+Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Posaconazole
+Candidozyma_auris,"Erg3,Fks1_A0A0L0P0U2",690,M,I,Amphotericin B
+Candidozyma_auris,"Erg3,Fks1_A0A0L0P0U2",690,M,I,Caspofungin
+Candidozyma_auris,"Erg3,Fks1_A0A0L0P0U2",690,M,I,Fluconazole
+Candidozyma_auris,"Erg3,Fks1_A0A2H0ZNC5",690,M,I,Amphotericin B
+Candidozyma_auris,"Erg3,Fks1_A0A2H0ZNC5",690,M,I,Caspofungin
+Candidozyma_auris,"Erg3,Fks1_A0A2H0ZNC5",690,M,I,Fluconazole
+Candidozyma_auris,Erg3_A0A2H0ZNC5,108,G,X,Amphotericin B
+Candidozyma_auris,Erg3_A0A2H0ZNC5,228,P,Q,Amphotericin B
+Candidozyma_auris,Erg6_A0A2H0ZDD8,100,R,fs,5-fluorocytosine
+Candidozyma_auris,Erg6_A0A2H0ZDD8,100,R,fs,Amphotericin B
+Candidozyma_auris,Erg6_A0A2H0ZDD8,100,R,fs,Anidulafungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,100,R,fs,Caspofungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,100,R,fs,Fluconazole
+Candidozyma_auris,Erg6_A0A2H0ZDD8,100,R,fs,Geldamycin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,100,R,fs,Micafungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,100,R,fs,Posaconazole
+Candidozyma_auris,Erg6_A0A2H0ZDD8,131,G,S,Amphotericin B
+Candidozyma_auris,Erg6_A0A2H0ZDD8,177,Y,X,5-fluorocytosine
+Candidozyma_auris,Erg6_A0A2H0ZDD8,177,Y,X,Amphotericin B
+Candidozyma_auris,Erg6_A0A2H0ZDD8,177,Y,X,Anidulafungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,177,Y,X,Caspofungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,177,Y,X,Fluconazole
+Candidozyma_auris,Erg6_A0A2H0ZDD8,177,Y,X,Geldamycin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,177,Y,X,Micafungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,177,Y,X,Posaconazole
+Candidozyma_auris,Erg6_A0A2H0ZDD8,238,S,X,Amphotericin B
+Candidozyma_auris,Erg6_A0A2H0ZDD8,311,F,fs,5-fluorocytosine
+Candidozyma_auris,Erg6_A0A2H0ZDD8,311,F,fs,Amphotericin B
+Candidozyma_auris,Erg6_A0A2H0ZDD8,311,F,fs,Anidulafungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,311,F,fs,Caspofungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,311,F,fs,Fluconazole
+Candidozyma_auris,Erg6_A0A2H0ZDD8,311,F,fs,Geldamycin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,311,F,fs,Micafungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,311,F,fs,Posaconazole
+Candidozyma_auris,Erg6_A0A2H0ZDD8,318,R,I,5-fluorocytosine
+Candidozyma_auris,Erg6_A0A2H0ZDD8,318,R,I,Amphotericin B
+Candidozyma_auris,Erg6_A0A2H0ZDD8,318,R,I,Anidulafungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,318,R,I,Caspofungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,318,R,I,Fluconazole
+Candidozyma_auris,Erg6_A0A2H0ZDD8,318,R,I,Geldamycin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,318,R,I,Micafungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,318,R,I,Posaconazole
+Candidozyma_auris,Erg6_A0A2H0ZDD8,329,E,X,5-fluorocytosine
+Candidozyma_auris,Erg6_A0A2H0ZDD8,329,E,X,Amphotericin B
+Candidozyma_auris,Erg6_A0A2H0ZDD8,329,E,X,Anidulafungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,329,E,X,Caspofungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,329,E,X,Fluconazole
+Candidozyma_auris,Erg6_A0A2H0ZDD8,329,E,X,Geldamycin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,329,E,X,Micafungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,329,E,X,Posaconazole
+Candidozyma_auris,Erg6_A0A2H0ZDD8,369,V,E,Amphotericin B
+Candidozyma_auris,Erg6_A0A2H0ZDD8,62,D,fs,Amphotericin B
+Candidozyma_auris,Erg6_A0A2H0ZDD8,77,Y,C,Amphotericin B
+Candidozyma_auris,Erg6_A0A2H0ZDD8,86,E,fs,5-fluorocytosine
+Candidozyma_auris,Erg6_A0A2H0ZDD8,86,E,fs,Amphotericin B
+Candidozyma_auris,Erg6_A0A2H0ZDD8,86,E,fs,Anidulafungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,86,E,fs,Caspofungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,86,E,fs,Fluconazole
+Candidozyma_auris,Erg6_A0A2H0ZDD8,86,E,fs,Geldamycin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,86,E,fs,Micafungin
+Candidozyma_auris,Erg6_A0A2H0ZDD8,86,E,fs,Posaconazole
+Candidozyma_auris,Erg6_A0A2H0ZDD8,97,R,fs,Amphotericin B
+Candidozyma_auris,Fks1_A0A0L0P0U2,1354,R,H,5-fluorocytosine
+Candidozyma_auris,Fks1_A0A0L0P0U2,1354,R,H,Amphotericin B
+Candidozyma_auris,Fks1_A0A0L0P0U2,1354,R,H,Anidulafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,1354,R,H,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,1354,R,H,Fluconazole
+Candidozyma_auris,Fks1_A0A0L0P0U2,1354,R,H,Itraconazole
+Candidozyma_auris,Fks1_A0A0L0P0U2,1354,R,H,Micafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,1354,R,H,Posaconazole
+Candidozyma_auris,Fks1_A0A0L0P0U2,1354,R,H,Voriconazole
+Candidozyma_auris,Fks1_A0A0L0P0U2,1354,R,Y,Anidulafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,1354,R,Y,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,1354,R,Y,Micafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,635,F,C,Anidulafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,635,F,C,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,635,F,C,Micafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,635,F,S,Anidulafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,635,F,S,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,635,F,S,Micafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,635,F,Y,Anidulafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,635,F,Y,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,635,F,Y,Micafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,635,F,del,Anidulafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,635,F,del,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,635,F,del,Micafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,639,S,F,Anidulafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,639,S,F,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,639,S,F,Micafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,639,S,P,Anidulafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,639,S,P,CD101
+Candidozyma_auris,Fks1_A0A0L0P0U2,639,S,P,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,639,S,P,Fluconazole
+Candidozyma_auris,Fks1_A0A0L0P0U2,639,S,P,Micafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,639,S,P,Voriconazole
+Candidozyma_auris,Fks1_A0A0L0P0U2,639,S,Y,Anidulafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,639,S,Y,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,639,S,Y,Micafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,642,D,H,Anidulafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,642,D,H,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,642,D,H,Micafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,642,D,Y,Anidulafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,642,D,Y,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,642,D,Y,Micafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,645,R,T,Anidulafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,645,R,T,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,645,R,T,Micafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,690,M,I,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,691,W,L,Anidulafungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,691,W,L,Caspofungin
+Candidozyma_auris,Fks1_A0A0L0P0U2,691,W,L,Micafungin
+Candidozyma_auris,Fur1_A0A0L0P8H5,211,F,I,5-fluorocytosine
+Candidozyma_auris,Hmg1_A0A2H0ZLV8,983,R,S,5-fluorocytosine
+Candidozyma_auris,Hmg1_A0A2H0ZLV8,983,R,S,Amphotericin B
+Candidozyma_auris,Hmg1_A0A2H0ZLV8,983,R,S,Anidulafungin
+Candidozyma_auris,Hmg1_A0A2H0ZLV8,983,R,S,Caspofungin
+Candidozyma_auris,Hmg1_A0A2H0ZLV8,983,R,S,Fluconazole
+Candidozyma_auris,Hmg1_A0A2H0ZLV8,983,R,S,Geldamycin
+Candidozyma_auris,Hmg1_A0A2H0ZLV8,983,R,S,Micafungin
+Candidozyma_auris,Hmg1_A0A2H0ZLV8,983,R,S,Posaconazole
+Candidozyma_auris,Mrs7_A0A2H0ZQW5,293,D,H,Fluconazole
+Candidozyma_auris,Mrs7_A0A2H0ZQW5,293,D,H,Voriconazole
+Candidozyma_auris,Mub1_XBA45627.1,765,Y,X,Fluconazole
+Candidozyma_auris,Mub1_XBA45627.1,765,Y,X,Voriconazole
+Candidozyma_auris,Ncp1_A0A0L0P0U8,368,Q,X,5-fluorocytosine
+Candidozyma_auris,Ncp1_A0A0L0P0U8,368,Q,X,Amphotericin B
+Candidozyma_auris,Ncp1_A0A0L0P0U8,368,Q,X,Anidulafungin
+Candidozyma_auris,Ncp1_A0A0L0P0U8,368,Q,X,Caspofungin
+Candidozyma_auris,Ncp1_A0A0L0P0U8,368,Q,X,Fluconazole
+Candidozyma_auris,Ncp1_A0A0L0P0U8,368,Q,X,Geldamycin
+Candidozyma_auris,Ncp1_A0A0L0P0U8,368,Q,X,Micafungin
+Candidozyma_auris,Ncp1_A0A0L0P0U8,368,Q,X,Posaconazole
+Candidozyma_auris,Ncp1_A0A0L0P0U8,451,T,fs,5-fluorocytosine
+Candidozyma_auris,Ncp1_A0A0L0P0U8,451,T,fs,Amphotericin B
+Candidozyma_auris,Ncp1_A0A0L0P0U8,451,T,fs,Anidulafungin
+Candidozyma_auris,Ncp1_A0A0L0P0U8,451,T,fs,Caspofungin
+Candidozyma_auris,Ncp1_A0A0L0P0U8,451,T,fs,Fluconazole
+Candidozyma_auris,Ncp1_A0A0L0P0U8,451,T,fs,Geldamycin
+Candidozyma_auris,Ncp1_A0A0L0P0U8,451,T,fs,Micafungin
+Candidozyma_auris,Ncp1_A0A0L0P0U8,451,T,fs,Posaconazole
+Candidozyma_auris,Ncp1_A0A0L0P0U8,587,Q,X,5-fluorocytosine
+Candidozyma_auris,Ncp1_A0A0L0P0U8,587,Q,X,Amphotericin B
+Candidozyma_auris,Ncp1_A0A0L0P0U8,587,Q,X,Anidulafungin
+Candidozyma_auris,Ncp1_A0A0L0P0U8,587,Q,X,Caspofungin
+Candidozyma_auris,Ncp1_A0A0L0P0U8,587,Q,X,Fluconazole
+Candidozyma_auris,Ncp1_A0A0L0P0U8,587,Q,X,Geldamycin
+Candidozyma_auris,Ncp1_A0A0L0P0U8,587,Q,X,Micafungin
+Candidozyma_auris,Ncp1_A0A0L0P0U8,587,Q,X,Posaconazole
+Candidozyma_auris,Tac1_A0A2H0ZHW2,188,V,A,Fluconazole
+Candidozyma_auris,Tac1_A0A2H0ZHW2,191,F,del,Fluconazole
+Candidozyma_auris,Tac1_A0A2H0ZHW2,214,F,S,Fluconazole
+Candidozyma_auris,Tac1_A0A2H0ZHW2,495,R,G,Fluconazole
+Candidozyma_auris,Tac1_A0A2H0ZHW2,640,A,V,Fluconazole
+Candidozyma_auris,Tac1_A0A2H0ZHW2,742,V,A,Fluconazole
+Candidozyma_auris,Ubr2_XBA49037.1,1275,H,P,Fluconazole
+Candidozyma_auris,Ubr2_XBA49037.1,1275,H,P,Voriconazole
+Candidozyma_auris,Ubr2_XBA49037.1,708,P,T,Fluconazole
+Candidozyma_auris,Ubr2_XBA49037.1,708,P,T,Voriconazole
+Candidozyma_auris,Upc2_A0A2H1A7H1,499,L,F,Fluconazole
+Candidozyma_auris,Upc2_A0A2H1A7H1,499,L,F,Voriconazole
+Candidozyma_auris,Upc2_A0A2H1A7H1,592,N,S,Fluconazole
+Candidozyma_auris,Upc2_A0A2H1A7H1,592,N,S,Voriconazole

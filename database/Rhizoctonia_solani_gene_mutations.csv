@@ -1,0 +1,6 @@
+species,gene,position,reference,mutation,fungicide
+Rhizoctonia_solani,Cyp51_CUA70491.1,406,N,S,Tebuconazole
+Rhizoctonia_solani,Cyp51_CUA70491.1,750,L,P,Tebuconazole
+Rhizoctonia_solani,Cyp51_CUA70491.1,793,H,R,Tebuconazole
+Rhizoctonia_solani,Cyp51_CUA70491.1,94,S,A,Tebuconazole
+Rhizoctonia_solani,SdhC_KAH7340525.1,48,F,L,Flutolanil

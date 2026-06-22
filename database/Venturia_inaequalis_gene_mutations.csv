@@ -1,0 +1,4 @@
+species,gene,position,reference,mutation,fungicide
+Venturia_inaequalis,Beta-tubulin_P41388,198,E,A,Benzimidazole
+Venturia_inaequalis,Beta-tubulin_P41388,240,L,F,Benzimidazole
+Venturia_inaequalis,Cytochrome b_O48334,143,G,A,Kresoxim-methyl

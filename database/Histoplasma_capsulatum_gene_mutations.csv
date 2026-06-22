@@ -1,0 +1,4 @@
+species,gene,position,reference,mutation,fungicide
+Histoplasma_capsulatum,Cyp51_Q68HC5,136,Y,F,Fluconazole
+Histoplasma_capsulatum,Erg11_Q68HC5,136,Y,F,Fluconazole
+Histoplasma_capsulatum,Erg11_Q68HC5,136,Y,F,Voriconazole

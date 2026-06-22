@@ -1,0 +1,6 @@
+species,gene,position,reference,mutation,fungicide
+Colletotrichum_acutatum,Beta-tubulin_A0ZT56,198,E,K,Benzimidazole
+Colletotrichum_acutatum,Cyp51A_A0A2R4G8L4,128,Y,H,Tebuconazole
+Colletotrichum_acutatum,Cyp51A_A0A2R4G8L4,207,T,M,Tebuconazole
+Colletotrichum_acutatum,Cytochrome b_A0A0G3FG48,129,F,L,Pyraclostrobin
+Colletotrichum_acutatum,Cytochrome b_A0A0G3FG48,143,G,A,Azoxystrobin

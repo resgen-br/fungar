@@ -1,0 +1,15 @@
+species,gene,position,reference,mutation,fungicide
+Pichia_kudriavzevii,Erg11_A9YUC7,140,Y,H,Fluconazole
+Pichia_kudriavzevii,Erg11_A9YUC7,140,Y,H,Voriconazole
+Pichia_kudriavzevii,Fks1_Q4U2W2,1361,R,G,Caspofungin
+Pichia_kudriavzevii,Fks1_Q4U2W2,655,F,C,Anidulafungin
+Pichia_kudriavzevii,Fks1_Q4U2W2,655,F,C,Caspofungin
+Pichia_kudriavzevii,Fks1_Q4U2W2,655,F,C,Micafungin
+Pichia_kudriavzevii,Fks1_Q4U2W2,655,F,L,Anidulafungin
+Pichia_kudriavzevii,Fks1_Q4U2W2,655,F,L,Caspofungin
+Pichia_kudriavzevii,Fks1_Q4U2W2,658,L,W,Caspofungin
+Pichia_kudriavzevii,Fks1_Q4U2W2,659,S,F,Anidulafungin
+Pichia_kudriavzevii,Fks1_Q4U2W2,659,S,F,Caspofungin
+Pichia_kudriavzevii,Fks1_Q4U2W2,659,S,P,Anidulafungin
+Pichia_kudriavzevii,Fks1_Q4U2W2,659,S,P,Caspofungin
+Pichia_kudriavzevii,Fks1_Q4U2W2,701,L,M,Caspofungin

@@ -1,0 +1,105 @@
+species,gene,position,reference,mutation,fungicide
+Colletotrichum_gloeosporioides,Beta-tubulin_P40904,198,E,A,Benomyl
+Colletotrichum_gloeosporioides,Beta-tubulin_P40904,198,E,A,Carbendazim
+Colletotrichum_gloeosporioides,Beta-tubulin_P40904,198,E,A,Thiabendazole
+Colletotrichum_gloeosporioides,Beta-tubulin_P40904,198,E,A,Thiophanate-methyl
+Colletotrichum_gloeosporioides,Beta-tubulin_P40904,200,F,Y,Benomyl
+Colletotrichum_gloeosporioides,Beta-tubulin_P40904,200,F,Y,Carbendazim
+Colletotrichum_gloeosporioides,Beta-tubulin_P40904,200,F,Y,Thiabendazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",10,P,P,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",10,P,P,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",10,P,P,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",132,T,A,Tebuconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",175,S,P,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",175,S,P,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",175,S,P,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",175,S,P,Tebuconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",24,L,V,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",24,L,V,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",24,L,V,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",328,I,V,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",328,I,V,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",340,A,S,Tebuconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",359,Q,H,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",359,Q,H,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",359,Q,H,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",359,Q,N,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",359,Q,N,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",359,Q,N,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",379,T,A,Tebuconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",387,V,I,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",387,V,I,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",387,V,I,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",391,F,Y,Tebuconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",397,T,I,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",397,T,I,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",397,T,I,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",518,N,K,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",518,N,K,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",58,L,V,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",58,L,V,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",58,L,V,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",58,L,V,Tebuconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",73,A,V,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",73,A,V,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",73,A,V,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",94,I,L,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",94,I,L,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",94,I,L,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",10,P,P,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",10,P,P,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",10,P,P,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",132,T,A,Tebuconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",175,S,P,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",175,S,P,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",175,S,P,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",175,S,P,Tebuconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",24,L,V,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",24,L,V,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",24,L,V,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",328,I,V,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",328,I,V,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",340,A,S,Tebuconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",359,Q,H,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",359,Q,H,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",359,Q,H,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",359,Q,N,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",359,Q,N,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",359,Q,N,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",379,T,A,Tebuconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",387,V,I,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",387,V,I,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",387,V,I,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",391,F,Y,Tebuconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",397,T,I,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",397,T,I,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",397,T,I,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",518,N,K,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",518,N,K,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",58,L,V,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",58,L,V,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",58,L,V,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",58,L,V,Tebuconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",73,A,V,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",73,A,V,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",73,A,V,Propiconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",94,I,L,Difenoconazole
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",94,I,L,Prochloraz
+Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",94,I,L,Propiconazole
+Colletotrichum_gloeosporioides,Cyp51A_WDE41094.1,175,S,P,Tebuconazole
+Colletotrichum_gloeosporioides,Cyp51A_WDE41094.1,18,V,F,Tebuconazole
+Colletotrichum_gloeosporioides,Cyp51A_WDE41094.1,341,P,A,Tebuconazole
+Colletotrichum_gloeosporioides,Cyp51A_WDE41094.1,58,L,V,Tebuconazole
+Colletotrichum_gloeosporioides,Cyp51A_WDE41095.1,175,S,P,Tebuconazole
+Colletotrichum_gloeosporioides,Cyp51A_WDE41095.1,18,V,F,Tebuconazole
+Colletotrichum_gloeosporioides,Cyp51A_WDE41095.1,341,P,A,Tebuconazole
+Colletotrichum_gloeosporioides,Cyp51A_WDE41095.1,58,L,V,Tebuconazole
+Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,129,F,L,Azoxystrobin
+Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,129,F,L,Benzothiostrobin
+Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,129,F,L,Kresoxim-methyl
+Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,129,F,L,Pyraclostrobin
+Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,143,G,A,Azoxystrobin
+Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,143,G,A,Benzothiostrobin
+Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,143,G,A,Kresoxim-methyl
+Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,143,G,A,Picoxystrobin
+Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,143,G,A,Pyraclostrobin

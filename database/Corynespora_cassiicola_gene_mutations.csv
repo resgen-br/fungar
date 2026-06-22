@@ -1,0 +1,36 @@
+species,gene,position,reference,mutation,fungicide
+Corynespora_cassiicola,Cytochrome b_A0A7T3U3S5,129,F,L,Azoxystrobin (with SHAM)
+Corynespora_cassiicola,Cytochrome b_A0A7T3U3S5,143,G,A,Azoxystrobin
+Corynespora_cassiicola,SdhB_D5MTG0,278,H,L,Boscalid
+Corynespora_cassiicola,SdhB_D5MTG0,278,H,L,Fluopyram
+Corynespora_cassiicola,SdhB_D5MTG0,278,H,L,Fluxapyroxad
+Corynespora_cassiicola,SdhB_D5MTG0,278,H,L,Isopyrazam
+Corynespora_cassiicola,SdhB_D5MTG0,278,H,R,Boscalid
+Corynespora_cassiicola,SdhB_D5MTG0,278,H,Y,Boscalid
+Corynespora_cassiicola,SdhB_D5MTG0,278,H,Y,Fluxapyroxad
+Corynespora_cassiicola,SdhB_D5MTG0,278,H,Y,Isopyrazam
+Corynespora_cassiicola,SdhB_D5MTG0,280,I,V,Boscalid
+Corynespora_cassiicola,SdhB_D5MTG0,280,I,V,Fluopyram
+Corynespora_cassiicola,SdhB_D5MTG0,280,I,V,Fluxapyroxad
+Corynespora_cassiicola,SdhB_D5MTG0,280,I,V,Isopyrazam
+Corynespora_cassiicola,SdhC_D5MTG3,134,H,R,Boscalid
+Corynespora_cassiicola,SdhC_D5MTG3,134,H,R,Fluopyram
+Corynespora_cassiicola,SdhC_D5MTG3,134,H,R,Fluxapyroxad
+Corynespora_cassiicola,SdhC_D5MTG3,134,H,R,Isopyrazam
+Corynespora_cassiicola,SdhC_D5MTG3,73,S,P,Boscalid
+Corynespora_cassiicola,SdhC_D5MTG3,73,S,P,Fluopyram
+Corynespora_cassiicola,SdhC_D5MTG3,73,S,P,Fluxapyroxad
+Corynespora_cassiicola,SdhC_D5MTG3,73,S,P,Isopyrazam
+Corynespora_cassiicola,SdhC_D5MTG3,75,N,S,Boscalid
+Corynespora_cassiicola,SdhC_D5MTG3,75,N,S,Fluopyram
+Corynespora_cassiicola,SdhC_D5MTG3,75,N,S,Fluxapyroxad
+Corynespora_cassiicola,SdhC_D5MTG3,75,N,S,Isopyrazam
+Corynespora_cassiicola,SdhD_D5MTG5,109,G,V,Boscalid
+Corynespora_cassiicola,SdhD_D5MTG5,109,G,V,Fluopyram
+Corynespora_cassiicola,SdhD_D5MTG5,109,G,V,Fluxapyroxad
+Corynespora_cassiicola,SdhD_D5MTG5,109,G,V,Isopyrazam
+Corynespora_cassiicola,SdhD_D5MTG5,89,S,P,Boscalid
+Corynespora_cassiicola,SdhD_D5MTG5,95,D,E,Boscalid
+Corynespora_cassiicola,SdhD_D5MTG5,95,D,E,Fluopyram
+Corynespora_cassiicola,SdhD_D5MTG5,95,D,E,Fluxapyroxad
+Corynespora_cassiicola,SdhD_D5MTG5,95,D,E,Isopyrazam

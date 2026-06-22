@@ -1,0 +1,6 @@
+species,gene,position,reference,mutation,fungicide
+Aspergillus_oryzae,SdhB_Q2TWM0,249,H,L,Carboxin
+Aspergillus_oryzae,SdhB_Q2TWM0,249,H,N,Carboxin
+Aspergillus_oryzae,SdhB_Q2TWM0,249,H,Y,Carboxin
+Aspergillus_oryzae,SdhC_Q2U3V9,90,T,I,Carboxin
+Aspergillus_oryzae,SdhD_UNKNOWN,124,D,E,Carboxin

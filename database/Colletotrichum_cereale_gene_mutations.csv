@@ -1,0 +1,6 @@
+species,gene,position,reference,mutation,fungicide
+Colletotrichum_cereale,Beta-tubulin_P22014,198,E,A,Carbendazim
+Colletotrichum_cereale,Beta-tubulin_P22014,198,E,K,Benzimidazole
+Colletotrichum_cereale,Beta-tubulin_P22014,200,F,Y,Thiophanate-methyl
+Colletotrichum_cereale,Cytochrome b_ACO34843.1,129,F,L,Azoxystrobin
+Colletotrichum_cereale,Cytochrome b_ACO34843.1,143,G,A,Azoxystrobin

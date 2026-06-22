@@ -1,0 +1,4 @@
+species,gene,position,reference,mutation,fungicide
+Fusarium_pseudograminearum,SdhB_UNKNOWN,248,H,Y,Cyclobutrifluram
+Fusarium_pseudograminearum,SdhC_K3UP39,83,A,V,Cyclobutrifluram
+Fusarium_pseudograminearum,SdhC_K3UP39,86,R,K,Cyclobutrifluram

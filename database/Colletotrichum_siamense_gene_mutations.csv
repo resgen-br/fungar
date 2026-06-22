@@ -1,0 +1,6 @@
+species,gene,position,reference,mutation,fungicide
+Colletotrichum_siamense,Beta-tubulin_AFP34674.1,198,E,A,Thiophanate-methyl
+Colletotrichum_siamense,Beta-tubulin_AXL97514.1,200,F,Y,Carbendazim
+Colletotrichum_siamense,Beta-tubulin_AXL97629.1,198,E,A,Azoxystrobin
+Colletotrichum_siamense,Beta-tubulin_AXL97629.1,198,E,A,Thiophanate-methyl
+Colletotrichum_siamense,Cytochrome b_A0A0H3VG98,143,G,A,Azoxystrobin

@@ -1,0 +1,18 @@
+species,gene,position,reference,mutation,fungicide
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,121,I,M,Terbinafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,237,V,I,Terbinafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,393,L,F,Terbinafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,393,L,S,Terbinafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,397,F,I,Terbinafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,397,F,L,Butenafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,397,F,L,Naftifine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,397,F,L,Terbinafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,397,F,L,Tolnaftate
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,397,F,V,Terbinafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,415,F,I,Terbinafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,415,F,S,Terbinafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,415,F,V,Terbinafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,437,L,P,Terbinafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,440,H,Y,Terbinafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,479,I,V,Terbinafine
+Trichophyton_rubrum,Squalene epoxidase_Q4JEY0,484,F,Y,Terbinafine

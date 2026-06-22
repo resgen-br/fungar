@@ -1,0 +1,12 @@
+species,gene,position,reference,mutation,fungicide
+Kluyveromyces_marxianus,Fks1_W0TDH9,641,F,del,Anidulafungin
+Kluyveromyces_marxianus,Fks1_W0TDH9,641,F,del,Caspofungin
+Kluyveromyces_marxianus,Fks1_W0TDH9,641,F,del,Micafungin
+Kluyveromyces_marxianus,Fks1_W0TDH9,651,F,S,Anidulafungin
+Kluyveromyces_marxianus,Fks1_W0TDH9,651,F,S,Caspofungin
+Kluyveromyces_marxianus,Fks1_W0TDH9,655,S,P,Anidulafungin
+Kluyveromyces_marxianus,Fks1_W0TDH9,655,S,P,Caspofungin
+Kluyveromyces_marxianus,Fks1_W0TDH9,655,S,P,Micafungin
+Kluyveromyces_marxianus,Fks1_W0TDH9,657,R,G,Anidulafungin
+Kluyveromyces_marxianus,Fks1_W0TDH9,657,R,G,Caspofungin
+Kluyveromyces_marxianus,Fks1_W0TDH9,657,R,G,Micafungin
