@@ -17,7 +17,6 @@ species-specific mutation databases to call known resistance variants.
 - **New:** Outputs a self-contained **HTML report** with tables, charts, and interpretation notes
 - **New:** Runtime and peak-memory tracking per alignment step
 - **New:** Extended output columns: `Subject_Accession`, `Source` (clinical/agricultural), `Strand`
-- **New:** Heterozygosity warning for mutations supported by <50% of reads
 - Configurable ORF length, genetic code, query coverage, and identity thresholds
 
 ## Installation
@@ -49,10 +48,10 @@ Input (choose one):
 Options:
   -d      Directory containing protein DB (.dmnd) + mutation CSV
   -c      CPU threads (default: 4)
-  -orf    Minimum ORF length in nt (default: 50)
+  -orf    Minimum ORF length in nt (default: 10)
   -code   Genetic code table (default: 1; standard)
   --min-query-cover  Minimum query coverage % (default: 10)
-  --min-pident       Minimum % identity (default: 0)
+  --min-pident       Minimum % identity (default: 95)
   --min-support      Minimum reads supporting a mutation to report it (default: 1)
   --require-both-mates  Require both mates to align to reference (true/false, default: true)
   --keep             Keep intermediate alignment files
@@ -88,7 +87,6 @@ It includes:
 - Resistance mutation table colour-coded by drug class (azoles, echinocandins, polyenes, QoI)
 - Bar chart of read support per mutation
 - Collapsed per-read alignment table
-- Interpretation notes (heterozygosity, false-positive caveats, boundary cases)
 - Run parameters footer
 
 The file is fully self-contained (no external dependencies at view-time) and can be
