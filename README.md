@@ -25,8 +25,8 @@ species-specific mutation databases to call known resistance variants.
 FUNGAR requires **DIAMOND 2.1.24** and **pandas** (Python 3). Tested on Ubuntu 24.04 LTS.
 
 ```bash
-# Recommended — install with Conda
-conda create -n fungar_env -c bioconda -c diamond=2.1.24 fungar
+# Recommended — install with Conda under a dedicated environment
+conda create -n fungar_env -c bioconda diamond=2.1.24 fungar
 conda activate fungar_env
 ```
 
