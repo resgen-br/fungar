@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # ============================================================
-# 🍄 FUNGAR v2.0
+# 🍄 FUNGAR v2.0.1
 # antiFUNGAl gene Resistance detection
 #
 # Henrique Antoniolli, Livia Kmetzsch, Charley Staats
@@ -11,13 +11,13 @@ set -euo pipefail
 # Repository: https://github.com/resgen-br/fungar
 # ============================================================
 
-FUNGAR_VERSION="2.0"
+FUNGAR_VERSION="2.0.1"
 
 #################################
 # Defaults
 #################################
 THREADS=4
-MIN_ORF=10
+MIN_ORF=20
 GENETIC_CODE=1
 MIN_QUERY_COVER=10
 MIN_PIDENT=95
@@ -60,12 +60,13 @@ Options:
   -c      CPU threads (default: 4)
   -orf    Minimum ORF length (default: 10)
   -code   Genetic code table (default: 1)
-  --min-query-cover  Minimum query coverage % (default: 10)
-  --min-pident       Minimum percent identity (default: 90)
+  --min-query-cover  Minimum query coverage % (default: 20)
+  --min-pident       Minimum percent identity (default: 95)
   --min-support      Minimum reads supporting a mutation to report it (default: 1)
   --require-both-mates  In paired-end mode, require both mates to align to reference (true/false, default: true)
   --keep             Keep intermediate files
   --list_species     List available species in the database and exit
+  -v, --version      Show version
   -h, --help         Show this help
 
 Example:
@@ -96,6 +97,7 @@ while [[ $# -gt 0 ]]; do
         --require-both-mates) REQUIRE_BOTH_MATES="$2"; shift 2 ;;
         --keep) KEEP=true; shift ;;
         --list_species) LIST_SPECIES=true; shift ;;
+        -v|--version) echo "FUNGAR v${FUNGAR_VERSION}"; exit 0 ;;
         -h|--help) usage; exit 0 ;;
         *) echo "❌ Unknown option: $1"; usage; exit 1 ;;
     esac

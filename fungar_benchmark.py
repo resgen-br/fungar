@@ -237,6 +237,32 @@ def evaluate(planted: list, detected_df) -> dict:
     planted: list of (gene, position, mutation) tuples that were planted.
     detected_df: summary DataFrame from FUNGAR.
     Returns dict with TP, FP, FN, sensitivity, precision, f1.
+
+    Metric conventions
+    ------------------
+    True negatives are NOT defined in this mutation-only design: a run queries
+    only the mutation(s) of the gene under test, so there is no enumerable set
+    of "absent" calls. Specificity and any TN-dependent statistic (accuracy,
+    MCC) are therefore NOT computed here. False-positive behaviour is measured
+    separately by the paired wild-type run (see `fpr` in the caller).
+
+    F1 is computed from the counts directly, using the identity
+
+        F1 = 2TP / (2TP + FP + FN)
+
+    which is algebraically identical to 2PR/(P+R) whenever both P and R are
+    defined, but is ALSO defined when a mutation is missed with no spurious
+    call (TP = 0, FP = 0, FN = 1). The earlier formulation went through
+    precision, which is undefined in that case, so F1 became NaN precisely on
+    the rows where detection failed. Averaging over non-NaN rows then made F1
+    conditional on detection while sensitivity remained unconditional, which is
+    why an F1 of 0.969 could be reported alongside a recall of 0.502 -- a
+    combination that is arithmetically impossible (it would require a precision
+    of 13.7). A missed mutation now scores F1 = 0, as it should.
+
+    `precision` is left as NaN when the run made no call at all (TP + FP = 0),
+    since precision genuinely has no value there; use the micro-aggregated
+    precision from `micro_average()` for reporting.
     """
     if detected_df.empty:
         detected_set = set()
@@ -251,15 +277,46 @@ def evaluate(planted: list, detected_df) -> dict:
     TP = len(planted_set & detected_set)
     FN = len(planted_set - detected_set)
     FP = len(detected_set - planted_set)
-    TN = 0   # undefined in mutation-only mode; use WT run for specificity
 
     sensitivity = TP / (TP + FN) if (TP + FN) > 0 else float('nan')
     precision   = TP / (TP + FP) if (TP + FP) > 0 else float('nan')
-    f1 = (2 * sensitivity * precision / (sensitivity + precision)
-          if (sensitivity + precision) > 0 else float('nan'))
+
+    f1_denom = 2 * TP + FP + FN
+    f1 = (2 * TP / f1_denom) if f1_denom > 0 else float('nan')
 
     return dict(TP=TP, FP=FP, FN=FN,
                 sensitivity=sensitivity, precision=precision, f1=f1)
+
+
+def micro_average(rows: list) -> dict:
+    """
+    Micro-aggregate (corpus-level) metrics over a list of per-run result dicts.
+
+    Sums TP, FP and FN across every mutation, depth and replicate, then derives
+    precision, recall and F1 from those totals. This is the convention that
+    should be quoted in a manuscript: all three metrics are computed over the
+    same set of observations, so they are mutually consistent by construction.
+
+    Returns micro_precision, micro_recall, micro_f1, plus a macro_f1 (the mean
+    of the per-run F1 values, misses scoring 0) for comparison. macro_f1 and
+    micro_f1 answer different questions and will differ; report one, name it,
+    and do not mix them.
+    """
+    TP = sum(r['TP'] for r in rows)
+    FP = sum(r['FP'] for r in rows)
+    FN = sum(r['FN'] for r in rows)
+
+    micro_p = TP / (TP + FP) if (TP + FP) > 0 else float('nan')
+    micro_r = TP / (TP + FN) if (TP + FN) > 0 else float('nan')
+    denom   = 2 * TP + FP + FN
+    micro_f1 = (2 * TP / denom) if denom > 0 else float('nan')
+
+    f1_vals = [r['f1'] for r in rows if r['f1'] == r['f1']]
+    macro_f1 = sum(f1_vals) / len(f1_vals) if f1_vals else float('nan')
+
+    return dict(TP=TP, FP=FP, FN=FN, n_runs=len(rows),
+                micro_precision=micro_p, micro_recall=micro_r,
+                micro_f1=micro_f1, macro_f1=macro_f1)
 
 
 # ---------------------------------------------------------------------------
@@ -302,6 +359,13 @@ def build_benchmark_html(rows: list, species: str, depths: list,
         avg_fpr  = sum(all_fpr) / len(all_fpr) if all_fpr else float('nan')
         avg_wall = sum(r['wall_s'] for r in rows) / len(rows)
 
+        # Micro-aggregated metrics: TP/FP/FN summed over every run, so
+        # precision, recall and F1 all describe the same set of observations.
+        micro = micro_average(rows)
+        micro_f1_v   = micro['micro_f1']
+        micro_prec_v = micro['micro_precision']
+        macro_f1_v   = micro['macro_f1']
+
         # Calculate optimum coverage: minimum depth where avg sensitivity >= 95% and avg FDR <= 5%
         optimum_depth = None
         depths_sorted = sorted(list(set(r['depth'] for r in rows)))
@@ -323,6 +387,7 @@ def build_benchmark_html(rows: list, species: str, depths: list,
         opt_depth_str = f"{fmt_depth(optimum_depth)}×" if optimum_depth is not None else "N/A"
     else:
         avg_sens = avg_fpr = avg_wall = float('nan')
+        micro_f1_v = micro_prec_v = macro_f1_v = float('nan')
         opt_depth_str = "N/A"
 
     html = f"""<!DOCTYPE html>
@@ -375,6 +440,8 @@ footer a{{color:var(--blue);text-decoration:none}}
 </div>
 <div class="cards">
   <div class="card"><div class="lbl">Avg Sensitivity</div><div class="val" style="color:var(--green)">{_fmt(avg_sens)}</div></div>
+  <div class="card"><div class="lbl">Micro Precision</div><div class="val" style="color:var(--blue)">{_fmt(micro_prec_v)}</div></div>
+  <div class="card"><div class="lbl">Micro F1</div><div class="val" style="color:var(--blue)">{_fmt(micro_f1_v)}</div></div>
   <div class="card"><div class="lbl">Avg FPR</div><div class="val" style="color:{'var(--green)' if avg_fpr==avg_fpr and avg_fpr<=0.1 else 'var(--red)'}">{_fmt(avg_fpr)}</div></div>
   <div class="card">
     <div class="lbl">Optimum Coverage</div>
@@ -389,7 +456,14 @@ footer a{{color:var(--blue);text-decoration:none}}
   Benchmarks use synthetic reads produced by reverse-translating database sequences.
   Real-world sensitivity may differ due to sequencing error, read length variation, indels,
   frameshifts, and homologous species cross-mapping.
-  FPR is computed from wild-type (no mutation planted) runs.
+  FPR is computed from wild-type (no mutation planted) runs, as the number of flagged
+  database entries divided by the number of entries evaluated. It is <em>not</em> a
+  specificity: true negatives are undefined in this mutation-only design, so specificity,
+  accuracy and MCC are not reported.
+  Per-run F1 uses 2TP/(2TP+FP+FN), so a missed mutation scores 0 rather than being dropped.
+  <strong>Micro F1</strong> and <strong>Micro Precision</strong> are computed from TP/FP/FN
+  totals summed over every run, making them directly comparable with Avg Sensitivity;
+  quote these when reporting a single headline number.
 </div>
 <div class="section-title"><span class="ic">📊</span> Per-Mutation Metrics</div>
 <div class="table-wrap">
@@ -559,6 +633,23 @@ def main():
             status = ("✅" if metrics_pos['sensitivity'] >= 0.8 else
                       "⚠" if metrics_pos['sensitivity'] > 0 else "❌")
             print(f"Sens={_fmt(metrics_pos['sensitivity'],2)}  FPR={_fmt(fpr,2)}  {status}")
+
+    # ---- micro-aggregated summary (the numbers to quote) ----
+    if rows:
+        micro = micro_average(rows)
+        all_s = [r['sensitivity'] for r in rows if r['sensitivity'] == r['sensitivity']]
+        macro_sens = sum(all_s) / len(all_s) if all_s else float('nan')
+        print("\n" + "=" * 62)
+        print("Aggregated metrics (micro = pooled TP/FP/FN over all runs)")
+        print("=" * 62)
+        print(f"  runs evaluated      : {micro['n_runs']}")
+        print(f"  TP / FP / FN        : {micro['TP']} / {micro['FP']} / {micro['FN']}")
+        print(f"  micro recall        : {_fmt(micro['micro_recall'], 4)}")
+        print(f"  micro precision     : {_fmt(micro['micro_precision'], 4)}")
+        print(f"  micro F1            : {_fmt(micro['micro_f1'], 4)}   <- quote this")
+        print(f"  macro F1 (per-run)  : {_fmt(micro['macro_f1'], 4)}")
+        print(f"  mean sensitivity    : {_fmt(macro_sens, 4)}")
+        print("  note: specificity is NOT computed (TN undefined); see FPR from WT runs.")
 
     # ---- write CSVs ----
     csv_path_out = os.path.join(args.outdir, f"benchmark_{args.species}.csv")
