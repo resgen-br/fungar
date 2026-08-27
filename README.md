@@ -58,6 +58,7 @@ Options:
   --require-both-mates  Require both mates to align to reference (true/false, default: true)
   --keep             Keep intermediate alignment files
   --list_species     List available species in the database and exit
+  -v, --version      Show version
   -h, --help         Show this help
 ```
 
