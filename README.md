@@ -2,7 +2,7 @@
 
 [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg)](https://anaconda.org/bioconda/fungar)
 
-[![Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22082510-blue)](https://doi.org/10.5281/zenodo.22082510)
+[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.22082510-blue)](https://doi.org/10.5281/zenodo.22082510)
 
 # FUNGAR: antiFUNGAl gene Resistance detection
 
