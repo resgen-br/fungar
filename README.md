@@ -1,4 +1,4 @@
-[![arXiv](https://img.shields.io/badge/arXiv-2602.16728-b31b1b.svg)](https://arxiv.org/abs/2602.16728)
+[![BMC Bioinformatics](https://img.shields.io/badge/BMC%20Bioinformatics-10.1186%2Fs12859--026--06636--4-blue)](https://link.springer.com/article/10.1186/s12859-026-06636-4)
 [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg)](https://anaconda.org/bioconda/fungar)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22082510-blue)](https://doi.org/10.5281/zenodo.22082510)
 
