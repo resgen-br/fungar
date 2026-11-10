@@ -15,12 +15,12 @@ species-specific mutation databases to call known resistance variants.
 - Detects known resistance mutations from CSV databases
 - **New in v2.0.2:** Verified reference-concordance check (`qseq != sseq` and `sseq == reference`) preventing reference-matching wild-type alleles from being falsely called as mutations
 - **New in v2.0.2:** Gap-aware coordinate mapping in DIAMOND alignments
-- **New:** Minimum read-support threshold (`--min-support`) to filter low-confidence calls
-- **New:** In paired-end mode, require both reads (mates) to align to the reference (`--require-both-mates`, default: true) to drastically reduce false positives
-- **New:** `--list_species` option to quickly list available species in the database
-- **New:** Outputs a self-contained **HTML report** with tables, charts, and interpretation notes
-- **New:** Runtime and peak-memory tracking per alignment step
-- **New:** Extended output columns: `Subject_Accession`, `Source` (clinical/agricultural), `Strand`
+- Minimum read-support threshold (`--min-support`) to filter low-confidence calls
+- In paired-end mode, require both reads (mates) to align to the reference (`--require-both-mates`, default: true) to drastically reduce false positives
+- `--list_species` option to quickly list available species in the database
+- Outputs a self-contained **HTML report** with tables, charts, and interpretation notes
+- Runtime and peak-memory tracking per alignment step
+- Extended output columns: `Subject_Accession`, `Source` (clinical/agricultural), `Strand`
 - Configurable ORF length, genetic code, query coverage, and identity thresholds
 
 ## Installation
