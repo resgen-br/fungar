@@ -569,7 +569,7 @@ def main():
     parser.add_argument("--results",    required=True, help="Path to *_results.csv")
     parser.add_argument("--summary",    required=True, help="Path to *_summary.csv")
     parser.add_argument("--outdir",     required=True, help="Output directory")
-    parser.add_argument("--version",    default="2.0", help="FUNGAR version string")
+    parser.add_argument("--version",    default="2.0.2", help="FUNGAR version string")
     parser.add_argument("--runtime",    default="N/A",  help="Pipeline runtime string")
     parser.add_argument("--params",     default="",     help="Run parameters string")
     args = parser.parse_args()

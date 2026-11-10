@@ -64,15 +64,9 @@ Nakaseomyces_glabratus,Fcy2L_Q6FLU1,342,E,X,5-fluorocytosine
 Nakaseomyces_glabratus,Fcy2L_Q6FLU1,396,Q,X,5-fluorocytosine
 Nakaseomyces_glabratus,Fcy2_Q6FPL2,246,G,S,5-fluorocytosine
 Nakaseomyces_glabratus,Fen1_Q6FKW2,155,M,T,Various
-Nakaseomyces_glabratus,Fks1 or Fks2_UNKNOWN,629,S,P,Anidulafungin
-Nakaseomyces_glabratus,Fks1 or Fks2_UNKNOWN,629,S,P,Caspofungin
-Nakaseomyces_glabratus,Fks1 or Fks2_UNKNOWN,629,S,P,Fluconazole
-Nakaseomyces_glabratus,Fks1 or Fks2_UNKNOWN,629,S,P,Micafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",1371,P,S,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",1374,D,N,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",1423,E,Q,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",625,F,L,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",632,D,G,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",651,A,T,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",659,F,L,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",660,L,S,Anidulafungin
@@ -82,20 +76,8 @@ Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",707,L,Q,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",714,L,F,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",717,I,N,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",785,H,N,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",1371,P,S,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",1374,D,N,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",1423,E,Q,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",625,F,L,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",632,D,G,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",651,A,T,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",659,F,L,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",660,L,S,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",666,D,Y,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",667,P,T,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",707,L,Q,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",714,L,F,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",717,I,N,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",785,H,N,Anidulafungin
 Nakaseomyces_glabratus,Fks1_Q6FTN8,1323,K,E,Anidulafungin
 Nakaseomyces_glabratus,Fks1_Q6FTN8,1323,K,E,Caspofungin
 Nakaseomyces_glabratus,Fks1_Q6FTN8,1323,K,E,Fluconazole
@@ -185,42 +167,18 @@ Nakaseomyces_glabratus,Fks1_Q6FTN8,995,A,T,Anidulafungin
 Nakaseomyces_glabratus,Fks1_Q6FTN8,995,A,T,Caspofungin
 Nakaseomyces_glabratus,Fks1_Q6FTN8,995,A,T,Fluconazole
 Nakaseomyces_glabratus,Fks1_Q6FTN8,995,A,T,Micafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",143,T,P,Amphotericin B
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",143,T,P,Anidulafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",143,T,P,Fluconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",143,T,P,Itraconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",143,T,P,Micafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",143,T,P,Voriconazole
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",663,S,A,Amphotericin B
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",663,S,A,Anidulafungin
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",663,S,A,Caspofungin
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",663,S,A,Fluconazole
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",663,S,A,Micafungin
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",663,S,A,Voriconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",91,V,I,Amphotericin B
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",91,V,I,Anidulafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",91,V,I,Fluconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",91,V,I,Itraconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",91,V,I,Micafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",91,V,I,Voriconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",98,L,S,Amphotericin B
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",98,L,S,Anidulafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",98,L,S,Fluconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",98,L,S,Itraconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",98,L,S,Micafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",98,L,S,Voriconazole
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",143,T,P,Amphotericin B
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",143,T,P,Anidulafungin
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",143,T,P,Fluconazole
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",143,T,P,Itraconazole
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",143,T,P,Micafungin
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",143,T,P,Voriconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",663,S,A,Amphotericin B
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",663,S,A,Anidulafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",663,S,A,Caspofungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",663,S,A,Fluconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",663,S,A,Micafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",663,S,A,Voriconazole
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",91,V,I,Amphotericin B
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",91,V,I,Anidulafungin
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",91,V,I,Fluconazole
@@ -438,14 +396,6 @@ Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",231,E,G,Itraconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",231,E,G,Micafungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",231,E,G,Posaconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",231,E,G,Voriconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Anidulafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Caspofungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Fluconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Isavuconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Itraconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Micafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Posaconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Voriconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Anidulafungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Caspofungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Fluconazole
@@ -454,22 +404,6 @@ Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Itraconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Micafungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Posaconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Voriconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Anidulafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Caspofungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Fluconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Isavuconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Itraconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Micafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Posaconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Voriconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Anidulafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Caspofungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Fluconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Isavuconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Itraconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Micafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Posaconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Voriconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Anidulafungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Caspofungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Fluconazole
@@ -478,14 +412,6 @@ Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Itraconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Micafungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Posaconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Voriconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Anidulafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Caspofungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Fluconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Isavuconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Itraconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Micafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Posaconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Voriconazole
 Nakaseomyces_glabratus,Msh2_Q6FQA9,156,I,L,Fluconazole
 Nakaseomyces_glabratus,Msh2_Q6FQA9,208,P,S,Echinocandin
 Nakaseomyces_glabratus,Msh2_Q6FQA9,208,P,S,Fluconazole
@@ -528,14 +454,6 @@ Nakaseomyces_glabratus,Pdr1_Q6FXU7,1082,D,G,CWHM-974
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,1082,D,G,Fluconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,1082,D,G,Fluphenazine
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,1083,E,Q,Fluconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Anidulafungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Caspofungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Fluconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Isavuconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Itraconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Micafungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Posaconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Voriconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,1088,G,E,Fluconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,1089,D,Y,Fluconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,1091,N,D,Fluconazole
@@ -560,14 +478,6 @@ Nakaseomyces_glabratus,Pdr1_Q6FXU7,139,L,I,Fluconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,139,L,I,Itraconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,139,L,I,Posaconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,139,L,I,Voriconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Anidulafungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Caspofungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Fluconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Isavuconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Itraconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Micafungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Posaconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Voriconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,T,P,Amphotericin B
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,T,P,Anidulafungin
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,T,P,Caspofungin
@@ -930,14 +840,6 @@ Nakaseomyces_glabratus,Pdr1_Q6FXU7,745,T,A,Fluconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,745,T,A,Posaconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,745,T,A,Voriconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,752,T,I,Fluconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Anidulafungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Caspofungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Fluconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Isavuconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Itraconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Micafungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Posaconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Voriconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,S,P,Amphotericin B
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,S,P,Anidulafungin
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,S,P,Caspofungin

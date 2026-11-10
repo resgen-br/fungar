@@ -515,7 +515,7 @@ def main():
     parser.add_argument('--max-mutations', type=int, default=None,
                         help="Maximum number of mutations to test (randomly sampled)")
     parser.add_argument('--seed',        type=int, default=42)
-    parser.add_argument('--version',     default='2.0')
+    parser.add_argument('--version',     default='2.0.2')
     args = parser.parse_args()
 
     rng = random.Random(args.seed)
@@ -567,7 +567,12 @@ def main():
             continue
 
         if prot[pos_0] != ref_aa:
-            print(f"   ℹ {gene} pos {pos_1}: expected ref {ref_aa}, found {prot[pos_0]} — proceeding anyway")
+            print(f"   ⚠ {gene} pos {pos_1}: expected ref {ref_aa}, found {prot[pos_0]} — skipping")
+            continue
+
+        if prot[pos_0] == mut_aa:
+            print(f"   ⚠ {gene} pos {pos_1}: mutation {mut_aa} matches reference sequence — skipping")
+            continue
 
         gene_parts = gene.split("_")
         gene_short = "_".join(gene_parts[:-1]) if len(gene_parts) > 1 else gene

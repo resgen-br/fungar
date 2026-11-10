@@ -1,8 +1,6 @@
 species,gene,position,reference,mutation,fungicide
-Magnaporthe_grisea,Cyp51A_A0A2U8N515,158,R,K,Epoxiconazole
-Magnaporthe_grisea,Cyp51A_A0A2U8N515,158,R,K,Tebuconazole
-Magnaporthe_grisea,Cyp51A_A0A2U8N515,466,L,Q,Epoxiconazole
-Magnaporthe_grisea,Cyp51A_A0A2U8N515,466,L,Q,Tebuconazole
+Magnaporthe_grisea,Cyp51A_A0A2U8N515,466,W,Q,Epoxiconazole
+Magnaporthe_grisea,Cyp51A_A0A2U8N515,466,W,Q,Tebuconazole
 Magnaporthe_grisea,Cytochrome b_Q85KP9,129,F,L,Azoxystrobin
 Magnaporthe_grisea,Cytochrome b_Q85KP9,129,F,L,Trifloxystrobin
 Magnaporthe_grisea,Cytochrome b_Q85KP9,137,G,R,Trifloxystrobin

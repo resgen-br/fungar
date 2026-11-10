@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # ============================================================
-# 🍄 FUNGAR v2.0.1
+# 🍄 FUNGAR v2.0.2
 # antiFUNGAl gene Resistance detection
 #
 # Henrique Antoniolli, Livia Kmetzsch, Charley Staats
@@ -11,7 +11,7 @@ set -euo pipefail
 # Repository: https://github.com/resgen-br/fungar
 # ============================================================
 
-FUNGAR_VERSION="2.0.1"
+FUNGAR_VERSION="2.0.2"
 
 #################################
 # Defaults
@@ -441,27 +441,39 @@ for aln in alignment_files:
             sstart  = int(fields[8])
             send    = int(fields[9])
             # fields[12] = qseq_translated: the READ translated to protein — check mutations here
-            # fields[13] = sseq: the reference protein (always has the reference AA, not the mutation)
+            # fields[13] = sseq: the reference protein (aligned subject sequence)
             qseq_t  = fields[12]   # translated query sequence — used for mutation detection
+            sseq    = fields[13]   # aligned reference protein sequence
 
             # Determine strand: qstart < qend → forward; qstart > qend → reverse
             strand = "forward" if qstart < qend else "reverse"
+
+            # Map subject coordinates (1-based) to alignment column index, accounting for gaps in sseq
+            subj_pos_to_idx = {}
+            curr_s = sstart
+            step_s = 1 if sstart <= send else -1
+            for idx_col, s_aa in enumerate(sseq):
+                if s_aa != "-":
+                    subj_pos_to_idx[curr_s] = idx_col
+                    curr_s += step_s
 
             gene_muts = mut[mut["gene"] == gene]
             for _, row in gene_muts.iterrows():
                 pos = int(row["position"])
 
                 # Check if diagnostic residue falls within the aligned region
-                if sstart <= send:
-                    if not (sstart <= pos <= send):
-                        continue   # residue outside aligned region — skip
-                    aa_pos = pos - sstart
-                else:
-                    if not (send <= pos <= sstart):
-                        continue
-                    aa_pos = sstart - pos
+                if pos not in subj_pos_to_idx:
+                    continue   # residue outside aligned region or gapped in subject — skip
+                aa_pos = subj_pos_to_idx[pos]
 
-                if 0 <= aa_pos < len(qseq_t) and qseq_t[aa_pos] == row["mutation"]:
+                if 0 <= aa_pos < len(qseq_t) and 0 <= aa_pos < len(sseq):
+                    read_aa = qseq_t[aa_pos]
+                    ref_aa  = sseq[aa_pos]
+                    # Require that:
+                    # 1. The aligned read amino acid matches the target mutation
+                    # 2. The aligned read amino acid differs from the aligned reference amino acid (never report reference matches as mutations)
+                    # 3. The aligned reference amino acid matches the expected reference in the CSV
+                    if read_aa == row["mutation"] and read_aa != ref_aa and ref_aa == row["reference"]:
                     # Extract subject accession from gene name (last dotted token)
                     gene_parts = gene.split("_")
                     subject_accession = gene_parts[-1] if len(gene_parts) > 1 else gene

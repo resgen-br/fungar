@@ -2,3 +2,5 @@
 __pycache__/
 *.pyc
 .DS_Store
+2.0.2/
+scratch/

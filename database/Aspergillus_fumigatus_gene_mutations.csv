@@ -2,14 +2,10 @@ species,gene,position,reference,mutation,fungicide
 Aspergillus_fumigatus,Beta-tubulin_Q4WA70,198,E,A,Azole(s)
 Aspergillus_fumigatus,Beta-tubulin_Q4WA70,198,E,Q,Azole(s)
 Aspergillus_fumigatus,Beta-tubulin_Q4WA70,200,F,Y,Azole(s)
-Aspergillus_fumigatus,Beta-tubulin_Q4WA70,219,F,Y,Benomyl
-Aspergillus_fumigatus,Cox10_Q4WP81,243,R,Q,Bifonazole
-Aspergillus_fumigatus,Cox10_Q4WP81,243,R,Q,Itraconazole
-Aspergillus_fumigatus,Cox10_Q4WP81,243,R,Q,Voriconazole
-Aspergillus_fumigatus,Cox7C_UNKNOWN,56,W,X,Itraconazole
-Aspergillus_fumigatus,Cox7C_UNKNOWN,56,W,X,Posaconazole
-Aspergillus_fumigatus,Cox7C_UNKNOWN,56,W,X,Terbinafine
-Aspergillus_fumigatus,Cox7C_UNKNOWN,56,W,X,Voriconazole
+Aspergillus_fumigatus,Beta-tubulin_Q4WA70,219,S,Y,Benomyl
+Aspergillus_fumigatus,Cox10_Q4WP81,243,N,Q,Bifonazole
+Aspergillus_fumigatus,Cox10_Q4WP81,243,N,Q,Itraconazole
+Aspergillus_fumigatus,Cox10_Q4WP81,243,N,Q,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,121,Y,F,Amphotericin B
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,121,Y,F,Azole(s)
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,121,Y,F,Bromuconazole
@@ -46,18 +42,10 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,141,Q,H,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,141,Q,H,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,147,H,Y,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,147,H,Y,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,I,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,I,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,I,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,I,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,I,Isavuconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,I,Itraconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,I,Posaconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,I,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,M,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,M,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,M,Posaconazole
@@ -109,40 +97,32 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,220,M,V,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,220,M,W,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,220,M,W,Posaconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,220,M,W,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,K,Fluconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,K,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,K,Ketoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,K,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,V,Fluconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,V,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,V,Ketoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,V,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,K,Fluconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,K,Itraconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,K,Ketoconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,K,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,V,Fluconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,V,Itraconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,V,Ketoconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,V,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,242,I,V,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,242,I,V,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,242,I,V,Posaconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,242,I,V,Tebuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,242,I,V,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Bromuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Epoxiconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Imazalil
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Propiconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,V,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,V,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Bromuconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Difenoconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Epoxiconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Imazalil
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Isavuconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Itraconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Posaconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Prochloraz
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Propiconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Tebuconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,V,Itraconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,V,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,N,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,N,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,N,Posaconazole
@@ -150,14 +130,6 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,N,Tebuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,N,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,254,G,V,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,254,G,V,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,E,D,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,E,D,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,E,D,Posaconazole
@@ -176,11 +148,6 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,262,D,Y,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,263,M,I,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,263,M,I,Posaconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,263,M,I,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,266,I,N,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,266,I,N,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,266,I,N,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,284,A,A,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,284,A,A,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,284,A,T,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,284,A,T,Posaconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,284,A,T,Voriconazole
@@ -220,33 +187,14 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,297,S,T,Ravuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,297,S,T,Tebuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,297,S,T,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,301,I,T,Fluconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,339,L,L,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,339,L,L,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,363,S,P,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,364,I,V,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,393,S,S,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,394,P,L,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,424,I,V,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,424,I,V,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,424,I,V,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,G,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,G,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,424,E,V,Isavuconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,424,E,V,Posaconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,424,E,V,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,K,G,Itraconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,K,G,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,K,E,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,K,E,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,K,E,Posaconazole
@@ -280,22 +228,6 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,448,G,S,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,448,G,S,Miconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,448,G,S,Posaconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,448,G,S,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,Y,F,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,Y,F,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,Y,F,Posaconazole
@@ -360,17 +292,8 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,65,R,K,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,65,R,K,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,65,R,K,Posaconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,65,R,K,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,72,Y,F,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,88,Q,H,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,88,Q,H,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,9,A,T,Bromuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,9,A,T,Difenoconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,9,A,T,Epoxiconazole
@@ -404,7 +327,6 @@ Aspergillus_fumigatus,Cyp51B_E9QY26,149,F,V,Itraconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,149,F,V,Posaconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,149,F,V,Voriconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,177,S,F,Itraconazole
-Aspergillus_fumigatus,Cyp51B_E9QY26,178,P,P,Itraconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,383,P,L,Isavuconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,383,P,L,Itraconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,383,P,L,Posaconazole
@@ -422,7 +344,6 @@ Aspergillus_fumigatus,Cyp51B_E9QY26,82,K,Q,Isavuconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,82,K,Q,Itraconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,82,K,Q,Posaconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,82,K,Q,Voriconazole
-Aspergillus_fumigatus,Cytochrome b_H9CJQ0,119,I,V,Azole(s)
 Aspergillus_fumigatus,Cytochrome b_H9CJQ0,129,F,L,Azole(s)
 Aspergillus_fumigatus,Cytochrome b_H9CJQ0,143,G,A,Azole(s)
 Aspergillus_fumigatus,Cytochrome b_H9CJQ0,143,G,A,Azoxystrobin
@@ -430,14 +351,14 @@ Aspergillus_fumigatus,Fks1_Q4WLT4,53,S,G,Caspofungin
 Aspergillus_fumigatus,Fks1_Q4WLT4,53,S,G,Micafungin
 Aspergillus_fumigatus,Fks1_Q4WLT4,675,F,S,Caspofungin
 Aspergillus_fumigatus,Fks1_Q4WLT4,675,F,S,Micafungin
-Aspergillus_fumigatus,Fks1_Q4WLT4,678,S,Y,Caspofungin
+Aspergillus_fumigatus,Fks1_Q4WLT4,678,L,Y,Caspofungin
 Aspergillus_fumigatus,HapE_Q4WDM9,88,P,L,Isavuconazole
 Aspergillus_fumigatus,HapE_Q4WDM9,88,P,L,Itraconazole
 Aspergillus_fumigatus,HapE_Q4WDM9,88,P,L,Posaconazole
 Aspergillus_fumigatus,HapE_Q4WDM9,88,P,L,Voriconazole
-Aspergillus_fumigatus,Hmg1_Q4WHZ1,1038,P,T,Itraconazole
-Aspergillus_fumigatus,Hmg1_Q4WHZ1,1038,P,T,Posaconazole
-Aspergillus_fumigatus,Hmg1_Q4WHZ1,1038,P,T,Voriconazole
+Aspergillus_fumigatus,Hmg1_Q4WHZ1,1038,G,T,Itraconazole
+Aspergillus_fumigatus,Hmg1_Q4WHZ1,1038,G,T,Posaconazole
+Aspergillus_fumigatus,Hmg1_Q4WHZ1,1038,G,T,Voriconazole
 Aspergillus_fumigatus,Hmg1_Q4WHZ1,105,E,K,Isavuconazole
 Aspergillus_fumigatus,Hmg1_Q4WHZ1,105,E,K,Itraconazole
 Aspergillus_fumigatus,Hmg1_Q4WHZ1,105,E,K,Posaconazole

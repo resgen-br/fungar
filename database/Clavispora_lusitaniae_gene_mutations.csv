@@ -1,11 +1,6 @@
 species,gene,position,reference,mutation,fungicide
 Clavispora_lusitaniae,Fcy1_A0SGL2,9,M,T,5-fluorocytosine
 Clavispora_lusitaniae,Fcy2_C4Y7J5,169,Q,X,5-fluorocytosine
-Clavispora_lusitaniae,Fks1_A0A202G441,1352,R,G,Caspofungin
-Clavispora_lusitaniae,Fks1_A0A202G441,634,F,V,Caspofungin
-Clavispora_lusitaniae,Fks1_A0A202G441,634,F,del,Caspofungin
-Clavispora_lusitaniae,Fks1_A0A202G441,638,S,P,Caspofungin
-Clavispora_lusitaniae,Fks1_A0A202G441,642,P,A,Caspofungin
 Clavispora_lusitaniae,Mrr1_A0A897TH20,1061,Y,X,Fluconazole
 Clavispora_lusitaniae,Mrr1_A0A897TH20,1066,R,S,Fluconazole
 Clavispora_lusitaniae,Mrr1_A0A897TH20,1126,Y,N,Fluconazole

@@ -35,24 +35,21 @@ Alternaria_solani,SdhD_S5UGK3,123,D,E,Penthiopyrad
 Alternaria_solani,SdhD_S5UGK3,133,H,R,Boscalid
 Arthroderma_vanbreuseghemii,Squalene epoxidase_A0A2R4H291,393,L,F,Terbinafine
 Arthroderma_vanbreuseghemii,Squalene epoxidase_A0A2R4H291,393,L,S,Terbinafine
-Arthroderma_vanbreuseghemii,Squalene epoxidase_A0A2R4H291,397,F,I,Terbinafine
-Arthroderma_vanbreuseghemii,Squalene epoxidase_A0A2R4H291,397,F,L,Terbinafine
+Arthroderma_vanbreuseghemii,Squalene epoxidase_A0A2R4H291,397,L,I,Terbinafine
 Arthroderma_vanbreuseghemii,Squalene epoxidase_A0A2R4H291,415,F,V,Terbinafine
 Arthroderma_vanbreuseghemii,Squalene epoxidase_A0A2R4H291,440,H,Y,Terbinafine
 Aspergillus_awamori,Cyp51A_G4WW93,97,K,T,Itraconazole
-Aspergillus_flavus,Cyp51A_B8N2C8,132,Y,N,Amphotericin B
-Aspergillus_flavus,Cyp51A_B8N2C8,132,Y,N,Itraconazole
-Aspergillus_flavus,Cyp51A_B8N2C8,132,Y,N,Posaconazole
-Aspergillus_flavus,Cyp51A_B8N2C8,132,Y,N,Ravuconazole
-Aspergillus_flavus,Cyp51A_B8N2C8,132,Y,N,Voriconazole
-Aspergillus_flavus,Cyp51A_B8N2C8,197,K,N,Amphotericin B
-Aspergillus_flavus,Cyp51A_B8N2C8,197,K,N,Itraconazole
-Aspergillus_flavus,Cyp51A_B8N2C8,197,K,N,Posaconazole
-Aspergillus_flavus,Cyp51A_B8N2C8,197,K,N,Ravuconazole
-Aspergillus_flavus,Cyp51A_B8N2C8,197,K,N,Voriconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,132,L,N,Amphotericin B
+Aspergillus_flavus,Cyp51A_B8N2C8,132,L,N,Itraconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,132,L,N,Posaconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,132,L,N,Ravuconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,132,L,N,Voriconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,197,E,N,Amphotericin B
+Aspergillus_flavus,Cyp51A_B8N2C8,197,E,N,Itraconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,197,E,N,Posaconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,197,E,N,Ravuconazole
+Aspergillus_flavus,Cyp51A_B8N2C8,197,E,N,Voriconazole
 Aspergillus_flavus,Cyp51A_B8N2C8,205,A,T,Voriconazole
-Aspergillus_flavus,Cyp51A_B8N2C8,214,P,L,Itraconazole
-Aspergillus_flavus,Cyp51A_B8N2C8,214,P,L,Posaconazole
 Aspergillus_flavus,Cyp51A_B8N2C8,282,D,E,Amphotericin B
 Aspergillus_flavus,Cyp51A_B8N2C8,282,D,E,Itraconazole
 Aspergillus_flavus,Cyp51A_B8N2C8,282,D,E,Posaconazole
@@ -69,27 +66,27 @@ Aspergillus_flavus,Cyp51A_B8N2C8,469,T,S,Itraconazole
 Aspergillus_flavus,Cyp51A_B8N2C8,469,T,S,Posaconazole
 Aspergillus_flavus,Cyp51A_B8N2C8,469,T,S,Ravuconazole
 Aspergillus_flavus,Cyp51A_B8N2C8,469,T,S,Voriconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,354,Q,K,Voriconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,399,H,P,Amphotericin B
-Aspergillus_flavus,Cyp51B_B8NFL5,399,H,P,Itraconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,399,H,P,Posaconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,399,H,P,Ravuconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,399,H,P,Voriconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,411,D,N,Amphotericin B
-Aspergillus_flavus,Cyp51B_B8NFL5,411,D,N,Itraconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,411,D,N,Posaconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,411,D,N,Ravuconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,411,D,N,Voriconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,454,T,P,Amphotericin B
-Aspergillus_flavus,Cyp51B_B8NFL5,454,T,P,Itraconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,454,T,P,Posaconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,454,T,P,Ravuconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,454,T,P,Voriconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,486,T,P,Amphotericin B
-Aspergillus_flavus,Cyp51B_B8NFL5,486,T,P,Itraconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,486,T,P,Posaconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,486,T,P,Ravuconazole
-Aspergillus_flavus,Cyp51B_B8NFL5,486,T,P,Voriconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,354,E,K,Voriconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,399,S,P,Amphotericin B
+Aspergillus_flavus,Cyp51B_B8NFL5,399,S,P,Itraconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,399,S,P,Posaconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,399,S,P,Ravuconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,399,S,P,Voriconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,411,L,N,Amphotericin B
+Aspergillus_flavus,Cyp51B_B8NFL5,411,L,N,Itraconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,411,L,N,Posaconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,411,L,N,Ravuconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,411,L,N,Voriconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,454,S,P,Amphotericin B
+Aspergillus_flavus,Cyp51B_B8NFL5,454,S,P,Itraconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,454,S,P,Posaconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,454,S,P,Ravuconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,454,S,P,Voriconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,486,E,P,Amphotericin B
+Aspergillus_flavus,Cyp51B_B8NFL5,486,E,P,Itraconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,486,E,P,Posaconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,486,E,P,Ravuconazole
+Aspergillus_flavus,Cyp51B_B8NFL5,486,E,P,Voriconazole
 Aspergillus_flavus,Cyp51C_B8NUK6,196,S,F,Itraconazole
 Aspergillus_flavus,Cyp51C_B8NUK6,196,S,F,Voriconazole
 Aspergillus_flavus,Cyp51C_B8NUK6,240,S,A,Amphotericin B
@@ -148,23 +145,19 @@ Aspergillus_flavus,Mdr1_B8NSJ1,120,T,K,Voriconazole
 Aspergillus_flavus,Mdr2_B8N0R2,162,F,L,Voriconazole
 Aspergillus_flavus,Mdr2_B8N0R2,377,Q,H,Itraconazole
 Aspergillus_flavus,Mdr2_B8N0R2,377,Q,H,Voriconazole
-Aspergillus_flavus,Mdr2_B8N0R2,566,G,E,Itraconazole
-Aspergillus_flavus,Mdr2_B8N0R2,566,G,E,Voriconazole
+Aspergillus_flavus,Mdr2_B8N0R2,566,K,E,Itraconazole
+Aspergillus_flavus,Mdr2_B8N0R2,566,K,E,Voriconazole
 Aspergillus_flavus,Mdr2_B8N0R2,578,R,S,Itraconazole
 Aspergillus_flavus,Mdr2_B8N0R2,578,R,S,Voriconazole
-Aspergillus_flavus,Mfs1_B8MYS7,434,A,S,Voriconazole
-Aspergillus_flavus,Mfs1_B8MYS7,7,E,G,Voriconazole
+Aspergillus_flavus,Mfs1_B8MYS7,434,V,S,Voriconazole
+Aspergillus_flavus,Mfs1_B8MYS7,7,V,G,Voriconazole
 Aspergillus_fumigatus,Beta-tubulin_Q4WA70,198,E,A,Azole(s)
 Aspergillus_fumigatus,Beta-tubulin_Q4WA70,198,E,Q,Azole(s)
 Aspergillus_fumigatus,Beta-tubulin_Q4WA70,200,F,Y,Azole(s)
-Aspergillus_fumigatus,Beta-tubulin_Q4WA70,219,F,Y,Benomyl
-Aspergillus_fumigatus,Cox10_Q4WP81,243,R,Q,Bifonazole
-Aspergillus_fumigatus,Cox10_Q4WP81,243,R,Q,Itraconazole
-Aspergillus_fumigatus,Cox10_Q4WP81,243,R,Q,Voriconazole
-Aspergillus_fumigatus,Cox7C_UNKNOWN,56,W,X,Itraconazole
-Aspergillus_fumigatus,Cox7C_UNKNOWN,56,W,X,Posaconazole
-Aspergillus_fumigatus,Cox7C_UNKNOWN,56,W,X,Terbinafine
-Aspergillus_fumigatus,Cox7C_UNKNOWN,56,W,X,Voriconazole
+Aspergillus_fumigatus,Beta-tubulin_Q4WA70,219,S,Y,Benomyl
+Aspergillus_fumigatus,Cox10_Q4WP81,243,N,Q,Bifonazole
+Aspergillus_fumigatus,Cox10_Q4WP81,243,N,Q,Itraconazole
+Aspergillus_fumigatus,Cox10_Q4WP81,243,N,Q,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,121,Y,F,Amphotericin B
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,121,Y,F,Azole(s)
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,121,Y,F,Bromuconazole
@@ -201,18 +194,10 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,141,Q,H,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,141,Q,H,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,147,H,Y,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,147,H,Y,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,I,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,I,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,I,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,I,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,M,V,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,I,Isavuconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,I,Itraconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,I,Posaconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,I,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,M,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,M,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,172,V,M,Posaconazole
@@ -264,40 +249,32 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,220,M,V,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,220,M,W,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,220,M,W,Posaconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,220,M,W,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,K,Fluconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,K,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,K,Ketoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,K,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,V,Fluconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,V,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,V,Ketoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,M,V,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,K,Fluconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,K,Itraconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,K,Ketoconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,K,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,V,Fluconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,V,Itraconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,V,Ketoconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,236,H,V,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,242,I,V,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,242,I,V,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,242,I,V,Posaconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,242,I,V,Tebuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,242,I,V,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Bromuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Epoxiconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Imazalil
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Propiconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,K,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,T,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,V,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,N,V,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Bromuconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Difenoconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Epoxiconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Imazalil
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Isavuconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Itraconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Posaconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Prochloraz
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Propiconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Tebuconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,K,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,V,Itraconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,V,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,N,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,N,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,N,Posaconazole
@@ -305,14 +282,6 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,N,Tebuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,248,T,N,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,254,G,V,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,254,G,V,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,D,E,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,E,D,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,E,D,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,255,E,D,Posaconazole
@@ -331,11 +300,6 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,262,D,Y,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,263,M,I,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,263,M,I,Posaconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,263,M,I,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,266,I,N,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,266,I,N,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,266,I,N,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,284,A,A,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,284,A,A,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,284,A,T,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,284,A,T,Posaconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,284,A,T,Voriconazole
@@ -375,33 +339,14 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,297,S,T,Ravuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,297,S,T,Tebuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,297,S,T,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,301,I,T,Fluconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,339,L,L,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,339,L,L,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,358,L,L,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,363,S,P,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,364,I,V,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,393,S,S,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,394,P,L,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,424,I,V,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,424,I,V,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,424,I,V,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,G,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,G,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,E,K,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,424,E,V,Isavuconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,424,E,V,Posaconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,424,E,V,Voriconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,K,G,Itraconazole
+Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,K,G,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,K,E,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,K,E,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,427,K,E,Posaconazole
@@ -435,22 +380,6 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,448,G,S,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,448,G,S,Miconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,448,G,S,Posaconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,448,G,S,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,454,C,C,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,F,Y,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,Y,F,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,Y,F,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,46,Y,F,Posaconazole
@@ -515,17 +444,8 @@ Aspergillus_fumigatus,Cyp51A_Q4WNT5,65,R,K,Isavuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,65,R,K,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,65,R,K,Posaconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,65,R,K,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,72,Y,F,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,88,Q,H,Itraconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,88,Q,H,Voriconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Amphotericin B
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Difenoconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Isavuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Itraconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Posaconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Prochloraz
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Tebuconazole
-Aspergillus_fumigatus,Cyp51A_Q4WNT5,89,G,G,Voriconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,9,A,T,Bromuconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,9,A,T,Difenoconazole
 Aspergillus_fumigatus,Cyp51A_Q4WNT5,9,A,T,Epoxiconazole
@@ -559,7 +479,6 @@ Aspergillus_fumigatus,Cyp51B_E9QY26,149,F,V,Itraconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,149,F,V,Posaconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,149,F,V,Voriconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,177,S,F,Itraconazole
-Aspergillus_fumigatus,Cyp51B_E9QY26,178,P,P,Itraconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,383,P,L,Isavuconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,383,P,L,Itraconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,383,P,L,Posaconazole
@@ -577,7 +496,6 @@ Aspergillus_fumigatus,Cyp51B_E9QY26,82,K,Q,Isavuconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,82,K,Q,Itraconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,82,K,Q,Posaconazole
 Aspergillus_fumigatus,Cyp51B_E9QY26,82,K,Q,Voriconazole
-Aspergillus_fumigatus,Cytochrome b_H9CJQ0,119,I,V,Azole(s)
 Aspergillus_fumigatus,Cytochrome b_H9CJQ0,129,F,L,Azole(s)
 Aspergillus_fumigatus,Cytochrome b_H9CJQ0,143,G,A,Azole(s)
 Aspergillus_fumigatus,Cytochrome b_H9CJQ0,143,G,A,Azoxystrobin
@@ -585,14 +503,14 @@ Aspergillus_fumigatus,Fks1_Q4WLT4,53,S,G,Caspofungin
 Aspergillus_fumigatus,Fks1_Q4WLT4,53,S,G,Micafungin
 Aspergillus_fumigatus,Fks1_Q4WLT4,675,F,S,Caspofungin
 Aspergillus_fumigatus,Fks1_Q4WLT4,675,F,S,Micafungin
-Aspergillus_fumigatus,Fks1_Q4WLT4,678,S,Y,Caspofungin
+Aspergillus_fumigatus,Fks1_Q4WLT4,678,L,Y,Caspofungin
 Aspergillus_fumigatus,HapE_Q4WDM9,88,P,L,Isavuconazole
 Aspergillus_fumigatus,HapE_Q4WDM9,88,P,L,Itraconazole
 Aspergillus_fumigatus,HapE_Q4WDM9,88,P,L,Posaconazole
 Aspergillus_fumigatus,HapE_Q4WDM9,88,P,L,Voriconazole
-Aspergillus_fumigatus,Hmg1_Q4WHZ1,1038,P,T,Itraconazole
-Aspergillus_fumigatus,Hmg1_Q4WHZ1,1038,P,T,Posaconazole
-Aspergillus_fumigatus,Hmg1_Q4WHZ1,1038,P,T,Voriconazole
+Aspergillus_fumigatus,Hmg1_Q4WHZ1,1038,G,T,Itraconazole
+Aspergillus_fumigatus,Hmg1_Q4WHZ1,1038,G,T,Posaconazole
+Aspergillus_fumigatus,Hmg1_Q4WHZ1,1038,G,T,Voriconazole
 Aspergillus_fumigatus,Hmg1_Q4WHZ1,105,E,K,Isavuconazole
 Aspergillus_fumigatus,Hmg1_Q4WHZ1,105,E,K,Itraconazole
 Aspergillus_fumigatus,Hmg1_Q4WHZ1,105,E,K,Posaconazole
@@ -703,7 +621,6 @@ Aspergillus_oryzae,SdhB_Q2TWM0,249,H,L,Carboxin
 Aspergillus_oryzae,SdhB_Q2TWM0,249,H,N,Carboxin
 Aspergillus_oryzae,SdhB_Q2TWM0,249,H,Y,Carboxin
 Aspergillus_oryzae,SdhC_Q2U3V9,90,T,I,Carboxin
-Aspergillus_oryzae,SdhD_UNKNOWN,124,D,E,Carboxin
 Aspergillus_terreus,Cyp51A_Q0CK67,217,M,I,Itraconazole
 Aspergillus_terreus,Cyp51A_Q0CK67,217,M,I,Voriconazole
 Aspergillus_tubingensis,Cyp51A_A0A1L9N048,140,A,V,Voriconazole
@@ -852,8 +769,6 @@ Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Oxa-3c
 Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Oxa-3d
 Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Pyracarbolid
 Botrytis_cinerea,SdhB_Q3ZMH5,272,H,Y,Thifluzamide
-Botrytis_cinerea,SdhB_Q3ZMH5,274,I,I,Boscalid
-Botrytis_cinerea,SdhB_Q3ZMH5,274,I,I,Fluopyram
 Botrytis_cinerea,SdhB_Q3ZMH5,274,I,V,Boscalid
 Botrytis_cinerea,SdhB_Q3ZMH5,274,I,V,Fluopyram
 Botrytis_cinerea,SdhD_D2IH01,132,H,R,Boscalid
@@ -883,17 +798,9 @@ Candida_albicans,Cap1_Q5AJU7,308,M,T,Posaconazole
 Candida_albicans,Cap1_Q5AJU7,308,M,T,Voriconazole
 Candida_albicans,"Cdr1,Cdr2,Erg11,Mdr1_P10613",114,A,V,Fluconazole
 Candida_albicans,"Cdr1,Cdr2,Erg11,Mdr1_P10613",145,F,L,Fluconazole
-Candida_albicans,"Cdr1,Cdr2,Erg11,Mdr1_P78595",114,A,V,Fluconazole
-Candida_albicans,"Cdr1,Cdr2,Erg11,Mdr1_P78595",145,F,L,Fluconazole
-Candida_albicans,"Cdr1,Cdr2,Erg11,Mdr1_Q5ABU7",114,A,V,Fluconazole
-Candida_albicans,"Cdr1,Cdr2,Erg11,Mdr1_Q5ABU7",145,F,L,Fluconazole
-Candida_albicans,"Cdr1,Cdr2,Erg11,Mdr1_Q5ANA3",114,A,V,Fluconazole
-Candida_albicans,"Cdr1,Cdr2,Erg11,Mdr1_Q5ANA3",145,F,L,Fluconazole
 Candida_albicans,"Cdr1,Cdr2,Erg11_P10613",266,E,D,Fluconazole
-Candida_albicans,"Cdr1,Cdr2,Erg11_P78595",266,E,D,Fluconazole
 Candida_albicans,"Cdr1,Cdr2,Erg11_Q5ANA3",266,E,D,Fluconazole
 Candida_albicans,"Cdr1,Erg11_P10613",437,V,I,Fluconazole
-Candida_albicans,"Cdr1,Erg11_Q5ANA3",437,V,I,Fluconazole
 Candida_albicans,Cdr1_Q5ANA3,1238,P,Q,Tacrolimus
 Candida_albicans,Cdr1_Q5ANA3,1288,G,C,Tacrolimus
 Candida_albicans,Cdr1_Q5ANA3,1347,A,V,Tacrolimus
@@ -970,16 +877,6 @@ Candida_albicans,Cyp51_P10613,464,G,S,Voriconazole
 Candida_albicans,Cyp51_P10613,471,I,T,Posaconazole
 Candida_albicans,Cyp51_P10613,488,V,I,Posaconazole
 Candida_albicans,Cyp51_P10613,488,V,I,Voriconazole
-Candida_albicans,"Erg11,Erg3,Tac1_A0A1D8PN96",132,Y,H,Fluconazole
-Candida_albicans,"Erg11,Erg3,Tac1_A0A1D8PN96",132,Y,H,Isavuconazole
-Candida_albicans,"Erg11,Erg3,Tac1_A0A1D8PN96",132,Y,H,Itraconazole
-Candida_albicans,"Erg11,Erg3,Tac1_A0A1D8PN96",132,Y,H,Posaconazole
-Candida_albicans,"Erg11,Erg3,Tac1_A0A1D8PN96",132,Y,H,Voriconazole
-Candida_albicans,"Erg11,Erg3,Tac1_A0A1D8PN96",72,F,L,Fluconazole
-Candida_albicans,"Erg11,Erg3,Tac1_A0A1D8PN96",72,F,L,Isavuconazole
-Candida_albicans,"Erg11,Erg3,Tac1_A0A1D8PN96",72,F,L,Itraconazole
-Candida_albicans,"Erg11,Erg3,Tac1_A0A1D8PN96",72,F,L,Posaconazole
-Candida_albicans,"Erg11,Erg3,Tac1_A0A1D8PN96",72,F,L,Voriconazole
 Candida_albicans,"Erg11,Erg3,Tac1_P10613",132,Y,H,Fluconazole
 Candida_albicans,"Erg11,Erg3,Tac1_P10613",132,Y,H,Isavuconazole
 Candida_albicans,"Erg11,Erg3,Tac1_P10613",132,Y,H,Itraconazole
@@ -990,47 +887,16 @@ Candida_albicans,"Erg11,Erg3,Tac1_P10613",72,F,L,Isavuconazole
 Candida_albicans,"Erg11,Erg3,Tac1_P10613",72,F,L,Itraconazole
 Candida_albicans,"Erg11,Erg3,Tac1_P10613",72,F,L,Posaconazole
 Candida_albicans,"Erg11,Erg3,Tac1_P10613",72,F,L,Voriconazole
-Candida_albicans,"Erg11,Erg3,Tac1_Q59VG6",132,Y,H,Fluconazole
-Candida_albicans,"Erg11,Erg3,Tac1_Q59VG6",132,Y,H,Isavuconazole
-Candida_albicans,"Erg11,Erg3,Tac1_Q59VG6",132,Y,H,Itraconazole
-Candida_albicans,"Erg11,Erg3,Tac1_Q59VG6",132,Y,H,Posaconazole
-Candida_albicans,"Erg11,Erg3,Tac1_Q59VG6",132,Y,H,Voriconazole
-Candida_albicans,"Erg11,Erg3,Tac1_Q59VG6",72,F,L,Fluconazole
-Candida_albicans,"Erg11,Erg3,Tac1_Q59VG6",72,F,L,Isavuconazole
-Candida_albicans,"Erg11,Erg3,Tac1_Q59VG6",72,F,L,Itraconazole
-Candida_albicans,"Erg11,Erg3,Tac1_Q59VG6",72,F,L,Posaconazole
-Candida_albicans,"Erg11,Erg3,Tac1_Q59VG6",72,F,L,Voriconazole
 Candida_albicans,"Erg11,Erg3_P10613",208,E,K,Fluconazole
 Candida_albicans,"Erg11,Erg3_P10613",208,E,K,Isavuconazole
 Candida_albicans,"Erg11,Erg3_P10613",208,E,K,Itraconazole
 Candida_albicans,"Erg11,Erg3_P10613",208,E,K,Posaconazole
 Candida_albicans,"Erg11,Erg3_P10613",208,E,K,Voriconazole
-Candida_albicans,"Erg11,Erg3_Q59VG6",208,E,K,Fluconazole
-Candida_albicans,"Erg11,Erg3_Q59VG6",208,E,K,Isavuconazole
-Candida_albicans,"Erg11,Erg3_Q59VG6",208,E,K,Itraconazole
-Candida_albicans,"Erg11,Erg3_Q59VG6",208,E,K,Posaconazole
-Candida_albicans,"Erg11,Erg3_Q59VG6",208,E,K,Voriconazole
 Candida_albicans,"Erg11,Mdr1_P10613",464,G,S,Fluconazole
 Candida_albicans,"Erg11,Mdr1_Q5ABU7",464,G,S,Fluconazole
 Candida_albicans,"Erg11,Mrr1_P10613",116,D,E,Fluconazole
-Candida_albicans,"Erg11,Mrr1_Q5A4G2",116,D,E,Fluconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",132,Y,H,Fluconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",132,Y,H,Isavuconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",132,Y,H,Itraconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",132,Y,H,Posaconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",132,Y,H,Voriconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",145,F,L,Fluconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",145,F,L,Itraconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",145,F,L,Posaconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",145,F,L,Voriconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",257,Y,H,Fluconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",257,Y,H,Itraconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",257,Y,H,Posaconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",257,Y,H,Voriconazole
 Candida_albicans,"Erg11,Tac1_A0A1D8PN96",290,S,C,Fluconazole
 Candida_albicans,"Erg11,Tac1_A0A1D8PN96",290,S,C,Itraconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",450,G,E,Fluconazole
-Candida_albicans,"Erg11,Tac1_A0A1D8PN96",450,G,E,Itraconazole
 Candida_albicans,"Erg11,Tac1_A0A1D8PN96",974,F,L,Fluconazole
 Candida_albicans,"Erg11,Tac1_A0A1D8PN96",974,F,L,Isavuconazole
 Candida_albicans,"Erg11,Tac1_A0A1D8PN96",974,F,L,Itraconazole
@@ -1049,15 +915,8 @@ Candida_albicans,"Erg11,Tac1_P10613",257,Y,H,Fluconazole
 Candida_albicans,"Erg11,Tac1_P10613",257,Y,H,Itraconazole
 Candida_albicans,"Erg11,Tac1_P10613",257,Y,H,Posaconazole
 Candida_albicans,"Erg11,Tac1_P10613",257,Y,H,Voriconazole
-Candida_albicans,"Erg11,Tac1_P10613",290,S,C,Fluconazole
-Candida_albicans,"Erg11,Tac1_P10613",290,S,C,Itraconazole
 Candida_albicans,"Erg11,Tac1_P10613",450,G,E,Fluconazole
 Candida_albicans,"Erg11,Tac1_P10613",450,G,E,Itraconazole
-Candida_albicans,"Erg11,Tac1_P10613",974,F,L,Fluconazole
-Candida_albicans,"Erg11,Tac1_P10613",974,F,L,Isavuconazole
-Candida_albicans,"Erg11,Tac1_P10613",974,F,L,Itraconazole
-Candida_albicans,"Erg11,Tac1_P10613",974,F,L,Posaconazole
-Candida_albicans,"Erg11,Tac1_P10613",974,F,L,Voriconazole
 Candida_albicans,Erg11_P10613,100,G,A,Clotrimazole
 Candida_albicans,Erg11_P10613,100,G,A,Fluconazole
 Candida_albicans,Erg11_P10613,100,G,A,Isavuconazole
@@ -8378,11 +8237,7 @@ Candida_albicans,Erg11_P10613,205,F,Y,Isavuconazole
 Candida_albicans,Erg11_P10613,205,F,Y,Itraconazole
 Candida_albicans,Erg11_P10613,205,F,Y,Posaconazole
 Candida_albicans,Erg11_P10613,205,F,Y,Voriconazole
-Candida_albicans,Erg11_P10613,205,Y,E,Fluconazole
-Candida_albicans,Erg11_P10613,205,Y,E,Itraconazole
-Candida_albicans,Erg11_P10613,205,Y,E,Voriconazole
 Candida_albicans,Erg11_P10613,21,Q,L,Fluconazole
-Candida_albicans,Erg11_P10613,220,T,L,Fluconazole
 Candida_albicans,Erg11_P10613,221,Y,H,Fluconazole
 Candida_albicans,Erg11_P10613,221,Y,H,Itraconazole
 Candida_albicans,Erg11_P10613,221,Y,H,Voriconazole
@@ -24195,7 +24050,6 @@ Candida_albicans,Fks1_A0A1D8PCT0,645,S,P,Itraconazole
 Candida_albicans,Fks1_A0A1D8PCT0,645,S,P,Micafungin
 Candida_albicans,Fks1_A0A1D8PCT0,645,S,P,Posaconazole
 Candida_albicans,Fks1_A0A1D8PCT0,645,S,P,Voriconazole
-Candida_albicans,Fks1_A0A1D8PCT0,645,S,S,Caspofungin
 Candida_albicans,Fks1_A0A1D8PCT0,645,S,Y,Anidulafungin
 Candida_albicans,Fks1_A0A1D8PCT0,645,S,Y,Caspofungin
 Candida_albicans,Fks1_A0A1D8PCT0,645,S,Y,Micafungin
@@ -24290,7 +24144,7 @@ Candida_albicans,Mrr1_Q5A4G2,893,W,R,Fluconazole
 Candida_albicans,Mrr1_Q5A4G2,896,T,I,Brefeldin A
 Candida_albicans,Mrr1_Q5A4G2,896,T,I,Cerulenin
 Candida_albicans,Mrr1_Q5A4G2,896,T,I,Fluconazole
-Candida_albicans,Mrr1_Q5A4G2,963,G,S,Fluconazole
+Candida_albicans,Mrr1_Q5A4G2,963,K,S,Fluconazole
 Candida_albicans,Mrr1_Q5A4G2,997,G,V,Brefeldin A
 Candida_albicans,Mrr1_Q5A4G2,997,G,V,Cerulenin
 Candida_albicans,Mrr1_Q5A4G2,997,G,V,Diamide
@@ -24530,7 +24384,6 @@ Candida_parapsilosis,Fks1_G8B820,703,L,F,Itraconazole
 Candida_parapsilosis,Fks1_G8B820,703,L,F,Micafungin
 Candida_parapsilosis,Fks1_G8B820,703,L,F,Posaconazole
 Candida_parapsilosis,Fks1_G8B820,703,L,F,Voriconazole
-Candida_parapsilosis,Mrr1_G8BAV4,1907,S,C,Fluconazole
 Candida_parapsilosis,Mrr1_G8BAV4,583,G,R,Fluconazole
 Candida_parapsilosis,Mrr1_G8BAV4,583,G,R,Isavuconazole
 Candida_parapsilosis,Mrr1_G8BAV4,583,G,R,Posaconazole
@@ -24577,9 +24430,9 @@ Candida_tropicalis,Erg3_N0A3T1,113,S,G,Voriconazole
 Candida_tropicalis,Erg3_N0A3T1,258,S,F,Voriconazole
 Candida_tropicalis,Fks1_B6S6L8,1368,I,S,Anidulafungin
 Candida_tropicalis,Fks1_B6S6L8,1368,I,S,Caspofungin
-Candida_tropicalis,Fks1_B6S6L8,30,S,P,Anidulafungin
-Candida_tropicalis,Fks1_B6S6L8,30,S,P,Caspofungin
-Candida_tropicalis,Fks1_B6S6L8,30,S,P,Micafungin
+Candida_tropicalis,Fks1_B6S6L8,30,Q,P,Anidulafungin
+Candida_tropicalis,Fks1_B6S6L8,30,Q,P,Caspofungin
+Candida_tropicalis,Fks1_B6S6L8,30,Q,P,Micafungin
 Candida_tropicalis,Fks1_B6S6L8,644,L,W,Caspofungin
 Candida_tropicalis,Fks1_B6S6L8,650,F,S,Anidulafungin
 Candida_tropicalis,Fks1_B6S6L8,650,F,S,Caspofungin
@@ -24587,43 +24440,13 @@ Candida_tropicalis,Fks1_B6S6L8,650,F,S,Micafungin
 Candida_tropicalis,Fks1_B6S6L8,654,S,P,Anidulafungin
 Candida_tropicalis,Fks1_B6S6L8,654,S,P,Caspofungin
 Candida_tropicalis,Fks1_B6S6L8,654,S,P,Micafungin
-Candida_tropicalis,Fks1_B6S6L8,76,F,S,Anidulafungin
-Candida_tropicalis,Fks1_B6S6L8,76,F,S,Caspofungin
-Candida_tropicalis,Fks1_B6S6L8,76,F,S,Micafungin
+Candida_tropicalis,Fks1_B6S6L8,76,Q,S,Anidulafungin
+Candida_tropicalis,Fks1_B6S6L8,76,Q,S,Caspofungin
+Candida_tropicalis,Fks1_B6S6L8,76,Q,S,Micafungin
 Candida_tropicalis,Mdr1_C5MAA0,133,E,D,Fluconazole
 Candida_tropicalis,Mdr1_C5MAA0,133,E,D,Voriconazole
 Candida_tropicalis,Mdr1_C5MAA0,189,A,V,Fluconazole
 Candida_tropicalis,Mdr1_C5MAA0,189,A,V,Voriconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",220,M,L,5-fluorocytosine
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",220,M,L,Fluconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",220,M,L,Itraconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",220,M,L,Posaconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",220,M,L,Voriconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",54,G,W,5-fluorocytosine
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",54,G,W,Fluconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",54,G,W,Itraconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",54,G,W,Posaconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H0ZDJ1",54,G,W,Voriconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",220,M,L,5-fluorocytosine
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",220,M,L,Fluconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",220,M,L,Itraconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",220,M,L,Posaconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",220,M,L,Voriconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",54,G,W,5-fluorocytosine
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",54,G,W,Fluconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",54,G,W,Itraconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",54,G,W,Posaconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A2H1A309",54,G,W,Voriconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",220,M,L,5-fluorocytosine
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",220,M,L,Fluconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",220,M,L,Itraconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",220,M,L,Posaconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",220,M,L,Voriconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",54,G,W,5-fluorocytosine
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",54,G,W,Fluconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",54,G,W,Itraconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",54,G,W,Posaconazole
-Candidozyma_auris,"Dhps,Erg11,Fcy1_A0A8F3AGN5",54,G,W,Voriconazole
 Candidozyma_auris,Erg10_A0A2H0ZNA8,244,T,N,5-fluorocytosine
 Candidozyma_auris,Erg10_A0A2H0ZNA8,244,T,N,Amphotericin B
 Candidozyma_auris,Erg10_A0A2H0ZNA8,244,T,N,Anidulafungin
@@ -24679,20 +24502,9 @@ Candidozyma_auris,Erg11_A0A2H1A309,504,M,I,Fluconazole
 Candidozyma_auris,Erg11_A0A2H1A309,504,M,I,Geldamycin
 Candidozyma_auris,Erg11_A0A2H1A309,504,M,I,Micafungin
 Candidozyma_auris,Erg11_A0A2H1A309,504,M,I,Posaconazole
-Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,5-fluorocytosine
-Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Amphotericin B
-Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Anidulafungin
-Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Caspofungin
-Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Fluconazole
-Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Geldamycin
-Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Micafungin
-Candidozyma_auris,Erg12_A0A2H0ZFI2,18,E,Q,Posaconazole
 Candidozyma_auris,"Erg3,Fks1_A0A0L0P0U2",690,M,I,Amphotericin B
 Candidozyma_auris,"Erg3,Fks1_A0A0L0P0U2",690,M,I,Caspofungin
 Candidozyma_auris,"Erg3,Fks1_A0A0L0P0U2",690,M,I,Fluconazole
-Candidozyma_auris,"Erg3,Fks1_A0A2H0ZNC5",690,M,I,Amphotericin B
-Candidozyma_auris,"Erg3,Fks1_A0A2H0ZNC5",690,M,I,Caspofungin
-Candidozyma_auris,"Erg3,Fks1_A0A2H0ZNC5",690,M,I,Fluconazole
 Candidozyma_auris,Erg3_A0A2H0ZNC5,108,G,X,Amphotericin B
 Candidozyma_auris,Erg3_A0A2H0ZNC5,228,P,Q,Amphotericin B
 Candidozyma_auris,Erg6_A0A2H0ZDD8,100,R,fs,5-fluorocytosine
@@ -24852,14 +24664,8 @@ Candidozyma_auris,Upc2_A0A2H1A7H1,592,N,S,Voriconazole
 Cercospora_beticola,Beta-tubulin_Q3KVN1,167,F,Y,Thiophanate-methyl
 Cercospora_beticola,Cytochrome b_K9M0C4,143,G,A,Pyraclostrobin
 Cercospora_beticola,Cytochrome b_K9M0C4,143,G,A,Trifloxystrobin
-Cercospora_sojina,Cytochrome b_UUJ36756.1,143,G,A,Azoxystrobin
 Clavispora_lusitaniae,Fcy1_A0SGL2,9,M,T,5-fluorocytosine
 Clavispora_lusitaniae,Fcy2_C4Y7J5,169,Q,X,5-fluorocytosine
-Clavispora_lusitaniae,Fks1_A0A202G441,1352,R,G,Caspofungin
-Clavispora_lusitaniae,Fks1_A0A202G441,634,F,V,Caspofungin
-Clavispora_lusitaniae,Fks1_A0A202G441,634,F,del,Caspofungin
-Clavispora_lusitaniae,Fks1_A0A202G441,638,S,P,Caspofungin
-Clavispora_lusitaniae,Fks1_A0A202G441,642,P,A,Caspofungin
 Clavispora_lusitaniae,Mrr1_A0A897TH20,1061,Y,X,Fluconazole
 Clavispora_lusitaniae,Mrr1_A0A897TH20,1066,R,S,Fluconazole
 Clavispora_lusitaniae,Mrr1_A0A897TH20,1126,Y,N,Fluconazole
@@ -24883,8 +24689,6 @@ Colletotrichum_acutatum,Cytochrome b_A0A0G3FG48,143,G,A,Azoxystrobin
 Colletotrichum_cereale,Beta-tubulin_P22014,198,E,A,Carbendazim
 Colletotrichum_cereale,Beta-tubulin_P22014,198,E,K,Benzimidazole
 Colletotrichum_cereale,Beta-tubulin_P22014,200,F,Y,Thiophanate-methyl
-Colletotrichum_cereale,Cytochrome b_ACO34843.1,129,F,L,Azoxystrobin
-Colletotrichum_cereale,Cytochrome b_ACO34843.1,143,G,A,Azoxystrobin
 Colletotrichum_fructicola,Beta-tubulin_L2G737,198,E,A,Carbendazim/Thiophanate-methyl
 Colletotrichum_fructicola,Beta-tubulin_L2G737,200,F,Y,Carbendazim
 Colletotrichum_fructicola,Cytochrome b_A0A0H3VG98,143,G,A,Azoxystrobin
@@ -24896,94 +24700,38 @@ Colletotrichum_gloeosporioides,Beta-tubulin_P40904,198,E,A,Thiophanate-methyl
 Colletotrichum_gloeosporioides,Beta-tubulin_P40904,200,F,Y,Benomyl
 Colletotrichum_gloeosporioides,Beta-tubulin_P40904,200,F,Y,Carbendazim
 Colletotrichum_gloeosporioides,Beta-tubulin_P40904,200,F,Y,Thiabendazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",10,P,P,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",10,P,P,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",10,P,P,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",132,T,A,Tebuconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",175,S,P,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",175,S,P,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",175,S,P,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",175,S,P,Tebuconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",24,L,V,Difenoconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",24,L,V,Prochloraz
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",24,L,V,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",328,I,V,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",328,I,V,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",340,A,S,Tebuconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",359,Q,H,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",359,Q,H,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",359,Q,H,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",359,Q,N,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",359,Q,N,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",359,Q,N,Propiconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",379,T,A,Tebuconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",387,V,I,Difenoconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",387,V,I,Prochloraz
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",387,V,I,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",391,F,Y,Tebuconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",397,T,I,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",397,T,I,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",397,T,I,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",518,N,K,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",518,N,K,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",58,L,V,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",58,L,V,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",58,L,V,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",58,L,V,Tebuconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",73,A,V,Difenoconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",73,A,V,Prochloraz
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",73,A,V,Propiconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",94,I,L,Difenoconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",94,I,L,Prochloraz
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41094.1",94,I,L,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",10,P,P,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",10,P,P,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",10,P,P,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",132,T,A,Tebuconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",175,S,P,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",175,S,P,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",175,S,P,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",175,S,P,Tebuconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",24,L,V,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",24,L,V,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",24,L,V,Propiconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",328,I,V,Difenoconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",328,I,V,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",340,A,S,Tebuconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",359,Q,H,Difenoconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",359,Q,H,Prochloraz
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",359,Q,H,Propiconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",359,Q,N,Difenoconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",359,Q,N,Prochloraz
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",359,Q,N,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",379,T,A,Tebuconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",387,V,I,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",387,V,I,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",387,V,I,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",391,F,Y,Tebuconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",397,T,I,Difenoconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",397,T,I,Prochloraz
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",397,T,I,Propiconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",518,N,K,Difenoconazole
 Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",518,N,K,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",58,L,V,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",58,L,V,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",58,L,V,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",58,L,V,Tebuconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",73,A,V,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",73,A,V,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",73,A,V,Propiconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",94,I,L,Difenoconazole
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",94,I,L,Prochloraz
-Colletotrichum_gloeosporioides,"Cyp51A,Cyp51B_WDE41095.1",94,I,L,Propiconazole
-Colletotrichum_gloeosporioides,Cyp51A_WDE41094.1,175,S,P,Tebuconazole
 Colletotrichum_gloeosporioides,Cyp51A_WDE41094.1,18,V,F,Tebuconazole
 Colletotrichum_gloeosporioides,Cyp51A_WDE41094.1,341,P,A,Tebuconazole
-Colletotrichum_gloeosporioides,Cyp51A_WDE41094.1,58,L,V,Tebuconazole
-Colletotrichum_gloeosporioides,Cyp51A_WDE41095.1,175,S,P,Tebuconazole
-Colletotrichum_gloeosporioides,Cyp51A_WDE41095.1,18,V,F,Tebuconazole
-Colletotrichum_gloeosporioides,Cyp51A_WDE41095.1,341,P,A,Tebuconazole
-Colletotrichum_gloeosporioides,Cyp51A_WDE41095.1,58,L,V,Tebuconazole
+Colletotrichum_gloeosporioides,Cyp51A_WDE41095.1,175,K,P,Tebuconazole
+Colletotrichum_gloeosporioides,Cyp51A_WDE41095.1,18,L,F,Tebuconazole
+Colletotrichum_gloeosporioides,Cyp51A_WDE41095.1,341,G,A,Tebuconazole
+Colletotrichum_gloeosporioides,Cyp51A_WDE41095.1,58,W,V,Tebuconazole
 Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,129,F,L,Azoxystrobin
 Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,129,F,L,Benzothiostrobin
 Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,129,F,L,Kresoxim-methyl
@@ -24994,74 +24742,9 @@ Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,143,G,A,Kresoxim-methyl
 Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,143,G,A,Picoxystrobin
 Colletotrichum_gloeosporioides,Cytochrome b_A0A1S6LNJ6,143,G,A,Pyraclostrobin
 Colletotrichum_graminicola,Cytochrome b_E3CU97,143,G,A,Azoxystrobin
-Colletotrichum_musae,Beta-tubulin_AVG44187.1,200,F,Y,Thiabendazole
-Colletotrichum_nymphaeae,Cytochrome b_UAM96415.1,129,F,L,Azoxystrobin
-Colletotrichum_nymphaeae,Cytochrome b_UAM96415.1,143,G,A,Azoxystrobin
-Colletotrichum_siamense,Beta-tubulin_AFP34674.1,198,E,A,Thiophanate-methyl
-Colletotrichum_siamense,Beta-tubulin_AXL97514.1,200,F,Y,Carbendazim
-Colletotrichum_siamense,Beta-tubulin_AXL97629.1,198,E,A,Azoxystrobin
-Colletotrichum_siamense,Beta-tubulin_AXL97629.1,198,E,A,Thiophanate-methyl
+Colletotrichum_nymphaeae,Cytochrome b_UAM96415.1,129,V,L,Azoxystrobin
+Colletotrichum_nymphaeae,Cytochrome b_UAM96415.1,143,L,A,Azoxystrobin
 Colletotrichum_siamense,Cytochrome b_A0A0H3VG98,143,G,A,Azoxystrobin
-Colletotrichum_truncatum,Beta-tubulin_AFI64527.1,198,E,A,Benomyl
-Colletotrichum_truncatum,Beta-tubulin_AFI64527.1,270,F,Y,Benomyl
-Colletotrichum_truncatum,Beta-tubulin_AFI64527.1,271,A,S,Benomyl
-Colletotrichum_truncatum,Beta-tubulin_AXL97559.1,198,E,A,Carbendazim
-Colletotrichum_truncatum,Beta-tubulin_AXL97559.1,200,F,Y,Carbendazim
-Colletotrichum_truncatum,Beta-tubulin_AXL97559.1,209,D,N,Carbendazim
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",208,L,Y,Difenoconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",208,L,Y,Fenbuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",208,L,Y,Flutriafol
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",208,L,Y,Metconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",208,L,Y,Propiconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",208,L,Y,Tebuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",238,H,R,Difenoconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",238,H,R,Fenbuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",238,H,R,Flutriafol
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",238,H,R,Metconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",238,H,R,Propiconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",238,H,R,Tebuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",302,S,A,Difenoconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",302,S,A,Fenbuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",302,S,A,Flutriafol
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",302,S,A,Metconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",302,S,A,Propiconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",302,S,A,Tebuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",376,M,L,Difenoconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",376,M,L,Fenbuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",376,M,L,Flutriafol
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",376,M,L,Metconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",376,M,L,Propiconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",376,M,L,Tebuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",511,S,T,Difenoconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",511,S,T,Fenbuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",511,S,T,Flutriafol
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",511,S,T,Metconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",511,S,T,Propiconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJD9",511,S,T,Tebuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",208,L,Y,Difenoconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",208,L,Y,Fenbuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",208,L,Y,Flutriafol
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",208,L,Y,Metconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",208,L,Y,Propiconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",208,L,Y,Tebuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",238,H,R,Difenoconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",238,H,R,Fenbuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",238,H,R,Flutriafol
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",238,H,R,Metconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",238,H,R,Propiconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",238,H,R,Tebuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",302,S,A,Difenoconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",302,S,A,Fenbuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",302,S,A,Flutriafol
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",302,S,A,Metconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",302,S,A,Propiconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",302,S,A,Tebuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",376,M,L,Difenoconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",376,M,L,Fenbuconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",376,M,L,Flutriafol
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",376,M,L,Metconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",376,M,L,Propiconazole
-Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",376,M,L,Tebuconazole
 Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",511,S,T,Difenoconazole
 Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",511,S,T,Fenbuconazole
 Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",511,S,T,Flutriafol
@@ -25103,10 +24786,7 @@ Corynespora_cassiicola,SdhD_D5MTG5,95,D,E,Boscalid
 Corynespora_cassiicola,SdhD_D5MTG5,95,D,E,Fluopyram
 Corynespora_cassiicola,SdhD_D5MTG5,95,D,E,Fluxapyroxad
 Corynespora_cassiicola,SdhD_D5MTG5,95,D,E,Isopyrazam
-Cryptococcus_deuterogattii,Uxs1_UNKNOWN,217,Y,C,5-fluorocytosine
-Cryptococcus_deuterogattii,Uxs1_UNKNOWN,217,Y,C,5-fluorouracil
-Cryptococcus_gattii,Fcy1_Q5Y239,29,R,H,5-fluorocytosine
-Cryptococcus_neoformans,Bck1_A0A225XUS5,1382,R,X,5-fluorocytosine
+Cryptococcus_gattii,Fcy1_Q5Y239,29,I,H,5-fluorocytosine
 Cryptococcus_neoformans,CNAG_04784_J9VSM4,300,H,N,5-fluorocytosine
 Cryptococcus_neoformans,CNBG_2198_A0A095C6H4,190,S,F,5-fluorocytosine
 Cryptococcus_neoformans,Dpb2_P0CN25,508,G,C,5-fluorocytosine
@@ -25114,15 +24794,6 @@ Cryptococcus_neoformans,Erg11_Q9P8P1,145,Y,F,Fluconazole
 Cryptococcus_neoformans,Erg11_Q9P8P1,145,Y,F,Itraconazole
 Cryptococcus_neoformans,Erg11_Q9P8P1,145,Y,F,Posaconazole
 Cryptococcus_neoformans,Erg11_Q9P8P1,145,Y,F,Voriconazole
-Cryptococcus_neoformans,Erg11_Q9P8P1,45,C,G,Fluconazole
-Cryptococcus_neoformans,Erg11_Q9P8P1,45,C,G,Itraconazole
-Cryptococcus_neoformans,Erg11_Q9P8P1,45,C,G,Posaconazole
-Cryptococcus_neoformans,Erg11_Q9P8P1,45,C,G,Voriconazole
-Cryptococcus_neoformans,Erg11_Q9P8P1,457,A,V,Fluconazole
-Cryptococcus_neoformans,Erg11_Q9P8P1,460,S,T,Fluconazole
-Cryptococcus_neoformans,Erg11_Q9P8P1,460,S,T,Itraconazole
-Cryptococcus_neoformans,Erg11_Q9P8P1,460,S,T,Posaconazole
-Cryptococcus_neoformans,Erg11_Q9P8P1,460,S,T,Voriconazole
 Cryptococcus_neoformans,Erg11_Q9P8P1,484,G,S,Fluconazole
 Cryptococcus_neoformans,Erg11_Q9P8P1,484,G,S,Voriconazole
 Cryptococcus_neoformans,Erg11_Q9P8P1,50,Q,L,Fluconazole
@@ -25137,64 +24808,24 @@ Cryptococcus_neoformans,Erg11_Q9P8P1,99,I,V,Fluconazole
 Cryptococcus_neoformans,Fcy1_Q5KNM8,40,L,F,5-fluorocytosine
 Cryptococcus_neoformans,Fcy2_Q07DL2,157,A,V,5-fluorocytosine
 Cryptococcus_neoformans,Fur1_J9VLZ5,140,P,S,5-fluorocytosine
-Cryptococcus_neoformans,Fur1_J9VLZ5,87,G,D,5-fluorocytosine
+Cryptococcus_neoformans,Fur1_J9VLZ5,87,V,D,5-fluorocytosine
 Cryptococcus_neoformans,Ran1_Q5KES0,45,Y,X,5-fluorocytosine
-Cryptococcus_neoformans,Ura6_J9VUG0,172,V,L,5-fluorocytosine
+Cryptococcus_neoformans,Ura6_J9VUG0,172,R,L,5-fluorocytosine
 Cryptococcus_neoformans,Ura6_J9VUG0,79,G,S,5-fluorocytosine
 Cryptococcus_neoformans_Cryptococcus_deneoformans,Erg11_Q9P8P1,470,G,R,5-fluorocytosine
 Cryptococcus_neoformans_Cryptococcus_deneoformans,Erg11_Q9P8P1,470,G,R,Amphotericin B
 Cryptococcus_neoformans_Cryptococcus_deneoformans,Erg11_Q9P8P1,470,G,R,Fluconazole
 Cryptococcus_neoformans_Cryptococcus_deneoformans,Erg11_Q9P8P1,470,G,R,Itraconazole
 Cryptococcus_neoformans_Cryptococcus_deneoformans,Erg11_Q9P8P1,470,G,R,Voriconazole
-Diaporthe_eres,Beta-tubulin_AWT23850.1,198,E,A,Thiophanate-methyl
-Diaporthe_eres,Beta-tubulin_AWT23850.1,200,F,Y,Thiophanate-methyl
-Diaporthe_unshiuensis,Beta-tubulin_WHM53209.1,198,E,A,Thiophanate-methyl
-Diaporthe_unshiuensis,Beta-tubulin_WHM53209.1,200,F,Y,Thiophanate-methyl
-Didymella_bryoniae,SdhB_ADO33736.1,277,H,R,Boscalid
-Didymella_bryoniae,SdhB_ADO33736.1,277,H,Y,Boscalid
-Didymella_bryoniae,SdhB_ADO33736.1,277,H,Y,Penthiopyrad
-Erysiphe_necator,Cyp51_O14442,136,F,Y,Triadimenol
+Diaporthe_eres,Beta-tubulin_AWT23850.1,198,N,A,Thiophanate-methyl
+Diaporthe_eres,Beta-tubulin_AWT23850.1,200,S,Y,Thiophanate-methyl
 Erysiphe_necator,Cyp51_O14442,136,Y,F,Myclobutanil
 Erysiphe_necator,SdhB_WLK77905.1,242,H,R,Boscalid
 Erysiphe_necator,SdhB_WLK77905.1,242,H,Y,Boscalid
-Fusarium_asiaticum,Myosin-5_UNKNOWN,135,A,T,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,151,V,M,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,204,P,S,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,216,K,E,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,216,K,R,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,217,S,L,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,217,S,P,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,418,S,R,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,420,E,D,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,420,E,G,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,420,E,K,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,424,I,R,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,434,I,M,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,577,A,G,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,577,A,T,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,580,R,G,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,580,R,H,Phenamacril
-Fusarium_asiaticum,Myosin-5_UNKNOWN,581,L,F,Phenamacril
-Fusarium_asiaticum,SdhB_UNKNOWN,248,H,Y,Boscalid
-Fusarium_asiaticum,SdhB_UNKNOWN,248,H,Y,Thifluzamide
-Fusarium_asiaticum,SdhC_UNKNOWN,64,A,V,Boscalid
-Fusarium_asiaticum,SdhC_UNKNOWN,64,A,V,Thifluzamide
-Fusarium_asiaticum,SdhC_UNKNOWN,67,R,K,Boscalid
-Fusarium_asiaticum,SdhC_UNKNOWN,67,R,K,Thifluzamide
 Fusarium_fujikuroi,Beta-tubulin_P53374,50,Y,N,Benomyl
 Fusarium_fujikuroi,Cyp51B_U3LUG2,312,S,T,Prochloraz
 Fusarium_fujikuroi,Myosin-1_XP_018756375.1,276,E,K,Phenamacril
 Fusarium_fujikuroi,Myosin-1_XP_018756375.1,73,S,L,Phenamacril
-Fusarium_fujikuroi,Myosin-5_UNKNOWN,218,K,T,Phenamacril
-Fusarium_fujikuroi,Myosin-5_UNKNOWN,219,S,L,Phenamacril
-Fusarium_fujikuroi,Myosin-5_UNKNOWN,219,S,P,Phenamacril
-Fusarium_fujikuroi,SdhB_UNKNOWN,248,H,D,Pydiflumetofen
-Fusarium_fujikuroi,SdhB_UNKNOWN,248,H,L,Pydiflumetofen
-Fusarium_fujikuroi,SdhB_UNKNOWN,248,H,Y,Pydiflumetofen
-Fusarium_fujikuroi,SdhC_UNKNOWN,144,H,Y,Pydiflumetofen
-Fusarium_fujikuroi,SdhC_UNKNOWN,83,A,V,Pydiflumetofen
-Fusarium_fujikuroi,SdhD_UNKNOWN,106,S,F,Pydiflumetofen
-Fusarium_fujikuroi,SdhD_UNKNOWN,166,E,K,Pydiflumetofen
 Fusarium_graminearum,Beta-tubulin_Q4HZS8,200,F,Y,Benomyl
 Fusarium_graminearum,Beta-tubulin_Q4HZS8,200,F,Y,Carbendazim
 Fusarium_graminearum,Beta-tubulin_Q4HZS8,200,F,Y,Thiabendazole
@@ -25237,15 +24868,10 @@ Fusarium_graminearum,SdhC_I1RXE6,86,R,C,Y12196
 Fusarium_graminearum,SdhC_I1RXE6,86,R,H,Pydiflumetofen
 Fusarium_incarnatum,Myosin-5_UQE90557.1,217,S,P,Phenamacril
 Fusarium_incarnatum,Myosin-5_UQE90557.1,424,I,S,Phenamacril
-Fusarium_oxysporum,Myosin-5_KNB11400.1,151,V,A,Phenamacril
-Fusarium_oxysporum,Myosin-5_KNB11400.1,418,S,T,Phenamacril
 Fusarium_oxysporum_f._sp._melonis,Beta-tubulin_X0B7Q3,52,A,G,Phenamacril
-Fusarium_oxysporum_f._sp._melonis,Myosin-5_EXK34066.1,175,S,L,Phenamacril
-Fusarium_pseudograminearum,SdhB_UNKNOWN,248,H,Y,Cyclobutrifluram
+Fusarium_oxysporum_f._sp._melonis,Myosin-5_EXK34066.1,175,N,L,Phenamacril
 Fusarium_pseudograminearum,SdhC_K3UP39,83,A,V,Cyclobutrifluram
 Fusarium_pseudograminearum,SdhC_K3UP39,86,R,K,Cyclobutrifluram
-Fusarium_solani,Myosin-5_UNKNOWN,218,T,S,Phenamacril
-Fusarium_solani,Myosin-5_UNKNOWN,376,K,M,Phenamacril
 Histoplasma_capsulatum,Cyp51_Q68HC5,136,Y,F,Fluconazole
 Histoplasma_capsulatum,Erg11_Q68HC5,136,Y,F,Fluconazole
 Histoplasma_capsulatum,Erg11_Q68HC5,136,Y,F,Voriconazole
@@ -25260,10 +24886,8 @@ Kluyveromyces_marxianus,Fks1_W0TDH9,655,S,P,Micafungin
 Kluyveromyces_marxianus,Fks1_W0TDH9,657,R,G,Anidulafungin
 Kluyveromyces_marxianus,Fks1_W0TDH9,657,R,G,Caspofungin
 Kluyveromyces_marxianus,Fks1_W0TDH9,657,R,G,Micafungin
-Magnaporthe_grisea,Cyp51A_A0A2U8N515,158,R,K,Epoxiconazole
-Magnaporthe_grisea,Cyp51A_A0A2U8N515,158,R,K,Tebuconazole
-Magnaporthe_grisea,Cyp51A_A0A2U8N515,466,L,Q,Epoxiconazole
-Magnaporthe_grisea,Cyp51A_A0A2U8N515,466,L,Q,Tebuconazole
+Magnaporthe_grisea,Cyp51A_A0A2U8N515,466,W,Q,Epoxiconazole
+Magnaporthe_grisea,Cyp51A_A0A2U8N515,466,W,Q,Tebuconazole
 Magnaporthe_grisea,Cytochrome b_Q85KP9,129,F,L,Azoxystrobin
 Magnaporthe_grisea,Cytochrome b_Q85KP9,129,F,L,Trifloxystrobin
 Magnaporthe_grisea,Cytochrome b_Q85KP9,137,G,R,Trifloxystrobin
@@ -25388,15 +25012,9 @@ Nakaseomyces_glabratus,Fcy2L_Q6FLU1,342,E,X,5-fluorocytosine
 Nakaseomyces_glabratus,Fcy2L_Q6FLU1,396,Q,X,5-fluorocytosine
 Nakaseomyces_glabratus,Fcy2_Q6FPL2,246,G,S,5-fluorocytosine
 Nakaseomyces_glabratus,Fen1_Q6FKW2,155,M,T,Various
-Nakaseomyces_glabratus,Fks1 or Fks2_UNKNOWN,629,S,P,Anidulafungin
-Nakaseomyces_glabratus,Fks1 or Fks2_UNKNOWN,629,S,P,Caspofungin
-Nakaseomyces_glabratus,Fks1 or Fks2_UNKNOWN,629,S,P,Fluconazole
-Nakaseomyces_glabratus,Fks1 or Fks2_UNKNOWN,629,S,P,Micafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",1371,P,S,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",1374,D,N,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",1423,E,Q,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",625,F,L,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",632,D,G,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",651,A,T,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",659,F,L,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",660,L,S,Anidulafungin
@@ -25406,20 +25024,8 @@ Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",707,L,Q,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",714,L,F,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",717,I,N,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FMZ3",785,H,N,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",1371,P,S,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",1374,D,N,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",1423,E,Q,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",625,F,L,Anidulafungin
 Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",632,D,G,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",651,A,T,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",659,F,L,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",660,L,S,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",666,D,Y,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",667,P,T,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",707,L,Q,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",714,L,F,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",717,I,N,Anidulafungin
-Nakaseomyces_glabratus,"Fks1,Fks2_Q6FTN8",785,H,N,Anidulafungin
 Nakaseomyces_glabratus,Fks1_Q6FTN8,1323,K,E,Anidulafungin
 Nakaseomyces_glabratus,Fks1_Q6FTN8,1323,K,E,Caspofungin
 Nakaseomyces_glabratus,Fks1_Q6FTN8,1323,K,E,Fluconazole
@@ -25509,42 +25115,18 @@ Nakaseomyces_glabratus,Fks1_Q6FTN8,995,A,T,Anidulafungin
 Nakaseomyces_glabratus,Fks1_Q6FTN8,995,A,T,Caspofungin
 Nakaseomyces_glabratus,Fks1_Q6FTN8,995,A,T,Fluconazole
 Nakaseomyces_glabratus,Fks1_Q6FTN8,995,A,T,Micafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",143,T,P,Amphotericin B
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",143,T,P,Anidulafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",143,T,P,Fluconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",143,T,P,Itraconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",143,T,P,Micafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",143,T,P,Voriconazole
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",663,S,A,Amphotericin B
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",663,S,A,Anidulafungin
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",663,S,A,Caspofungin
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",663,S,A,Fluconazole
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",663,S,A,Micafungin
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",663,S,A,Voriconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",91,V,I,Amphotericin B
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",91,V,I,Anidulafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",91,V,I,Fluconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",91,V,I,Itraconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",91,V,I,Micafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",91,V,I,Voriconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",98,L,S,Amphotericin B
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",98,L,S,Anidulafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",98,L,S,Fluconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",98,L,S,Itraconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",98,L,S,Micafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FMZ3",98,L,S,Voriconazole
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",143,T,P,Amphotericin B
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",143,T,P,Anidulafungin
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",143,T,P,Fluconazole
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",143,T,P,Itraconazole
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",143,T,P,Micafungin
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",143,T,P,Voriconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",663,S,A,Amphotericin B
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",663,S,A,Anidulafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",663,S,A,Caspofungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",663,S,A,Fluconazole
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",663,S,A,Micafungin
-Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",663,S,A,Voriconazole
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",91,V,I,Amphotericin B
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",91,V,I,Anidulafungin
 Nakaseomyces_glabratus,"Fks2,Pdr1_Q6FXU7",91,V,I,Fluconazole
@@ -25762,14 +25344,6 @@ Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",231,E,G,Itraconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",231,E,G,Micafungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",231,E,G,Posaconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",231,E,G,Voriconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Anidulafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Caspofungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Fluconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Isavuconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Itraconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Micafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Posaconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",885,T,A,Voriconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Anidulafungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Caspofungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Fluconazole
@@ -25778,22 +25352,6 @@ Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Itraconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Micafungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Posaconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FQA9",942,A,T,Voriconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Anidulafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Caspofungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Fluconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Isavuconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Itraconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Micafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Posaconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",208,P,S,Voriconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Anidulafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Caspofungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Fluconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Isavuconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Itraconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Micafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Posaconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",231,E,G,Voriconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Anidulafungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Caspofungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Fluconazole
@@ -25802,14 +25360,6 @@ Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Itraconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Micafungin
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Posaconazole
 Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",885,T,A,Voriconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Anidulafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Caspofungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Fluconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Isavuconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Itraconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Micafungin
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Posaconazole
-Nakaseomyces_glabratus,"Msh2,Pdr1_Q6FXU7",942,A,T,Voriconazole
 Nakaseomyces_glabratus,Msh2_Q6FQA9,156,I,L,Fluconazole
 Nakaseomyces_glabratus,Msh2_Q6FQA9,208,P,S,Echinocandin
 Nakaseomyces_glabratus,Msh2_Q6FQA9,208,P,S,Fluconazole
@@ -25852,14 +25402,6 @@ Nakaseomyces_glabratus,Pdr1_Q6FXU7,1082,D,G,CWHM-974
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,1082,D,G,Fluconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,1082,D,G,Fluphenazine
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,1083,E,Q,Fluconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Anidulafungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Caspofungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Fluconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Isavuconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Itraconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Micafungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Posaconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,1084,S,F,Voriconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,1088,G,E,Fluconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,1089,D,Y,Fluconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,1091,N,D,Fluconazole
@@ -25884,14 +25426,6 @@ Nakaseomyces_glabratus,Pdr1_Q6FXU7,139,L,I,Fluconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,139,L,I,Itraconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,139,L,I,Posaconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,139,L,I,Voriconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Anidulafungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Caspofungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Fluconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Isavuconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Itraconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Micafungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Posaconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,P,T,Voriconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,T,P,Amphotericin B
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,T,P,Anidulafungin
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,143,T,P,Caspofungin
@@ -26254,14 +25788,6 @@ Nakaseomyces_glabratus,Pdr1_Q6FXU7,745,T,A,Fluconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,745,T,A,Posaconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,745,T,A,Voriconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,752,T,I,Fluconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Anidulafungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Caspofungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Fluconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Isavuconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Itraconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Micafungin
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Posaconazole
-Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,P,S,Voriconazole
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,S,P,Amphotericin B
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,S,P,Anidulafungin
 Nakaseomyces_glabratus,Pdr1_Q6FXU7,76,S,P,Caspofungin
@@ -26446,12 +25972,12 @@ Phakopsora_pachyrhizi,Cytochrome b_D8V108,137,G,R,Azoxystrobin
 Phakopsora_pachyrhizi,Cytochrome b_D8V108,137,G,R,Pyraclostrobin
 Phakopsora_pachyrhizi,Cytochrome b_D8V108,143,G,A,Azoxystrobin
 Phakopsora_pachyrhizi,Cytochrome b_D8V108,143,G,A,Pyraclostrobin
-Phakopsora_pachyrhizi,SdhC_CAH7683321.1,86,I,F,Benzovindiflupyr
-Phakopsora_pachyrhizi,SdhC_CAH7683321.1,86,I,F,Bixafen
-Phakopsora_pachyrhizi,SdhC_CAH7683321.1,86,I,F,Fluxapyroxad
+Phakopsora_pachyrhizi,SdhC_CAH7683321.1,86,L,F,Benzovindiflupyr
+Phakopsora_pachyrhizi,SdhC_CAH7683321.1,86,L,F,Bixafen
+Phakopsora_pachyrhizi,SdhC_CAH7683321.1,86,L,F,Fluxapyroxad
 Pichia_kudriavzevii,Erg11_A9YUC7,140,Y,H,Fluconazole
 Pichia_kudriavzevii,Erg11_A9YUC7,140,Y,H,Voriconazole
-Pichia_kudriavzevii,Fks1_Q4U2W2,1361,R,G,Caspofungin
+Pichia_kudriavzevii,Fks1_Q4U2W2,1361,P,G,Caspofungin
 Pichia_kudriavzevii,Fks1_Q4U2W2,655,F,C,Anidulafungin
 Pichia_kudriavzevii,Fks1_Q4U2W2,655,F,C,Caspofungin
 Pichia_kudriavzevii,Fks1_Q4U2W2,655,F,C,Micafungin
@@ -26849,81 +26375,17 @@ Pneumocystis_jirovecii,Dhfr_A0EPZ9,82,R,P,Methotrexate
 Pneumocystis_jirovecii,Dhfr_A0EPZ9,85,V,K,Methotrexate
 Pneumocystis_jirovecii,Dhfr_A0EPZ9,9,L,W,Methotrexate
 Pneumocystis_jirovecii,Dhfr_A0EPZ9,9,L,Y,Methotrexate
-Pneumocystis_jirovecii,Dhps_AY628435,96,V,I,"Trimethoprim, Sulfamethoxazole"
-Pneumocystis_jirovecii,Dhps_PNEJI1_002500,55,T,A,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_PNEJI1_002501,57,P,S,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_PNEJI1_002501,60,H,A,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_PNEJI1_002502,55,T,A,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_PNEJI1_002502,57,P,S,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_QBZ39416.1,55,T,A,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_QBZ39416.1,57,P,S,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_QBZ39416.1,60,H,A,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_UNKNOWN,55,T,A,"Trimethoprim, Sulfamethoxazole, Dapsone"
-Pneumocystis_jirovecii,Dhps_UNKNOWN,57,P,S,"Trimethoprim, Sulfamethoxazole, Dapsone"
-Puccinia_horiana,"Cytb,SdhC_A0A830UD91",275,L,F,Azoxystrobin
-Puccinia_horiana,"Cytb,SdhC_A0A830UD91",275,L,F,Kresoxim-methyl
-Puccinia_horiana,"Cytb,SdhC_A0A830UD91",275,L,F,Oxycarboxin
+Pneumocystis_jirovecii,Dhps_QBZ39416.1,55,V,A,Trimethoprim-sulfamethoxazole
+Pneumocystis_jirovecii,Dhps_QBZ39416.1,57,E,S,Trimethoprim-sulfamethoxazole
+Pneumocystis_jirovecii,Dhps_QBZ39416.1,60,I,A,Trimethoprim-sulfamethoxazole
 Puccinia_triticina,Cyp51_C6GJL4,134,Y,F,Epoxiconazole
 Pyrenopeziza_brassicae,Beta-tubulin_M4T290,198,E,A,Carbendazim
 Pyrenopeziza_brassicae,Beta-tubulin_M4T290,240,L,F,Carbendazim
-Pyrenopeziza_brassicae,Cyp51_UNKNOWN,460,G,S,Flusilazole
-Pyrenopeziza_brassicae,Cyp51_UNKNOWN,460,G,S,Metconazole
-Pyrenopeziza_brassicae,Cyp51_UNKNOWN,460,G,S,Prochloraz
-Pyrenopeziza_brassicae,Cyp51_UNKNOWN,460,G,S,Prothioconazole
-Pyrenopeziza_brassicae,Cyp51_UNKNOWN,460,G,S,Tebuconazole
-Pyrenopeziza_brassicae,Cyp51_UNKNOWN,508,S,T,Flusilazole
-Pyrenopeziza_brassicae,Cyp51_UNKNOWN,508,S,T,Metconazole
-Pyrenopeziza_brassicae,Cyp51_UNKNOWN,508,S,T,Prochloraz
-Pyrenopeziza_brassicae,Cyp51_UNKNOWN,508,S,T,Prothioconazole
-Pyrenopeziza_brassicae,Cyp51_UNKNOWN,508,S,T,Tebuconazole
-Pyrenophora_teres,Cytochrome b_ABQ45489.1,137,G,R,Azoxystrobin
-Pyrenophora_teres,SdhB_WHS68156.1,277,H,Y,Benzovindiflupyr
-Pyrenophora_teres,SdhB_WHS68156.1,277,H,Y,Isopyrazam
-Pyrenophora_teres,SdhB_WHS68156.1,277,H,Y,Penthiopyrad
-Pyrenophora_teres,SdhC_WHS68178.1,134,H,R,Benzovindiflupyr
-Pyrenophora_teres,SdhC_WHS68178.1,134,H,R,Bixafen
-Pyrenophora_teres,SdhC_WHS68178.1,134,H,R,Fluxapyroxad
-Pyrenophora_teres,SdhC_WHS68178.1,134,H,R,Isopyrazam
-Pyrenophora_teres,SdhC_WHS68178.1,134,H,R,Penthiopyrad
-Pyrenophora_teres,SdhC_WHS68178.1,135,S,R,Benzovindiflupyr
-Pyrenophora_teres,SdhC_WHS68178.1,135,S,R,Isopyrazam
-Pyrenophora_teres,SdhC_WHS68178.1,135,S,R,Penthiopyrad
-Pyrenophora_teres,SdhC_WHS68178.1,75,N,S,Benzovindiflupyr
-Pyrenophora_teres,SdhC_WHS68178.1,75,N,S,Isopyrazam
-Pyrenophora_teres,SdhC_WHS68178.1,75,N,S,Penthiopyrad
-Pyrenophora_teres,SdhC_WHS68178.1,79,G,R,Bixafen
-Pyrenophora_teres,SdhC_WHS68178.1,79,G,R,Fluxapyroxad
-Pyrenophora_teres,SdhC_WHS68178.1,79,G,R,Isopyrazam
-Pyrenophora_teres,SdhC_WHS68178.1,79,G,R,Penthiopyrad
-Pyrenophora_teres,SdhD_WHS68200.1,124,D,E,Benzovindiflupyr
-Pyrenophora_teres,SdhD_WHS68200.1,124,D,E,Bixafen
-Pyrenophora_teres,SdhD_WHS68200.1,124,D,E,Fluxapyroxad
-Pyrenophora_teres,SdhD_WHS68200.1,124,D,E,Isopyrazam
-Pyrenophora_teres,SdhD_WHS68200.1,124,D,E,Penthiopyrad
-Pyrenophora_teres,SdhD_WHS68200.1,124,D,N,Penthiopyrad
-Pyrenophora_teres,SdhD_WHS68200.1,134,H,R,Benzovindiflupyr
-Pyrenophora_teres,SdhD_WHS68200.1,134,H,R,Isopyrazam
-Pyrenophora_teres,SdhD_WHS68200.1,134,H,R,Penthiopyrad
-Pyrenophora_teres,SdhD_WHS68200.1,145,D,G,Benzovindiflupyr
-Pyrenophora_teres,SdhD_WHS68200.1,145,D,G,Isopyrazam
-Pyrenophora_tritici-repentis,Cytochrome b_WPB15229.1,129,F,L,Azoxystrobin
-Pyrenophora_tritici-repentis,Cytochrome b_WPB15229.1,137,G,R,Azoxystrobin
-Pyrenophora_tritici-repentis,Cytochrome b_WPB15229.1,143,G,A,Azoxystrobin
-Pyricularia_graminis-tritici,Cyp51A_A0A2K8FR83,158,R,K,Epoxiconazole
-Pyricularia_graminis-tritici,Cyp51A_A0A2K8FR83,158,R,K,Tebuconazole
-Pyricularia_pennisetigena,Cyp51A_A0A2U8N521,158,R,K,Epoxiconazole
-Pyricularia_pennisetigena,Cyp51A_A0A2U8N521,158,R,K,Tebuconazole
-Ramularia_collo-cygni,Cyp51_UNKNOWN,136,V,A,Prothioconazole
-Ramularia_collo-cygni,Cyp51_UNKNOWN,381,I,T,Prothioconazole
-Ramularia_collo-cygni,Cyp51_UNKNOWN,384,I,L,Prothioconazole
-Ramularia_collo-cygni,Cyp51_UNKNOWN,403,Y,C,Epoxiconazole
-Ramularia_collo-cygni,Cyp51_UNKNOWN,403,Y,S,Prothioconazole-desthio
-Ramularia_collo-cygni,Cyp51_UNKNOWN,404,G,D,Epoxiconazole
-Ramularia_collo-cygni,Cyp51_UNKNOWN,459,Y,C,Prothioconazole
-Ramularia_collo-cygni,Cyp51_UNKNOWN,461,Y,H,Prothioconazole
-Ramularia_collo-cygni,Cyp51_UNKNOWN,461,Y,N,Prothioconazole
-Ramularia_collo-cygni,Cyp51_UNKNOWN,548,D,G,Prothioconazole
-Ramularia_collo-cygni,Cytochrome b_CBF42297.1,143,G,A,Azoxystrobin
+Pyrenophora_teres,Cytochrome b_ABQ45489.1,137,V,R,Azoxystrobin
+Pyrenophora_tritici-repentis,Cytochrome b_WPB15229.1,129,T,L,Azoxystrobin
+Pyrenophora_tritici-repentis,Cytochrome b_WPB15229.1,137,W,R,Azoxystrobin
+Pyrenophora_tritici-repentis,Cytochrome b_WPB15229.1,143,V,A,Azoxystrobin
+Ramularia_collo-cygni,Cytochrome b_CBF42297.1,143,L,A,Azoxystrobin
 Ramularia_collo-cygni,SdhB_A0A1S6KZ79,217,S,L,Bixafen
 Ramularia_collo-cygni,SdhB_A0A1S6KZ79,217,S,L,Boscalid
 Ramularia_collo-cygni,SdhB_A0A1S6KZ79,217,S,L,Carboxin
@@ -26946,14 +26408,14 @@ Ramularia_collo-cygni,SdhC_A0A1S6KZ87,142,H,R,Boscalid
 Ramularia_collo-cygni,SdhC_A0A1S6KZ87,142,H,R,Carboxin
 Ramularia_collo-cygni,SdhC_A0A1S6KZ87,142,H,R,Fluopyram
 Ramularia_collo-cygni,SdhC_A0A1S6KZ87,142,H,R,Isopyrazam
-Ramularia_collo-cygni,SdhC_A0A1S6KZ87,146,H,L,Fluxapyroxad
-Ramularia_collo-cygni,SdhC_A0A1S6KZ87,146,H,R,Fluxapyroxad
-Ramularia_collo-cygni,SdhC_A0A1S6KZ87,152,R,M,Fluxapyroxad
-Ramularia_collo-cygni,SdhC_A0A1S6KZ87,153,H,R,Fluxapyroxad
-Ramularia_collo-cygni,SdhC_A0A1S6KZ87,171,G,D,Fluxapyroxad
-Ramularia_collo-cygni,SdhC_A0A1S6KZ87,87,N,S,Fluxapyroxad
-Ramularia_collo-cygni,SdhC_A0A1S6KZ87,87,N,S,Isopyrazam
-Ramularia_collo-cygni,SdhC_A0A1S6KZ87,91,G,R,Fluxapyroxad
+Ramularia_collo-cygni,SdhC_A0A1S6KZ87,146,G,L,Fluxapyroxad
+Ramularia_collo-cygni,SdhC_A0A1S6KZ87,146,G,R,Fluxapyroxad
+Ramularia_collo-cygni,SdhC_A0A1S6KZ87,152,W,M,Fluxapyroxad
+Ramularia_collo-cygni,SdhC_A0A1S6KZ87,153,D,R,Fluxapyroxad
+Ramularia_collo-cygni,SdhC_A0A1S6KZ87,171,V,D,Fluxapyroxad
+Ramularia_collo-cygni,SdhC_A0A1S6KZ87,87,G,S,Fluxapyroxad
+Ramularia_collo-cygni,SdhC_A0A1S6KZ87,87,G,S,Isopyrazam
+Ramularia_collo-cygni,SdhC_A0A1S6KZ87,91,S,R,Fluxapyroxad
 Rhizoctonia_cerealis,SdhB_A0A173DSZ5,246,H,Y,Bixafen
 Rhizoctonia_cerealis,SdhB_A0A173DSZ5,246,H,Y,Boscalid
 Rhizoctonia_cerealis,SdhB_A0A173DSZ5,246,H,Y,Penflufen
@@ -26978,12 +26440,9 @@ Rhizoctonia_cerealis,SdhD_A0A173DT05,129,L,I,Bixafen
 Rhizoctonia_cerealis,SdhD_A0A173DT05,129,L,I,Boscalid
 Rhizoctonia_cerealis,SdhD_A0A173DT05,129,L,I,Penflufen
 Rhizoctonia_cerealis,SdhD_A0A173DT05,129,L,I,Thifluzamide
-Rhizoctonia_solani,Cyp51_CUA70491.1,406,N,S,Tebuconazole
-Rhizoctonia_solani,Cyp51_CUA70491.1,750,L,P,Tebuconazole
-Rhizoctonia_solani,Cyp51_CUA70491.1,793,H,R,Tebuconazole
-Rhizoctonia_solani,Cyp51_CUA70491.1,94,S,A,Tebuconazole
-Rhizoctonia_solani,SdhC_KAH7340525.1,48,F,L,Flutolanil
-Rhynchosporium_commune,Yvc1_UNKNOWN,332,E,D,Cyproconazole
+Rhizoctonia_solani,Cyp51_CUA70491.1,406,P,S,Tebuconazole
+Rhizoctonia_solani,Cyp51_CUA70491.1,94,V,A,Tebuconazole
+Rhizoctonia_solani,SdhC_KAH7340525.1,48,K,L,Flutolanil
 Saccharomyces_cerevisiae,Act1_P60010,116,R,K,Cycloheximide
 Saccharomyces_cerevisiae,Act1_P60010,116,R,K,Hectochlorin
 Saccharomyces_cerevisiae,Aft1_P22149,226,K,M,Cycloheximide
@@ -27132,36 +26591,14 @@ Saccharomyces_cerevisiae,Erg25_P53045,272,S,Y,Clotrimazole
 Saccharomyces_cerevisiae,Erg25_P53045,44,Y,S,Clotrimazole
 Saccharomyces_cerevisiae,Erg25_P53045,59,F,I,Clotrimazole
 Saccharomyces_cerevisiae,Erg25_P53045,61,L,S,Clotrimazole
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P33302",12,L,S,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P33302",13,K,N,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P33302",16,N,D,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P33302",20,E,K,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P33302",6,R,K,4-Nitroquinoline
 Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P33302",9,N,D,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P38631",12,L,S,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P38631",13,K,N,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P38631",16,N,D,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P38631",20,E,K,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P38631",6,R,K,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P38631",9,N,D,4-Nitroquinoline
 Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P40207",12,L,S,4-Nitroquinoline
 Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P40207",13,K,N,4-Nitroquinoline
 Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P40207",16,N,D,4-Nitroquinoline
 Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P40207",20,E,K,4-Nitroquinoline
 Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P40207",6,R,K,4-Nitroquinoline
 Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P40207",9,N,D,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P53860",12,L,S,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P53860",13,K,N,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P53860",16,N,D,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P53860",20,E,K,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P53860",6,R,K,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_P53860",9,N,D,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_Q12172",12,L,S,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_Q12172",13,K,N,4-Nitroquinoline
 Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_Q12172",16,N,D,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_Q12172",20,E,K,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_Q12172",6,R,K,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Erg29,Fks1,Pdr16,Pdr5,Yrr1_Q12172",9,N,D,4-Nitroquinoline
 Saccharomyces_cerevisiae,Erg3_P32353,205,W,X,Nystatin
 Saccharomyces_cerevisiae,Erg3_P32353,219,W,X,Nystatin
 Saccharomyces_cerevisiae,Erg3_P32353,235,G,S,Nystatin
@@ -30326,14 +29763,10 @@ Saccharomyces_cerevisiae,Fcy1_Q12178,99,I,W,5-fluorocytosine
 Saccharomyces_cerevisiae,Fcy1_Q12178,99,I,X,5-fluorocytosine
 Saccharomyces_cerevisiae,Fcy1_Q12178,99,I,Y,5-fluorocytosine
 Saccharomyces_cerevisiae,Fcy21_P40039,462,P,H,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Fks1,Fks2_P38631",715,Y,N,Anidulafungin
-Saccharomyces_cerevisiae,"Fks1,Fks2_P38631",715,Y,N,Caspofungin
-Saccharomyces_cerevisiae,"Fks1,Fks2_P38631",715,Y,N,Micafungin
 Saccharomyces_cerevisiae,"Fks1,Fks2_P40989",715,Y,N,Anidulafungin
 Saccharomyces_cerevisiae,"Fks1,Fks2_P40989",715,Y,N,Caspofungin
 Saccharomyces_cerevisiae,"Fks1,Fks2_P40989",715,Y,N,Micafungin
 Saccharomyces_cerevisiae,"Fks1,Pdr5_P33302",1429,Q,H,4-Nitroquinoline
-Saccharomyces_cerevisiae,"Fks1,Pdr5_P38631",1429,Q,H,4-Nitroquinoline
 Saccharomyces_cerevisiae,Fks1_P38631,1353,D,A,Anidulafungin
 Saccharomyces_cerevisiae,Fks1_P38631,1353,D,A,Caspofungin
 Saccharomyces_cerevisiae,Fks1_P38631,1353,D,A,Micafungin
@@ -31630,7 +31063,6 @@ Saccharomyces_cerevisiae,Hap1_P0CE41,633,I,indel,Clotrimazole
 Saccharomyces_cerevisiae,Hap1_P0CE41,660,L,X,Clotrimazole
 Saccharomyces_cerevisiae,Hap1_P0CE41,766,N,indel,Clotrimazole
 Saccharomyces_cerevisiae,Hap1_P0CE41,81,C,X,Clotrimazole
-Saccharomyces_cerevisiae,Hap1_P0CE41,832,N,N,Clotrimazole
 Saccharomyces_cerevisiae,Hap1_P0CE41,833,F,indel,Clotrimazole
 Saccharomyces_cerevisiae,Hap1_P0CE41,84,C,F,Clotrimazole
 Saccharomyces_cerevisiae,Hap1_P0CE41,866,S,X,Clotrimazole
@@ -31819,7 +31251,6 @@ Saccharomyces_cerevisiae,Rav2_Q03956,194,S,X,MMV396736
 Saccharomyces_cerevisiae,Rox1_P25042,13,P,L,Clotrimazole
 Saccharomyces_cerevisiae,Rox1_P25042,20,F,S,Clotrimazole
 Saccharomyces_cerevisiae,Rox1_P25042,204,Y,X,Clotrimazole
-Saccharomyces_cerevisiae,Rox1_P25042,369,X,C,Clotrimazole
 Saccharomyces_cerevisiae,Rox1_P25042,39,I,indel,Clotrimazole
 Saccharomyces_cerevisiae,Rox1_P25042,46,S,A,Clotrimazole
 Saccharomyces_cerevisiae,Rox1_P25042,84,Y,X,Cycloheximide
@@ -31960,34 +31391,10 @@ Saccharomyces_cerevisiae,Yrr1_Q12172,791,W,R,CBR113
 Saccharomyces_cerevisiae,Yrr1_Q12172,791,W,R,Cycloheximide
 Saccharomyces_cerevisiae,Yrr1_Q12172,791,W,R,DDD01027481
 Saccharomyces_cerevisiae,Yrr1_Q12172,791,W,R,MMV665852
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Erg13_UNKNOWN,439,E,G,No drug
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Erg13_UNKNOWN,439,E,K,No drug
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,"Fks1,Pdr11_UNKNOWN",980,D,N,No drug
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Fks1_UNKNOWN,1688,H,N,4-Nitroquinoline
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Fks3_UNKNOWN,1041,E,K,No drug
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Hap1_UNKNOWN,229,N,D,4-Nitroquinoline
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Hap1_UNKNOWN,758,S,A,No drug
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Hmg1_UNKNOWN,111,F,L,4-Nitroquinoline
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Hmg2_UNKNOWN,873,V,D,4-Nitroquinoline
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Pdr12_UNKNOWN,472,K,R,No drug
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Pdr1_UNKNOWN,1045,E,V,4-Nitroquinoline
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Pdr1_UNKNOWN,279,G,R,4-Nitroquinoline
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Pdr1_UNKNOWN,279,G,R,Fluconazole
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Pdr1_UNKNOWN,279,G,R,Itraconazole
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Pdr1_UNKNOWN,279,G,R,Voriconazole
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Pdr1_UNKNOWN,282,G,R,4-Nitroquinoline
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Pdr1_UNKNOWN,298,P,R,4-Nitroquinoline
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Pdr1_UNKNOWN,308,M,I,4-Nitroquinoline
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Pdr1_UNKNOWN,516,D,H,4-Nitroquinoline
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Pdr1_UNKNOWN,820,R,H,4-Nitroquinoline
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Pdr8_UNKNOWN,420,L,S,No drug
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Sdh1_UNKNOWN,148,G,S,4-Nitroquinoline
-Saccharomyces_cerevisiae_Saccharomyces_paradoxus,Yrr1_UNKNOWN,790,W,C,4-Nitroquinoline
 Saccharomyces_paradoxus,Erg2_A0A8B8UXL1,98,L,V,4-Nitroquinoline
 Saccharomyces_paradoxus,Erg6_A0A8B8UX73,18,H,L,No drug
 Saccharomyces_paradoxus,Pdr10_A0A1L4AA54,292,I,T,4-Nitroquinoline
 Saccharomyces_paradoxus,Pdr10_A0A1L4AA54,335,R,K,No drug
-Saccharomyces_paradoxus,"Pdr11,Pdr3_A0A8B8ULF9",1223,L,F,No drug
 Saccharomyces_paradoxus,"Pdr11,Pdr3_A0A8B8UTF6",1223,L,F,No drug
 Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,279,G,R,4-Nitroquinoline
 Saccharomyces_paradoxus,Pdr1_A0A8B8URH6,279,G,S,4-Nitroquinoline
@@ -32009,14 +31416,7 @@ Saccharomyces_paradoxus,Yrr1_A0A8B8UZV6,197,G,R,4-Nitroquinoline
 Saccharomyces_paradoxus,Yrr1_A0A8B8UZV6,208,K,N,4-Nitroquinoline
 Saccharomyces_paradoxus,Yrr1_A0A8B8UZV6,608,S,Y,4-Nitroquinoline
 Saccharomyces_paradoxus,Yrr1_A0A8B8UZV6,626,E,Q,4-Nitroquinoline
-Schizosaccharomyces_pombe,Cytochrome b_P05501,261,N,D,Strobilurin
-Sclerotinia_sclerotiorum,SdhB_UGY75365.1,11,A,V,Boscalid
-Sclerotinia_sclerotiorum,SdhB_UGY75365.1,11,A,V,Carboxin
-Sclerotinia_sclerotiorum,SdhB_UGY75365.1,11,A,V,Fluopyram
-Sclerotinia_sclerotiorum,SdhB_UGY75365.1,226,P,L,Boscalid
 Sclerotinia_sclerotiorum,SdhB_UGY75365.1,58,V,A,Boscalid
-Sclerotinia_sclerotiorum,SdhD_UNKNOWN,132,H,R,Boscalid
-Septoria_glycines,Cytochrome b_UEP86625.1,143,G,A,Azoxystrobin
 Tapesia_acuformis,Cyp51_Q9UV04,167,Q,H,Flusilazole
 Tapesia_acuformis,Cyp51_Q9UV04,167,Q,H,Prochloraz
 Tapesia_acuformis,Cyp51_Q9UV04,167,Q,H,Triadimenol
@@ -32028,9 +31428,6 @@ Tapesia_acuformis,Cyp51_Q9UV04,29,A,P,Triflumizole
 Tapesia_acuformis,Cyp51_Q9UV04,37,V,A,Flusilazole
 Tapesia_acuformis,Cyp51_Q9UV04,37,V,A,Prochloraz
 Tapesia_acuformis,Cyp51_Q9UV04,37,V,A,Triadimenol
-Tapesia_acuformis,Cyp51_Q9UV04,486,Y,H,Flusilazole
-Tapesia_acuformis,Cyp51_Q9UV04,486,Y,H,Prochloraz
-Tapesia_acuformis,Cyp51_Q9UV04,486,Y,H,Triadimenol
 Tapesia_acuformis,Cyp51_Q9UV04,505,S,Q,Flusilazole
 Tapesia_acuformis,Cyp51_Q9UV04,505,S,Q,Prochloraz
 Tapesia_acuformis,Cyp51_Q9UV04,505,S,Q,Triadimenol
@@ -32060,8 +31457,7 @@ Trichophyton_indotineae,Squalene epoxidase_A0A6G7MC47,397,F,L,Terbinafine
 Trichophyton_indotineae,Squalene epoxidase_A0A6G7MC47,448,A,T,Terbinafine
 Trichophyton_interdigitale,Squalene epoxidase_A0A2R4H291,393,L,F,Terbinafine
 Trichophyton_interdigitale,Squalene epoxidase_A0A2R4H291,393,L,S,Terbinafine
-Trichophyton_interdigitale,Squalene epoxidase_A0A2R4H291,397,F,I,Terbinafine
-Trichophyton_interdigitale,Squalene epoxidase_A0A2R4H291,397,F,L,Terbinafine
+Trichophyton_interdigitale,Squalene epoxidase_A0A2R4H291,397,L,I,Terbinafine
 Trichophyton_interdigitale,Squalene epoxidase_A0A2R4H291,415,F,V,Terbinafine
 Trichophyton_interdigitale,Squalene epoxidase_A0A2R4H291,440,H,Y,Terbinafine
 Trichophyton_mentagrophytes,Squalene epoxidase_A0A289Z0K1,408,Q,L,Terbinafine

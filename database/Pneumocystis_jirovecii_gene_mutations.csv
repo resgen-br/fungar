@@ -385,14 +385,6 @@ Pneumocystis_jirovecii,Dhfr_A0EPZ9,82,R,P,Methotrexate
 Pneumocystis_jirovecii,Dhfr_A0EPZ9,85,V,K,Methotrexate
 Pneumocystis_jirovecii,Dhfr_A0EPZ9,9,L,W,Methotrexate
 Pneumocystis_jirovecii,Dhfr_A0EPZ9,9,L,Y,Methotrexate
-Pneumocystis_jirovecii,Dhps_AY628435,96,V,I,"Trimethoprim, Sulfamethoxazole"
-Pneumocystis_jirovecii,Dhps_PNEJI1_002500,55,T,A,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_PNEJI1_002501,57,P,S,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_PNEJI1_002501,60,H,A,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_PNEJI1_002502,55,T,A,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_PNEJI1_002502,57,P,S,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_QBZ39416.1,55,T,A,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_QBZ39416.1,57,P,S,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_QBZ39416.1,60,H,A,Trimethoprim-sulfamethoxazole
-Pneumocystis_jirovecii,Dhps_UNKNOWN,55,T,A,"Trimethoprim, Sulfamethoxazole, Dapsone"
-Pneumocystis_jirovecii,Dhps_UNKNOWN,57,P,S,"Trimethoprim, Sulfamethoxazole, Dapsone"
+Pneumocystis_jirovecii,Dhps_QBZ39416.1,55,V,A,Trimethoprim-sulfamethoxazole
+Pneumocystis_jirovecii,Dhps_QBZ39416.1,57,E,S,Trimethoprim-sulfamethoxazole
+Pneumocystis_jirovecii,Dhps_QBZ39416.1,60,I,A,Trimethoprim-sulfamethoxazole
