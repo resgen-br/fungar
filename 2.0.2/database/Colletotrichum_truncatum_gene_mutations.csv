@@ -1,0 +1,7 @@
+species,gene,position,reference,mutation,fungicide
+Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",511,S,T,Difenoconazole
+Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",511,S,T,Fenbuconazole
+Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",511,S,T,Flutriafol
+Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",511,S,T,Metconazole
+Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",511,S,T,Propiconazole
+Colletotrichum_truncatum,"Cyp51A,Cyp51B_A0A2U9GJF6",511,S,T,Tebuconazole

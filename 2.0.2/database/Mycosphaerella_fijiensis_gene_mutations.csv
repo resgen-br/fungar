@@ -1,0 +1,41 @@
+species,gene,position,reference,mutation,fungicide
+Mycosphaerella_fijiensis,Cyp51A_M3A6K1,136,Y,F,Propiconazole
+Mycosphaerella_fijiensis,Cyp51A_M3A6K1,313,A,G,Propiconazole
+Mycosphaerella_fijiensis,Cyp51A_M3A6K1,461,Y,D,Propiconazole
+Mycosphaerella_fijiensis,Cyp51A_M3A6K1,463,Y,D,Propiconazole
+Mycosphaerella_fijiensis,Cyp51A_M3A6K1,463,Y,H,Propiconazole
+Mycosphaerella_fijiensis,Cyp51A_M3A6K1,463,Y,N,Propiconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,116,V,L,Demethylation inhibitors
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,136,Y,F,Demethylation inhibitors
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,136,Y,F,Difenoconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,136,Y,F,Epoxiconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,136,Y,F,Propiconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,18,T,I,Demethylation inhibitors
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,19,A,E,Demethylation inhibitors
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,264,I,T,Demethylation inhibitors
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,313,A,G,Demethylation inhibitors
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,313,A,G,Difenoconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,313,A,G,Epoxiconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,313,A,G,Propiconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,380,H,N,Demethylation inhibitors
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,380,H,N,Difenoconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,380,H,N,Epoxiconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,380,H,N,Propiconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,381,A,G,Difenoconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,381,A,G,Epoxiconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,381,A,G,Propiconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,418,R,G,Demethylation inhibitors
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,446,A,S,Demethylation inhibitors
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,460,D,V,Demethylation inhibitors
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,463,Y,D,Demethylation inhibitors
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,463,Y,D,Difenoconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,463,Y,D,Epoxiconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,463,Y,D,Propiconazole
+Mycosphaerella_fijiensis,Cyp51_M3A6K1,58,Y,F,Demethylation inhibitors
+Mycosphaerella_fijiensis,Cytochrome b_A0A516EZN5,140,G,A,Antimycin A
+Mycosphaerella_fijiensis,Cytochrome b_A0A516EZN5,140,G,A,Azoxystrobin
+Mycosphaerella_fijiensis,Cytochrome b_A0A516EZN5,140,G,A,Famoxadone
+Mycosphaerella_fijiensis,Cytochrome b_A0A516EZN5,140,G,A,Myxothiazol
+Mycosphaerella_fijiensis,Cytochrome b_A0A516EZN5,140,G,A,Potassium cyanide (KCN)
+Mycosphaerella_fijiensis,Cytochrome b_A0A516EZN5,140,G,A,Strobilurin
+Mycosphaerella_fijiensis,Cytochrome b_A0A516EZN5,140,G,A,Trifloxystrobin

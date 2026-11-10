@@ -1,0 +1,15 @@
+species,gene,position,reference,mutation,fungicide
+Candida_orthopsilosis,Erg11_A0A2R4SV98,132,Y,F,Azole(s)
+Candida_orthopsilosis,Erg11_A0A2R4SV98,132,Y,F,Fluconazole
+Candida_orthopsilosis,Erg11_A0A2R4SV98,132,Y,F,Itraconazole
+Candida_orthopsilosis,Erg11_A0A2R4SV98,132,Y,F,Voriconazole
+Candida_orthopsilosis,Erg11_A0A2R4SV98,376,L,I,Fluconazole
+Candida_orthopsilosis,Erg11_A0A2R4SV98,376,L,I,Posaconazole
+Candida_orthopsilosis,Erg11_A0A2R4SV98,376,L,I,Voriconazole
+Candida_orthopsilosis,Erg11_A0A2R4SV98,458,G,S,Fluconazole
+Candida_orthopsilosis,Erg11_A0A2R4SV98,458,G,S,Posaconazole
+Candida_orthopsilosis,Erg11_A0A2R4SV98,458,G,S,Voriconazole
+Candida_orthopsilosis,Gsc1_H8X1R5,649,S,P,Anidulafungin
+Candida_orthopsilosis,Gsc1_H8X1R5,649,S,P,Caspofungin
+Candida_orthopsilosis,Gsc1_H8X1R5,649,S,P,Micafungin
+Candida_orthopsilosis,Gsc1_H8X1R5,649,S,P,Voriconazole

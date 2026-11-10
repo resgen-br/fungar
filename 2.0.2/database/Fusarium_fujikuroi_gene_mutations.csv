@@ -1,0 +1,5 @@
+species,gene,position,reference,mutation,fungicide
+Fusarium_fujikuroi,Beta-tubulin_P53374,50,Y,N,Benomyl
+Fusarium_fujikuroi,Cyp51B_U3LUG2,312,S,T,Prochloraz
+Fusarium_fujikuroi,Myosin-1_XP_018756375.1,276,E,K,Phenamacril
+Fusarium_fujikuroi,Myosin-1_XP_018756375.1,73,S,L,Phenamacril

@@ -1,0 +1,5 @@
+species,gene,position,reference,mutation,fungicide
+Colletotrichum_fructicola,Beta-tubulin_L2G737,198,E,A,Carbendazim/Thiophanate-methyl
+Colletotrichum_fructicola,Beta-tubulin_L2G737,200,F,Y,Carbendazim
+Colletotrichum_fructicola,Cytochrome b_A0A0H3VG98,143,G,A,Azoxystrobin
+Colletotrichum_fructicola,Cytochrome b_A0A0H3VG98,143,G,A,Benomyl

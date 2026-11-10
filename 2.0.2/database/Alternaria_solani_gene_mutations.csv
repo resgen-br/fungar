@@ -1,0 +1,9 @@
+species,gene,position,reference,mutation,fungicide
+Alternaria_solani,Cytochrome b_ABB54714.1,129,F,L,Azoxystrobin
+Alternaria_solani,Cytochrome b_ABB54714.1,129,F,L,Pyraclostrobin
+Alternaria_solani,SdhB_S5UGJ8,278,H,R,Boscalid
+Alternaria_solani,SdhB_S5UGJ8,278,H,Y,Boscalid
+Alternaria_solani,SdhC_S5UHY3,134,H,R,Penthiopyrad
+Alternaria_solani,SdhD_S5UGK3,123,D,E,Boscalid
+Alternaria_solani,SdhD_S5UGK3,123,D,E,Penthiopyrad
+Alternaria_solani,SdhD_S5UGK3,133,H,R,Boscalid

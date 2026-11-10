@@ -1,0 +1,4 @@
+species,gene,position,reference,mutation,fungicide
+Candida_metapsilosis,Fks1_A0A8H7ZL19,656,S,P,Anidulafungin
+Candida_metapsilosis,Fks1_A0A8H7ZL19,656,S,P,Caspofungin
+Candida_metapsilosis,Fks1_A0A8H7ZL19,656,S,P,Micafungin

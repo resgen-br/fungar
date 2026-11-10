@@ -1,0 +1,10 @@
+species,gene,position,reference,mutation,fungicide
+Aspergillus_tubingensis,Cyp51A_A0A1L9N048,140,A,V,Voriconazole
+Aspergillus_tubingensis,Cyp51A_A0A1L9N048,21,L,F,Itraconazole
+Aspergillus_tubingensis,Cyp51A_A0A1L9N048,21,L,F,Posaconazole
+Aspergillus_tubingensis,Cyp51A_A0A1L9N048,228,R,Q,Posaconazole
+Aspergillus_tubingensis,Cyp51A_A0A1L9N048,321,A,T,Voriconazole
+Aspergillus_tubingensis,Cyp51A_A0A1L9N048,377,V,I,Voriconazole
+Aspergillus_tubingensis,Cyp51A_A0A1L9N048,413,P,S,Voriconazole
+Aspergillus_tubingensis,Cyp51A_A0A1L9N048,467,H,Q,Voriconazole
+Aspergillus_tubingensis,Cyp51A_A0A1L9N048,64,K,E,Voriconazole

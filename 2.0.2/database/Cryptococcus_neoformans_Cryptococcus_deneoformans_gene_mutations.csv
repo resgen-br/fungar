@@ -1,0 +1,6 @@
+species,gene,position,reference,mutation,fungicide
+Cryptococcus_neoformans_Cryptococcus_deneoformans,Erg11_Q9P8P1,470,G,R,5-fluorocytosine
+Cryptococcus_neoformans_Cryptococcus_deneoformans,Erg11_Q9P8P1,470,G,R,Amphotericin B
+Cryptococcus_neoformans_Cryptococcus_deneoformans,Erg11_Q9P8P1,470,G,R,Fluconazole
+Cryptococcus_neoformans_Cryptococcus_deneoformans,Erg11_Q9P8P1,470,G,R,Itraconazole
+Cryptococcus_neoformans_Cryptococcus_deneoformans,Erg11_Q9P8P1,470,G,R,Voriconazole

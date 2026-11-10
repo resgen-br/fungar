@@ -1,0 +1,5 @@
+species,gene,position,reference,mutation,fungicide
+Passalora_fulva,Beta-tubulin_A0A9Q8P310,198,E,A,Diethofencarb
+Passalora_fulva,Beta-tubulin_A0A9Q8P310,198,E,A,Thiophanate-methyl
+Passalora_fulva,Beta-tubulin_A0A9Q8P310,200,F,Y,Diethofencarb
+Passalora_fulva,Beta-tubulin_A0A9Q8P310,200,F,Y,Thiophanate-methyl

@@ -1,0 +1,9 @@
+species,gene,position,reference,mutation,fungicide
+Blumeria_graminis_f._sp._hordei,Cyp51_Q7Z7V4,136,Y,F,Epoxiconazole
+Blumeria_graminis_f._sp._hordei,Cyp51_Q7Z7V4,136,Y,F,Fluquinconazole
+Blumeria_graminis_f._sp._hordei,Cyp51_Q7Z7V4,136,Y,F,Propiconazole
+Blumeria_graminis_f._sp._hordei,Cyp51_Q7Z7V4,136,Y,F,Tebuconazole
+Blumeria_graminis_f._sp._hordei,Cyp51_Q7Z7V4,136,Y,F,Triadimenol
+Blumeria_graminis_f._sp._hordei,Cyp51_Q7Z7V4,147,K,Q,Triadimenol
+Blumeria_graminis_f._sp._hordei,Cyp51_Q7Z7V4,509,S,T,Propiconazole
+Blumeria_graminis_f._sp._hordei,Cyp51_Q7Z7V4,509,S,T,Tebuconazole
