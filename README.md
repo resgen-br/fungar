@@ -13,6 +13,7 @@ species-specific mutation databases to call known resistance variants.
 - Supports paired-end or single-end reads
 - DIAMOND-based protein (blastx) alignment
 - Detects known resistance mutations from CSV databases
+- **Fixed in v2.0.3:** Fixed Python indentation error in post-alignment mutation parsing
 - **New in v2.0.2:** Verified reference-concordance check (`qseq != sseq` and `sseq == reference`) preventing reference-matching wild-type alleles from being falsely called as mutations
 - **New in v2.0.2:** Gap-aware coordinate mapping in DIAMOND alignments
 - Minimum read-support threshold (`--min-support`) to filter low-confidence calls

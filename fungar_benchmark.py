@@ -515,7 +515,7 @@ def main():
     parser.add_argument('--max-mutations', type=int, default=None,
                         help="Maximum number of mutations to test (randomly sampled)")
     parser.add_argument('--seed',        type=int, default=42)
-    parser.add_argument('--version',     default='2.0.2')
+    parser.add_argument('--version',     default='2.0.3')
     args = parser.parse_args()
 
     rng = random.Random(args.seed)

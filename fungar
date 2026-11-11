@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # ============================================================
-# 🍄 FUNGAR v2.0.2
+# 🍄 FUNGAR v2.0.3
 # antiFUNGAl gene Resistance detection
 #
 # Henrique Antoniolli, Livia Kmetzsch, Charley Staats
@@ -11,7 +11,7 @@ set -euo pipefail
 # Repository: https://github.com/resgen-br/fungar
 # ============================================================
 
-FUNGAR_VERSION="2.0.2"
+FUNGAR_VERSION="2.0.3"
 
 #################################
 # Defaults
@@ -474,24 +474,24 @@ for aln in alignment_files:
                     # 2. The aligned read amino acid differs from the aligned reference amino acid (never report reference matches as mutations)
                     # 3. The aligned reference amino acid matches the expected reference in the CSV
                     if read_aa == row["mutation"] and read_aa != ref_aa and ref_aa == row["reference"]:
-                    # Extract subject accession from gene name (last dotted token)
-                    gene_parts = gene.split("_")
-                    subject_accession = gene_parts[-1] if len(gene_parts) > 1 else gene
-                    source = classify_source(str(row["fungicide"]))
+                        # Extract subject accession from gene name (last dotted token)
+                        gene_parts = gene.split("_")
+                        subject_accession = gene_parts[-1] if len(gene_parts) > 1 else gene
+                        source = classify_source(str(row["fungicide"]))
 
-                    results.append({
-                        "Sample": qseqid,
-                        "Gene": gene,
-                        "Subject_Accession": subject_accession,
-                        "Position": pos,
-                        "Reference": row["reference"],
-                        "Mutation": row["mutation"],
-                        "Fungicide": row["fungicide"],
-                        "Source": source,
-                        "Strand": strand,
-                        "Species": row["species"] if "species" in row else "$SPECIES",
-                        "Alignment": os.path.basename(aln)
-                    })
+                        results.append({
+                            "Sample": qseqid,
+                            "Gene": gene,
+                            "Subject_Accession": subject_accession,
+                            "Position": pos,
+                            "Reference": row["reference"],
+                            "Mutation": row["mutation"],
+                            "Fungicide": row["fungicide"],
+                            "Source": source,
+                            "Strand": strand,
+                            "Species": row["species"] if "species" in row else "$SPECIES",
+                            "Alignment": os.path.basename(aln)
+                        })
 
 final = pd.DataFrame(results).drop_duplicates() if results else pd.DataFrame(
     columns=["Sample","Gene","Subject_Accession","Position","Reference",
